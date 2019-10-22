@@ -1,82 +1,17 @@
-@prefix qudt:  <http://qudt.org/schema/qudt#> .
-@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
-@prefix qb:    <http://purl.org/linked-data/cube#> .
-@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
-@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
-@prefix grib2-parameter: <http://codes.wmo.int/grib2/schema/parameter/> .
-@prefix api:   <http://purl.org/linked-data/api/vocab#> .
-@prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix common-unit: <http://codes.wmo.int/common/schema/unit/> .
-@prefix cc:    <http://creativecommons.org/ns#> .
-@prefix grib2-core: <http://codes.wmo.int/grib2/schema/core/> .
-@prefix void:  <http://rdfs.org/ns/void#> .
-@prefix version: <http://purl.org/linked-data/version#> .
-@prefix bufr4-core: <http://codes.wmo.int/bufr4/schema/core/> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix time:  <http://www.w3.org/2006/time#> .
-@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
-@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix common-core: <http://codes.wmo.int/common/schema/core/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-<http://codes.wmo.int/49-2/AviationColourCode/UNKNOWN>
-        a                skos:Concept ;
-        rdfs:label       "Unknown"@en ;
-        dct:description  "Unknown"@en ;
-        skos:notation    "UNKNOWN" .
-
-<http://codes.wmo.int/49-2/AviationColourCode/NIL>
-        a                skos:Concept ;
-        rdfs:label       "Nil"@en ;
-        dct:description  "Nil"@en ;
-        skos:notation    "NIL" .
-
-<http://codes.wmo.int/49-2/AviationColourCode/ORANGE>
-        a                skos:Concept ;
-        rdfs:label       "Orange"@en ;
-        dct:description  "Volcano is exhibiting heightened unrest with increased likelihood of eruption.  Or, volcanic eruption is underway with no or minor ash emission [specify ash-plume height if possible]."@en ;
-        skos:notation    "ORANGE" .
-
-<http://codes.wmo.int/49-2/AviationColourCode/GREEN>
-        a                skos:Concept ;
-        rdfs:label       "Green"@en ;
-        dct:description  "Volcano is in normal, non-eruptive state.  Or, after a change from a higher alert level: Volcanic activity considered to have ceased, and volcano reverted to its normal, non-eruptive state."@en ;
-        skos:notation    "GREEN" .
-
-<http://codes.wmo.int/49-2/AviationColourCode/NOT_GIVEN>
-        a                skos:Concept ;
-        rdfs:label       "Not Given"@en ;
-        dct:description  "Not Given"@en ;
-        skos:notation    "NOT GIVEN" .
-
-<http://codes.wmo.int/49-2/AviationColourCode>
+<AviationColourCode>
         a                      ldp:Container , skos:Collection , reg:Register ;
         rdfs:label             "Volcanic Aviation Colour Code"@en ;
         dct:description        "Volcanic Aviation Colour Code ICAO Annex 15"@en ;
         dct:modified           "2016-12-30T13:26:16.18Z"^^xsd:dateTime ;
-        owl:versionInfo        1 ;
-        skos:member            <http://codes.wmo.int/49-2/AviationColourCode/NOT_GIVEN> , <http://codes.wmo.int/49-2/AviationColourCode/UNKNOWN> , <http://codes.wmo.int/49-2/AviationColourCode/YELLOW> , <http://codes.wmo.int/49-2/AviationColourCode/RED> , <http://codes.wmo.int/49-2/AviationColourCode/NIL> , <http://codes.wmo.int/49-2/AviationColourCode/ORANGE> , <http://codes.wmo.int/49-2/AviationColourCode/GREEN> ;
-        ldp:hasMemberRelation  skos:member .
 
-<http://codes.wmo.int/49-2/AviationColourCode/YELLOW>
-        a                skos:Concept ;
-        rdfs:label       "Yellow"@en ;
-        dct:description  "Volcano is experiencing signs of elevated unrest above known background levels. Or, after a change from higher alert level: Volcanic activity has decreased significantly but continues to be closely monitored for possible renewed increase."@en ;
-        skos:notation    "YELLOW" .
 
-<http://codes.wmo.int/49-2/AviationColourCode/RED>
-        a                skos:Concept ;
-        rdfs:label       "Red"@en ;
-        dct:description  "Eruption is forecasted to be imminent with significant emission of ash into the atmosphere likely. Or, eruption is underway with significant emission of ash into the atmosphere [specify ash-plume height if possible]."@en ;
-        skos:notation    "RED" .
+        ldp:hasMemberRelation .

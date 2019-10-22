@@ -1,154 +1,17 @@
-@prefix qudt:  <http://qudt.org/schema/qudt#> .
-@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
-@prefix qb:    <http://purl.org/linked-data/cube#> .
-@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
-@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
-@prefix grib2-parameter: <http://codes.wmo.int/grib2/schema/parameter/> .
-@prefix api:   <http://purl.org/linked-data/api/vocab#> .
-@prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix common-unit: <http://codes.wmo.int/common/schema/unit/> .
-@prefix cc:    <http://creativecommons.org/ns#> .
-@prefix grib2-core: <http://codes.wmo.int/grib2/schema/core/> .
-@prefix void:  <http://rdfs.org/ns/void#> .
-@prefix version: <http://purl.org/linked-data/version#> .
-@prefix bufr4-core: <http://codes.wmo.int/bufr4/schema/core/> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix time:  <http://www.w3.org/2006/time#> .
-@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
-@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix common-core: <http://codes.wmo.int/common/schema/core/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DS>
-        a                skos:Concept ;
-        rdfs:label       "Duststorm"@en ;
-        dct:description  "Duststorm"@en ;
-        skos:notation    "DS" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction>
+<WeatherCausingVisibilityReduction>
         a                      ldp:Container , skos:Collection , reg:Register ;
         rdfs:label             "Weather Causing Visibility Reduction"@en ;
         dct:description        "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS"@en ;
         dct:modified           "2016-12-30T13:26:25.95Z"^^xsd:dateTime ;
-        owl:versionInfo        1 ;
-        skos:member            <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SQ> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GS> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/BR> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/VA> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SA> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/HZ> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DU> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SS> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DZ> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FU> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SG> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PL> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/RA> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FG> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SN> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DS> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FC> , <http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GR> ;
-        ldp:hasMemberRelation  skos:member .
 
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/VA>
-        a                skos:Concept ;
-        rdfs:label       "Volcanic Ash"@en ;
-        dct:description  "Volcanic Ash"@en ;
-        skos:notation    "VA" .
 
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SN>
-        a                skos:Concept ;
-        rdfs:label       "Snow"@en ;
-        dct:description  "Snow"@en ;
-        skos:notation    "SN" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/BR>
-        a                skos:Concept ;
-        rdfs:label       "Mist"@en ;
-        dct:description  "Mist"@en ;
-        skos:notation    "BR" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SA>
-        a                skos:Concept ;
-        rdfs:label       "Sand"@en ;
-        dct:description  "Sand"@en ;
-        skos:notation    "SA" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO>
-        a                skos:Concept ;
-        rdfs:label       "Dust/stand whirls"@en ;
-        dct:description  "Dust/stand whirls"@en ;
-        skos:notation    "PO" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FC>
-        a                skos:Concept ;
-        rdfs:label       "Funnel Cloud"@en ;
-        dct:description  "Funnel Cloud"@en ;
-        skos:notation    "FC" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/HZ>
-        a                skos:Concept ;
-        rdfs:label       "Haze"@en ;
-        dct:description  "Haze"@en ;
-        skos:notation    "HZ" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SG>
-        a                skos:Concept ;
-        rdfs:label       "Snow grams"@en ;
-        dct:description  "Snow grams"@en ;
-        skos:notation    "SG" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FU>
-        a                skos:Concept ;
-        rdfs:label       "Smoke"@en ;
-        dct:description  "Smoke"@en ;
-        skos:notation    "FU" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SS>
-        a                skos:Concept ;
-        rdfs:label       "Sandstorm"@en ;
-        dct:description  "Sandstorm"@en ;
-        skos:notation    "SS" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/RA>
-        a                skos:Concept ;
-        rdfs:label       "Rain"@en ;
-        dct:description  "Rain"@en ;
-        skos:notation    "RA" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DU>
-        a                skos:Concept ;
-        rdfs:label       "Dust"@en ;
-        dct:description  "Dust"@en ;
-        skos:notation    "DU" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GS>
-        a                skos:Concept ;
-        rdfs:label       "Small Hail"@en ;
-        dct:description  "Small Hail"@en ;
-        skos:notation    "GS" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FG>
-        a                skos:Concept ;
-        rdfs:label       "Fog"@en ;
-        dct:description  "Fog"@en ;
-        skos:notation    "FG" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SQ>
-        a                skos:Concept ;
-        rdfs:label       "Squall"@en ;
-        dct:description  "Squall"@en ;
-        skos:notation    "SQ" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DZ>
-        a                skos:Concept ;
-        rdfs:label       "Drizzle"@en ;
-        dct:description  "Drizzle"@en ;
-        skos:notation    "DZ" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GR>
-        a                skos:Concept ;
-        rdfs:label       "Hail"@en ;
-        dct:description  "Hail"@en ;
-        skos:notation    "GR" .
-
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PL>
-        a                skos:Concept ;
-        rdfs:label       "Ice pellets"@en ;
-        dct:description  "Ice pellets"@en ;
-        skos:notation    "PL" .
+        ldp:hasMemberRelation .

@@ -1,0 +1,16 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+
+<SKC>
+        a                  skos:Concept ;
+	rdfs:label         "Sky clear"@en ;
+	dct:description    "Sky clear (0 oktas)."@en ;
+	skos:related       <http://codes.wmo.int/bufr4/codeflag/0-20-008/0> ;
+	skos:notation      "SKC" .

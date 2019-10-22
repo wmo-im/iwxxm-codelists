@@ -1,147 +1,18 @@
-@prefix qudt:  <http://qudt.org/schema/qudt#> .
-@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
-@prefix qb:    <http://purl.org/linked-data/cube#> .
-@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
-@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
-@prefix grib2-parameter: <http://codes.wmo.int/grib2/schema/parameter/> .
-@prefix api:   <http://purl.org/linked-data/api/vocab#> .
-@prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix common-unit: <http://codes.wmo.int/common/schema/unit/> .
-@prefix cc:    <http://creativecommons.org/ns#> .
-@prefix grib2-core: <http://codes.wmo.int/grib2/schema/core/> .
-@prefix void:  <http://rdfs.org/ns/void#> .
-@prefix version: <http://purl.org/linked-data/version#> .
-@prefix bufr4-core: <http://codes.wmo.int/bufr4/schema/core/> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix time:  <http://www.w3.org/2006/time#> .
-@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
-@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix common-core: <http://codes.wmo.int/common/schema/core/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
-
-<http://codes.wmo.int/306/4678/TSRA>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm with precipitation of rain"@en .
-
-<http://codes.wmo.int/306/4678/FZUP>
-        a           skos:Concept ;
-        rdfs:label  "Unidentified freezing precipitation"@en .
-
-<http://codes.wmo.int/306/4678/SHGS>
-        a           skos:Concept ;
-        rdfs:label  "Showery precipitation of snow pellets/small hail"@en .
-
-<http://codes.wmo.int/306/4678/SN>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of snow"@en .
-
-<http://codes.wmo.int/306/4678/FZDZ>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of freezing drizzle"@en .
-
-<http://codes.wmo.int/306/4678/SHUP>
-        a           skos:Concept ;
-        rdfs:label  "Unidentified showery precipitation"@en , "Showery precipitation of unidentified precipitation"@en .
-
-<http://codes.wmo.int/306/4678/TS>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm"@en .
-
-<http://codes.wmo.int/306/4678/TSGS>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm with precipitation of snow pellets/small hail"@en .
-
-<http://codes.wmo.int/306/4678/SHGR>
-        a           skos:Concept ;
-        rdfs:label  "Showery precipitation of hail"@en .
-
-<http://codes.wmo.int/306/4678/FC>
-        a           skos:Concept ;
-        rdfs:label  "Funnel cloud(s) (tornado or water-spout)"@en .
-
-<http://codes.wmo.int/306/4678/SG>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of snow grains"@en .
-
-<http://codes.wmo.int/306/4678/TSUP>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm with unidentified precipitation"@en .
-
-<http://codes.wmo.int/306/4678/SS>
-        a           skos:Concept ;
-        rdfs:label  "Sandstorm"@en .
-
-<http://codes.wmo.int/306/4678/RA>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of rain"@en .
-
-<http://codes.wmo.int/306/4678/TSGR>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm with precipitation of hail"@en .
-
-<http://codes.wmo.int/306/4678/UP>
-        a           skos:Concept ;
-        rdfs:label  "Unidentified precipitation"@en .
-
-<http://codes.wmo.int/306/4678/DZ>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of drizzle"@en .
-
-<http://codes.wmo.int/306/4678/SHSN>
-        a           skos:Concept ;
-        rdfs:label  "Showery precipitation of snow"@en .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 <http://codes.wmo.int/49-2/AerodromeRecentWeather>
-        a                        ldp:Container , skos:Collection , reg:Register ;
+        a                        skos:Collection ;
         rdfs:label               "Code Table D-6: Aerodrome recent weather" ;
         dct:description          "The items within this code table are the weather types that may be reported within a meteorological aerodrome observation report that have occurred during the period since the last issued routine report or last hour, whichever is shorter, but are not observed at the time of the observation. Requirements for reporting recent weather at an aerodrome are specified in Technical Regulations, Volume II (WMO-No. 49), Part II, Appendix 3, [C.3.1.] 4.8.1.1.  This code table contains the set of weather types that are permitted for reporting recent weather. These are a subset of the enumerated set of meteorologically valid combinations specified in Part A, Code Table 4678 comprising elements ‘intensity or proximity’, ‘descriptor’, ‘precipitation’, ‘obscuration’ and/or ‘other’."@en ;
-        dct:modified             "2018-04-04T15:53:40.229Z"^^xsd:dateTime ;
         reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
         reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-        owl:versionInfo          3 ;
         skos:member              <http://codes.wmo.int/306/4678/TSSN> , <http://codes.wmo.int/306/4678/TSUP> , <http://codes.wmo.int/306/4678/SHUP> , <http://codes.wmo.int/306/4678/DS> , <http://codes.wmo.int/306/4678/FC> , <http://codes.wmo.int/306/4678/VA> , <http://codes.wmo.int/306/4678/FZRA> , <http://codes.wmo.int/306/4678/BLSN> , <http://codes.wmo.int/306/4678/TSGR> , <http://codes.wmo.int/306/4678/SHSN> , <http://codes.wmo.int/306/4678/SHGR> , <http://codes.wmo.int/306/4678/RA> , <http://codes.wmo.int/306/4678/PL> , <http://codes.wmo.int/306/4678/SG> , <http://codes.wmo.int/306/4678/TSGS> , <http://codes.wmo.int/306/4678/RASN> , <http://codes.wmo.int/306/4678/FZDZ> , <http://codes.wmo.int/306/4678/TSRA> , <http://codes.wmo.int/306/4678/UP> , <http://codes.wmo.int/306/4678/TS> , <http://codes.wmo.int/306/4678/DZ> , <http://codes.wmo.int/306/4678/SN> , <http://codes.wmo.int/306/4678/FZUP> , <http://codes.wmo.int/306/4678/SHRA> , <http://codes.wmo.int/306/4678/SS> , <http://codes.wmo.int/306/4678/SHGS> ;
         skos:notation            "D-6" ;
         ldp:membershipPredicate  skos:member .
-
-<http://codes.wmo.int/306/4678/PL>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of ice pellets"@en .
-
-<http://codes.wmo.int/306/4678/BLSN>
-        a           skos:Concept ;
-        rdfs:label  "Blowing snow"@en .
-
-<http://codes.wmo.int/306/4678/DS>
-        a           skos:Concept ;
-        rdfs:label  "Duststorm"@en .
-
-<http://codes.wmo.int/306/4678/TSSN>
-        a           skos:Concept ;
-        rdfs:label  "Thunderstorm with precipitation of snow"@en .
-
-<http://codes.wmo.int/306/4678/FZRA>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of freezng rain"@en , "Precipitation of freezing rain"@en .
-
-<http://codes.wmo.int/306/4678/SHRA>
-        a           skos:Concept ;
-        rdfs:label  "Showery precipitation of rain"@en .
-
-<http://codes.wmo.int/306/4678/VA>
-        a           skos:Concept ;
-        rdfs:label  "Volcanic ash"@en .
-
-<http://codes.wmo.int/306/4678/RASN>
-        a           skos:Concept ;
-        rdfs:label  "Precipitation of rain and snow"@en .
