@@ -1,0 +1,126 @@
+@prefix qudt:  <http://qudt.org/schema/qudt#> .
+@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
+@prefix grib2-parameter: <http://codes.wmo.int/grib2/schema/parameter/> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix common-unit: <http://codes.wmo.int/common/schema/unit/> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix grib2-core: <http://codes.wmo.int/grib2/schema/core/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix bufr4-core: <http://codes.wmo.int/bufr4/schema/core/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
+@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix common-core: <http://codes.wmo.int/common/schema/core/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/8>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Isolated"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Isolated. Applicable only to cumulonimbus (CB)."@en ;
+        skos:notation    8 ;
+        skos:note        "(Used on aviation charts to describe the cloud type Cb)"@en .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/1>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Few"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Few (1 - 2 oktas)."@en ;
+        skos:notation    1 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/12>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Frequent"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Frequent. Applicable only to cumulonimbus (CB)."@en ;
+        skos:notation    12 ;
+        skos:note        "(Used on aviation charts to describe the cloud type Cb)"@en .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome>
+        a                        ldp:Container , reg:Register , skos:Collection ;
+        rdfs:label               "Code Table D-8: Cloud amount reported at aerodrome" ;
+        dct:description          "The items within this code table are the cloud amount categories of operational significance for aviation as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. This code table contains a subset of the cloud amount categories defined in Part B FM 94 BUFR Code Table 0 20 008."@en ;
+        dct:modified             "2014-09-03T09:52:41.911Z"^^xsd:dateTime ;
+        reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
+        reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
+        owl:versionInfo          3 ;
+        skos:member              <http://codes.wmo.int/bufr4/codeflag/0-20-008/14> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/8> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/12> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/3> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/10> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/4> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/1> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/2> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/0> , <http://codes.wmo.int/bufr4/codeflag/0-20-008/16> ;
+        skos:notation            "D-8" ;
+        ldp:membershipPredicate  skos:member .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/4>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Overcast"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Overcast (8 oktas)."@en ;
+        skos:notation    4 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/10>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Occasional"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Occasional. Applicable only to cumulonimbus (CB)."@en ;
+        skos:notation    10 ;
+        skos:note        "(Used on aviation charts to describe the cloud type Cb)"@en .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/2>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Scattered"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Scattered (3 - 4 oktas)."@en ;
+        skos:notation    2 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/0>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Sky clear"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Sky clear (0 oktas)."@en ;
+        skos:notation    0 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/16>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Embedded"@en , "Embedded (EMBD)"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Embedded. Applicable only to cumulonimbus (CB)."@en ;
+        skos:notation    16 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/14>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Layers"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Layers. Applicable only to cumulonimbus (CB)."@en ;
+        skos:notation    14 .
+
+<http://codes.wmo.int/bufr4/codeflag/0-20-008/3>
+        a                skos:Concept , <http://codes.wmo.int/common/c-15/ae/cloudDistributionForAviation> ;
+        rdfs:label       "Broken"@en ;
+        <http://codes.wmo.int/def/bufr4/fxy>
+                "020008" ;
+        dct:description  "Broken (5 - 7 oktas)."@en ;
+        skos:notation    3 .
