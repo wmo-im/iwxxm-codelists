@@ -10,5 +10,6 @@
 <FRQ_TCU>
         a                skos:Concept ;
         rdfs:label       "Frequent towering cumulus cloud"@en ;
+        rdfs:label       "Nube de cúmulos altísimos"@sp ;
         dct:description  "Frequent towering cumulus cloud"@en ;
         skos:notation    "FRQ TCU"  .
