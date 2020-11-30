@@ -10,5 +10,5 @@
 <EQN>
         a                skos:Concept ;
         rdfs:label       "Equatorial latitudes northern hemisphere"@en ;
-        dct:description  "Equatorial latitudes northern hemisphere"@en ;
+        dct:description  "Equatorial latitudes northern hemisphere (30\u00B0N - 0\u00B0N)"@en ;
         skos:notation    "EQN"  .

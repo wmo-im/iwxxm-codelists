@@ -9,6 +9,6 @@
 
 <HNH>
         a                skos:Concept ;
-        rdfs:label       "High northern hemisphere"@en ;
-        dct:description  "High northern hemisphere"@en ;
+        rdfs:label       "High latitudes northern hemisphere"@en ;
+        dct:description  "High latitudes northern hemisphere (90\u00B0N - 60\u00B0N)"@en ;
         skos:notation    "HNH"  .

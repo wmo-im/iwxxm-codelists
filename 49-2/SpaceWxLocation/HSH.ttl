@@ -10,5 +10,5 @@
 <HSH>
         a                skos:Concept ;
         rdfs:label       "High latitudes southern hemisphere"@en ;
-        dct:description  "High latitudes southern hemisphere"@en ;
+        dct:description  "High latitudes southern hemisphere (60\u00B0S - 90\u00B0S)"@en ;
         skos:notation    "HSH"  .

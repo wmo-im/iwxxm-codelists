@@ -9,6 +9,6 @@
 
 <MNH>
         a                skos:Concept ;
-        rdfs:label       "Middle northern hemisphere"@en ;
-        dct:description  "Middle northern hemisphere"@en ;
+        rdfs:label       "Middle latitudes northern hemisphere"@en ;
+        dct:description  "Middle latitides northern hemisphere (60\u00B0N - 30\u00B0N)"@en ;
         skos:notation    "MNH"  .

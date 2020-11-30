@@ -10,5 +10,5 @@
 <EQS>
         a                skos:Concept ;
         rdfs:label       "Equatorial latitudes southern hemisphere"@en ;
-        dct:description  "Equatorial latitudes southern hemisphere"@en ;
+        dct:description  "Equatorial latitudes southern hemisphere (0\u00B0S - 30\u00B0S)"@en ;
         skos:notation    "EQS"  .

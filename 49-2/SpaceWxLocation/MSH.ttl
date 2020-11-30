@@ -10,5 +10,5 @@
 <MSH>
         a                skos:Concept ;
         rdfs:label       "Middle latitudes southern hemisphere"@en ;
-        dct:description  "Middle latitudes southern hemisphere"@en ;
+        dct:description  "Middle latitudes southern hemisphere (30\u00B0S - 60\u00B0S)"@en ;
         skos:notation    "MSH"  .
