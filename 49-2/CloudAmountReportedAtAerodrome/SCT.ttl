@@ -12,4 +12,4 @@
 	rdfs:label         "Scattered"@en ;
 	dct:description    "Scattered (3 - 4 oktas)."@en ;
 	skos:related       <http://codes.wmo.int/bufr4/codeflag/0-20-008/2> ;
-	skos:notation      "sCT" .
+	skos:notation      "SCT" .
