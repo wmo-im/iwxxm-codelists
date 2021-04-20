@@ -1,0 +1,19 @@
+id,notation,status,description,label
+http://codes.wmo.int/49-2/AirWxPhenomena/BKN_CLD,BKN CLD,stable,Broken cloud,Broken cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/FRQ_CB,FRQ CB,stable,Frequent cumulonimbus cloud,Frequent cumulonimbus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/FRQ_TCU,FRQ TCU,stable,Frequent towering cumulus cloud,Frequent towering cumulus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_CB,ISOL CB,stable,Isolated cumulonimbus cloud,Isolated cumulonimbus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TCU,ISOL TCU,stable,Isolated towering cumulus cloud,Isolated towering cumulus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TS,ISOL TS,stable,Isolated thunderstorms,Isolated thunderstorms
+http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TSGR,ISOL TSGR,stable,Isolated thunderstorms with hail,Isolated thunderstorms with hail
+http://codes.wmo.int/49-2/AirWxPhenomena/MOD_ICE,MOD ICE,stable,Moderate icing,Moderate icing
+http://codes.wmo.int/49-2/AirWxPhenomena/MOD_MTW,MOD MTW,stable,Moderate mountain wave,Moderate mountain wave
+http://codes.wmo.int/49-2/AirWxPhenomena/MOD_TURB,MOD TURB,stable,Moderate turbulence,Moderate turbulence
+http://codes.wmo.int/49-2/AirWxPhenomena/MT_OBSC,MT OBSC,stable,Mountain obscuration,Mountain obscuration
+http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_CB,OCNL CB,stable,Occasional cumulonimbus cloud,Occasional cumulonimbus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TCU,OCNL TCU,stable,Occasional towering cumulus cloud,Occasional towering cumulus cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TS,OCNL TS,stable,Occasional thunderstorms,Occasional thunderstorms
+http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TSGR,OCNL TSGR,stable,Occasional thunderstorms with hail,Occasional thunderstorms with hail
+http://codes.wmo.int/49-2/AirWxPhenomena/OVC_CLD,OVC CLD,stable,Overcast cloud,Overcast cloud
+http://codes.wmo.int/49-2/AirWxPhenomena/SFC_VIS,SFC VIS nnnnM (mm),stable,Surface visibility,Surface visibility
+http://codes.wmo.int/49-2/AirWxPhenomena/SFC_WIND,SFC WIND nn[n]MPS,stable,Widespread mean surface wind,Widespread mean surface wind
