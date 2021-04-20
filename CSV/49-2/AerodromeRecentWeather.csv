@@ -1,0 +1,27 @@
+id,notation,status,description,label
+http://codes.wmo.int/306/4678/BLSN,REBLSN,stable,,Blowing snow
+http://codes.wmo.int/306/4678/DS,REDS,stable,,Duststorm
+http://codes.wmo.int/306/4678/DZ,REDZ,stable,,Precipitation of drizzle
+http://codes.wmo.int/306/4678/FC,REFC,stable,,Funnel cloud(s) (tornado or water-spout)
+http://codes.wmo.int/306/4678/FZDZ,REFZDZ,stable,,Precipitation of freezing drizzle
+http://codes.wmo.int/306/4678/FZRA,REFZRA,stable,,Precipitation of freezing rain
+http://codes.wmo.int/306/4678/FZUP,REFZUP,stable,,Unidentified freezing precipitation
+http://codes.wmo.int/306/4678/PL,REPL,stable,,Precipitation of ice pellets
+http://codes.wmo.int/306/4678/RA,RERA,stable,,Precipitation of rain
+http://codes.wmo.int/306/4678/RASN,RERASN,stable,,Precipitation of rain and snow
+http://codes.wmo.int/306/4678/SG,RESG,stable,,Precipitation of snow grains
+http://codes.wmo.int/306/4678/SHGR,RESHGR,stable,,Showery precipitation of hail
+http://codes.wmo.int/306/4678/SHGS,RESHGS,stable,,Showery precipitation of snow pellets/small hail
+http://codes.wmo.int/306/4678/SHRA,RESHRA,stable,,Showery precipitation of rain
+http://codes.wmo.int/306/4678/SHSN,RESHSN,stable,,Showery precipitation of snow
+http://codes.wmo.int/306/4678/SHUP,RESHUP,stable,,Showery precipitation of unidentified precipitation
+http://codes.wmo.int/306/4678/SN,RESN,stable,,Precipitation of snow
+http://codes.wmo.int/306/4678/SS,RESS,stable,,Sandstorm
+http://codes.wmo.int/306/4678/TS,RETS,stable,,Thunderstorm
+http://codes.wmo.int/306/4678/TSGR,RETSGR,stable,,Thunderstorm with precipitation of hail
+http://codes.wmo.int/306/4678/TSGS,RETSGS,stable,,Thunderstorm with precipitation of snow pellets/small hail
+http://codes.wmo.int/306/4678/TSRA,RETSRA,stable,,Thunderstorm with precipitation of rain
+http://codes.wmo.int/306/4678/TSSN,RETSSN,stable,,Thunderstorm with precipitation of snow
+http://codes.wmo.int/306/4678/TSUP,RETSUP,stable,,Thunderstorm with unidentified precipitation
+http://codes.wmo.int/306/4678/UP,REUP,stable,,Unidentified precipitation
+http://codes.wmo.int/306/4678/VA,REVA,stable,,Volcanic ash
