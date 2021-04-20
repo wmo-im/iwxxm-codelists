@@ -11,6 +11,7 @@ http://codes.wmo.int/306/4678/+DZSG,+DZSG,stable,,Heavy precipitation of drizzle
 http://codes.wmo.int/306/4678/+DZSGRA,+DZSGRA,stable,,"Heavy precipitation of drizzle, snow grains and rain"
 http://codes.wmo.int/306/4678/+DZSN,+DZSN,stable,,Heavy precipitation of drizzle and snow
 http://codes.wmo.int/306/4678/+DZSNRA,+DZSNRA,stable,,"Heavy precipitation of drizzle, snow and rain"
+http://codes.wmo.int/306/4678/+FC,+FC,stable,,"Well-developed funnel cloud(s) (tornado or water-spout)"
 http://codes.wmo.int/306/4678/+FZDZ,+FZDZ,stable,,Heavy precipitation of freezing drizzle
 http://codes.wmo.int/306/4678/+FZDZRA,+FZDZRA,stable,,Heavy precipitation of freezing drizzle and rain
 http://codes.wmo.int/306/4678/+FZRA,+FZRA,stable,,Heavy precipitation of freezng rain
@@ -122,6 +123,7 @@ http://codes.wmo.int/306/4678/+TSSNRAGR,+TSSNRAGR,stable,,"Thunderstorm with hea
 http://codes.wmo.int/306/4678/+TSSNRAGS,+TSSNRAGS,stable,,"Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail"
 http://codes.wmo.int/306/4678/+TSUP,+TSUP,stable,,Thunderstorm with heavy precipitation of unidentified precipitation
 http://codes.wmo.int/306/4678/+UP,+UP,stable,,Heavy unidentified precipitation
+http://codes.wmo.int/306/4678/-DS,-DS,stable,,"Light duststorm"
 http://codes.wmo.int/306/4678/-DZ,-DZ,stable,,Light precipitation of drizzle
 http://codes.wmo.int/306/4678/-DZPL,-DZPL,stable,,Light precipitation of drizzle and ice pellets
 http://codes.wmo.int/306/4678/-DZPLRA,-DZPLRA,stable,,"Light precipitation of drizzle, ice pellets and rain"
@@ -215,6 +217,7 @@ http://codes.wmo.int/306/4678/-SNRASG,-SNRASG,stable,,"Light precipitation of sn
 http://codes.wmo.int/306/4678/-SNSG,-SNSG,stable,,Light precipitation of snow and snow grains
 http://codes.wmo.int/306/4678/-SNSGPL,-SNSGPL,stable,,"Light precipitation of snow, snow grains and ice pellets"
 http://codes.wmo.int/306/4678/-SNSGRA,-SNSGRA,stable,,"Light precipitation of snow, snow grains and rain"
+http://codes.wmo.int/306/4678/-SS,-SS,stable,,"Light sandstorm"
 http://codes.wmo.int/306/4678/-TSGR,-TSGR,stable,,Thunderstorm with light precipitation of hail
 http://codes.wmo.int/306/4678/-TSGRRA,-TSGRRA,stable,,Thunderstorm with light precipitation of hail and rain
 http://codes.wmo.int/306/4678/-TSGRRASN,-TSGRRASN,stable,,"Thunderstorm with light precipitation of hail, rain and snow"
