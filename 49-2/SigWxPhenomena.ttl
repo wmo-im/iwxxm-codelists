@@ -11,10 +11,7 @@
         a                        reg:Register , skos:Collection , ldp:Container ;
         rdfs:label               "Code Table D-10: Significant Weather Phenomena" ;
         dct:description          "The items within this code table are the types of weather phenomena of significance to aeronautical operations – as used in SIGMET and AIRMET reports and specified in Technical Regulations, Volume II (WMO-No. 49), Part II, Appendix 6, [C.3.1.] 1.1.4. "@en ;
-        dct:modified             "2014-09-03T09:52:41.384Z"^^xsd:dateTime ;
         reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
         reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-
-
         skos:notation            "D-10" ;
         ldp:membershipPredicate  skos:member .

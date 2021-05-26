@@ -11,7 +11,4 @@
         a                      reg:Register , skos:Collection , ldp:Container ;
         rdfs:label             "Space Wx Location"@en ;
         dct:description        "The items within this code table are the locations of space weather phenomena of significance to aeronautical operations"@en ;
-        dct:modified           "2019-03-20T16:57:02.324Z"^^xsd:dateTime ;
-
-
-        ldp:hasMemberRelation .
+        ldp:hasMemberRelation skos:member .

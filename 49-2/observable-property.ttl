@@ -30,66 +30,12 @@
 @prefix common-core: <http://codes.wmo.int/common/schema/core/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-<http://codes.wmo.int/49-2/observable-property/AIRMETEvolvingConditionCollectionAnalysis>
-        a                skos:Concept ;
-        rdfs:label       "AIRMET Evolving Condition Collection Analysis"@en ;
-        dct:description  "The set of physical properties evaluated as a result of an AIRMET, as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation."@en ;
-        skos:notation    "AIRMETEvolvingConditionCollectionAnalysis" ;
-        skos:prefLabel   "AIRMET Evolving Condition Collection Analysis" .
-
-<http://codes.wmo.int/49-2/observable-property/SIGMETPositionCollectionAnalysis>
-        a                skos:Concept ;
-        rdfs:label       "SIGMET Position Collection Analysis"@en ;
-        dct:description  "The set of locations where meteorological conditions exist to be reported in a SIGMET, as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation."@en ;
-        skos:notation    "SIGMETPositionCollectionAnalysis" ;
-        skos:prefLabel   "SIGMET Position CollectionAnalysis" .
-
-<http://codes.wmo.int/49-2/observable-property/SIGMETEvolvingConditionCollectionAnalysis>
-        a                skos:Concept ;
-        rdfs:label       "SIGMET Evolving Condition Collection Analysis"@en ;
-        dct:description  "The set of meteorological conditions  to be reported in a SIGMET, as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation."@en ;
-        skos:notation    "SIGMETEvolvingConditionCollectionAnalysis" ;
-        skos:prefLabel   "SIGMET Evolving Condition Collection Analysis" .
-
-<http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeTrendForecast>
-        a                     skos:Concept ;
-        rdfs:label            "Meteorological aerodrome trend forecast"@en ;
-        dct:description       "The set of physical properties evaluated as a result of the trend forecast procedure of a routine or special aerodrome meteorological report (METAR or SPECI), as specified in the Technical Regulations (WMO-No. 49), Volume II – Meteorological Service for International Air Navigation."@en ;
-        reg:delegationTarget  <http://codes.wmo.int/ui/resources/observableProperty_MeteorologicalAerodromeTrendForecast.xml> ;
-        reg:forwardingCode    "200" ;
-        reg:notation          "MeteorologicalAerodromeTrendForecast" ;
-        skos:notation         "MeteorologicalAerodromeTrendForecast" ;
-        skos:prefLabel        "Meteorological Aerodrome TrendForecast" .
-
-<http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeForecast>
-        a                     skos:Concept ;
-        rdfs:label            "Meteorological aerodrome forecast"@en ;
-        dct:description       "The set of physical properties evaluated as a result of an aerodrome forecast (TAF), as specified in the Technical Regulations (WMO-No. 49), Volume II – Meteorological Service for International Air Navigation."@en ;
-        reg:delegationTarget  <http://codes.wmo.int/ui/resources/observableProperty_MeteorologicalAerodromeForecast.xml> ;
-        reg:forwardingCode    "200" ;
-        reg:notation          "MeteorologicalAerodromeForecast" ;
-        skos:notation         "MeteorologicalAerodromeForecast" ;
-        skos:prefLabel        "Meteorological Aerodrome Forecast" .
-
-<http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeObservation>
-        a                     skos:Concept ;
-        rdfs:label            "Meteorological aerodrome observation"@en ;
-        dct:description       "The set of physical properties evaluated as a result of the observation procedure of a routine or special aerodrome meteorological report (METAR or SPECI), as specified in the Technical Regulations (WMO-No. 49), Volume II – Meteorological Service for International Air Navigation."@en ;
-        reg:delegationTarget  <http://codes.wmo.int/ui/resources/observableProperty_MeteorologicalAerodromeObservation.xml> ;
-        reg:forwardingCode    "200" ;
-        reg:notation          "MeteorologicalAerodromeObservation" ;
-        skos:notation         "MeteorologicalAerodromeObservation" ;
-        skos:prefLabel        "Meteorological Aerodrome Observation" .
-
-<http://codes.wmo.int/49-2/observable-property>
+<observable-property>
         a                        skos:Collection , ldp:Container , reg:Register ;
         rdfs:label               "Code Table D-5: IWXXM observable properties" ;
         dct:description          "The items within this code table are composite observable properties that define the set of physical properties evaluated as a result of regulated procedures specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. These include aerodrome observation and forecast reports (e.g. METAR, SPECI and TAF)."@en ;
         dct:description          <http://codes.wmo.int/system/organization/wmo> ;
-        dct:modified             "2017-11-23T11:08:18.808Z"^^xsd:dateTime ;
         reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
         reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-        owl:versionInfo          5 ;
-        skos:member              <http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeTrendForecast> , <http://codes.wmo.int/49-2/observable-property/AIRMETEvolvingConditionCollectionAnalysis> , <http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeForecast> , <http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeObservation> , <http://codes.wmo.int/49-2/observable-property/SIGMETPositionCollectionAnalysis> , <http://codes.wmo.int/49-2/observable-property/SIGMETEvolvingConditionCollectionAnalysis> ;
         skos:notation            "D-5" ;
         ldp:membershipPredicate  skos:member .

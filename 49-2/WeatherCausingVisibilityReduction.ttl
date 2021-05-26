@@ -11,7 +11,4 @@
         a                      ldp:Container , skos:Collection , reg:Register ;
         rdfs:label             "Weather Causing Visibility Reduction"@en ;
         dct:description        "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS"@en ;
-        dct:modified           "2016-12-30T13:26:25.95Z"^^xsd:dateTime ;
-
-
-        ldp:hasMemberRelation .
+        ldp:hasMemberRelation skos:member .

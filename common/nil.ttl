@@ -11,11 +11,8 @@
         a                        ldp:Container , reg:Register , skos:Collection ;
         rdfs:label               "Code Table D-1: Nil reasons" ;
         dct:description          "Nil-reason terms are used to provide an explanation for recording a missing (or void) value within a data product. Terms are drawn from authorities in addition to WMO including ISO/TC 211 (from ISO 19136:2007 Geography markup language clause 8.2.3.1; published on their behalf by the Open Geospatial Consortium)."@en ;
-        dct:modified             "2014-09-03T09:52:34.941Z"^^xsd:dateTime ;
         reg:containedItemClass   skos:Concept ;
         reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
         reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-
-
         skos:notation            "D-1" ;
         ldp:membershipPredicate  skos:member .

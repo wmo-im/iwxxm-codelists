@@ -25,4 +25,4 @@ jobs:
           pip install testtools
     - name: Test
       run: |
-        tmode=${{ matrix.test-mode }} python3 -c 'import this'
+        tmode=${{ matrix.test-mode }} python3 -m scripts.check_urls

@@ -11,7 +11,4 @@
         a                      reg:Register , ldp:Container , skos:Collection ;
         rdfs:label             "Air Wx Phenomena"@en ;
         dct:description        "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1"@en ;
-        dct:modified           "2016-12-30T13:26:05.884Z"^^xsd:dateTime ;
-
-
-        ldp:hasMemberRelation .
+        ldp:hasMemberRelation  skos:member .

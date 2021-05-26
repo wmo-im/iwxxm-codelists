@@ -11,7 +11,4 @@
         a                      ldp:Container , reg:Register , skos:Collection ;
         rdfs:label             "Space Wx Phenomena"@en ;
         dct:description        "The items within this code table are the types of space weather phenomena of significance to aeronautical operations"@en ;
-        dct:modified           "2019-03-20T16:54:58.099Z"^^xsd:dateTime ;
-
-
-        ldp:hasMemberRelation .
+        ldp:hasMemberRelation skos:member .
