@@ -88,8 +88,6 @@ class TestContentsConsistency(unittest.TestCase):
 # Build test cases based on the TTL files within the repository,
 # one test case per file.
 for f in glob.glob('**/*.ttl', recursive=True):
-#for f in ['49-2/observation-type/IWXXM.ttl']:
-#for f in ['49-2/observable-property/_MeteorologicalAerodromeForecast.ttl']:
     relf = f.replace('.ttl', '')
     identity = '{}/{}'.format(rooturl, relf)
     resource = '{}/{}'.format(downloadurl, relf)
@@ -145,6 +143,11 @@ for f in glob.glob('**/*.ttl', recursive=True):
                         split_fname = split_fname[1:]
                     member_id = rdflib.term.URIRef(u'{}/{}'.format(identityURI, split_fname))
                     result_rdfgraph.add((col_id, rdflib.namespace.SKOS.member, member_id))
+                    expected_rdfgraph.remove((member_id, None, None))
+            # special case for these two indirection registers 
+            elif ufile in ['49-2/AerodromeRecentWeather.ttl','49-2/AerodromePresentOrForecastWeather.ttl']:
+                members = expected_rdfgraph.objects(predicate=rdflib.namespace.SKOS.member)
+                for member_id in members:
                     expected_rdfgraph.remove((member_id, None, None))
 
                 # do not check version info or date modified (owned by registry)
