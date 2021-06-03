@@ -10,10 +10,9 @@
 <4678>
         a                        ldp:Container , reg:Register , skos:Collection ;
         rdfs:label               "Code Table 4678: Significant weather phenomena" ;
+        skos:altLabel             "w'w'" ;
         rdfs:seeAlso             <http://www.wmo.int/pages/prog/www/WMOCodes/WMO306_vI1/VolumeI.1.html> ;
         dct:description          "This register provides terms that may be used to describe significant [recent], present and forecast weather - enumerating the set of meteorologically valid options defined in WMO No. 306 Vol 1 code-table 4678. Each term comprises one or more of the elements from code-table 4678: 'intensity or proximity', 'descriptor', 'precipitation', 'obscuration' and 'other'."@en ;
-        dct:modified             "2017-09-15T15:45:38.696Z"^^xsd:dateTime ;
         reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
         reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-
         ldp:membershipPredicate  skos:member .

@@ -11,7 +11,4 @@
         a                      ldp:Container , skos:Collection , reg:Register ;
         rdfs:label             "Volcanic Aviation Colour Code"@en ;
         dct:description        "Volcanic Aviation Colour Code ICAO Annex 15"@en ;
-        dct:modified           "2016-12-30T13:26:16.18Z"^^xsd:dateTime ;
-
-
-        ldp:hasMemberRelation .
+        ldp:hasMemberRelation skos:member .
