@@ -1,0 +1,220 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/DUSTSTORM>
+	a skos:Concept ;
+	dct:description "Duststorm" ;
+	rdfs:label "Duststorm" ;
+	skos:notation "DUSTSTORM" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/24" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/CONVERGENCE_LINE>
+	a skos:Concept ;
+	dct:description "Convergence line" ;
+	rdfs:label "Convergence line" ;
+	skos:notation "CONVERGENCE_LINE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/9" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_AT_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Quasi-stationary front at the surface" ;
+	rdfs:label "Quasi-stationary front at the surface" ;
+	skos:notation "QUASI-STATIONARY_FRONT_AT_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/0" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/JETSTREAM>
+	a skos:Concept ;
+	dct:description "Jet stream" ;
+	rdfs:label "Jet stream" ;
+	skos:notation "JETSTREAM" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/10" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/THUNDERSTORM>
+	a skos:Concept ;
+	dct:description "Thunderstorm" ;
+	rdfs:label "Thunderstorm" ;
+	skos:notation "THUNDERSTORM" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/21" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/ATMOSPHERICS>
+	a skos:Concept ;
+	dct:description "Atmospherics" ;
+	rdfs:label "Atmospherics" ;
+	skos:notation "ATMOSPHERICS" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/18" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANO>
+	a skos:Concept ;
+	dct:description "Volcano" ;
+	rdfs:label "Volcano" ;
+	skos:notation "VOLCANO" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/17" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/TROPICAL_CYCLONE>
+	a skos:Concept ;
+	dct:description "Tropical cyclone" ;
+	rdfs:label "Tropical cyclone" ;
+	skos:notation "TROPICAL_CYCLONE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/22" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/INSTABILITY_LINE>
+	a skos:Concept ;
+	dct:description "Instability line" ;
+	rdfs:label "Instability line" ;
+	skos:notation "INSTABILITY_LINE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/7" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/SPECIAL_CLOUDS>
+	a skos:Concept ;
+	dct:description "Special clouds" ;
+	rdfs:label "Special clouds" ;
+	skos:notation "SPECIAL_CLOUDS" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/20" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_ABOVE_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Cold front above the surface" ;
+	rdfs:label "Cold front above the surface" ;
+	skos:notation "COLD_FRONT_ABOVE_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/5" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/OCCLUSION>
+	a skos:Concept ;
+	dct:description "Occlusion" ;
+	rdfs:label "Occlusion" ;
+	skos:notation "OCCLUSION" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/6" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/AIRFRAME_ICING>
+	a skos:Concept ;
+	dct:description "Airframe icing" ;
+	rdfs:label "Airframe icing" ;
+	skos:notation "AIRFRAME_ICING" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/15" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/INTERTROPICAL_FRONT>
+	a skos:Concept ;
+	dct:description "Intertropical front" ;
+	rdfs:label "Intertropical front" ;
+	skos:notation "INTERTROPICAL_FRONT" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/8" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/TURBULENCE>
+	a skos:Concept ;
+	dct:description "Turbulence" ;
+	rdfs:label "Turbulence" ;
+	skos:notation "TURBULENCE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/13" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/PHENOMENON>
+	a skos:Concept ;
+	dct:description "Phenomenon" ;
+	rdfs:label "Phenomenon" ;
+	skos:notation "PHENOMENON" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/16" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_ABOVE_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Warm front above the surface" ;
+	rdfs:label "Warm front above the surface" ;
+	skos:notation "WARM_FRONT_ABOVE_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/3" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Quasi-stationary front above the surface" ;
+	rdfs:label "Quasi-stationary front above the surface" ;
+	skos:notation "QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/1" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/MOUNTAIN_WAVE>
+	a skos:Concept ;
+	dct:description "Mountain wave" ;
+	rdfs:label "Mountain wave" ;
+	skos:notation "MOUNTAIN_WAVE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/23" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_AT_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Warm front at the surface" ;
+	rdfs:label "Warm front at the surface" ;
+	skos:notation "WARM_FRONT_AT_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/2" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD_CLEAR>
+	a skos:Concept ;
+	dct:description "Cloud clear" ;
+	rdfs:label "Cloud clear" ;
+	skos:notation "CLOUD_CLEAR" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/11" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_AT_THE_SURFACE>
+	a skos:Concept ;
+	dct:description "Cold front at the surface" ;
+	rdfs:label "Cold front at the surface" ;
+	skos:notation "COLD_FRONT_AT_THE_SURFACE" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/4" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/STORM>
+	a skos:Concept ;
+	dct:description "Storm" ;
+	rdfs:label "Storm" ;
+	skos:notation "STORM" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/14" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/SANDSTORM>
+	a skos:Concept ;
+	dct:description "Sandstorm" ;
+	rdfs:label "Sandstorm" ;
+	skos:notation "SANDSTORM" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/25" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD>
+	a skos:Concept ;
+	dct:description "Cloud" ;
+	rdfs:label "Cloud" ;
+	skos:notation "CLOUD" ;
+	reg:status "experimental" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-08-011/12" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/TROPOPAUSE>
+	a skos:Concept ;
+	dct:description "Tropopause" ;
+	rdfs:label "Tropopause" ;
+	skos:notation "TROPOPAUSE" ;
+	reg:status "experimental" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/MeteorologicalFeature/RADIATION>
+	a skos:Concept ;
+	dct:description "Radiation" ;
+	rdfs:label "Radiation" ;
+	skos:notation "RADIATION" ;
+	reg:status "experimental" ;
+	reg:related "" .

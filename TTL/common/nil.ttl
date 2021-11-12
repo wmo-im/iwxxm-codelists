@@ -1,21 +1,92 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<nil>
-        a                        ldp:Container , reg:Register , skos:Collection ;
-        rdfs:label               "Code Table D-1: Nil reasons" ;
-        dct:description          "Nil-reason terms are used to provide an explanation for recording a missing (or void) value within a data product. Terms are drawn from authorities in addition to WMO including ISO/TC 211 (from ISO 19136:2007 Geography markup language clause 8.2.3.1; published on their behalf by the Open Geospatial Consortium)."@en ;
-        dct:modified             "2014-09-03T09:52:34.941Z"^^xsd:dateTime ;
-        reg:containedItemClass   skos:Concept ;
-        reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
-        reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
+<http://codes.wmo.int/common/nil/AboveDetectionRange>
+	a skos:Concept ;
+	dct:description "The value was above the detection range of the instrument used to estimate it." ;
+	rdfs:label "Above detection range" ;
+	skos:notation "AboveDetectionRange" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/common/nil/BelowDetectionRange>
+	a skos:Concept ;
+	dct:description "The value was below the detection range of the instrument used to estimate it." ;
+	rdfs:label "Below detection range" ;
+	skos:notation "BelowDetectionRange" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        skos:notation            "D-1" ;
-        ldp:membershipPredicate  skos:member .
+<http://codes.wmo.int/common/nil/inapplicable>
+	a skos:Concept ;
+	dct:description "There is no value." ;
+	rdfs:label "Inapplicable" ;
+	skos:notation "inapplicable" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/missing>
+	a skos:Concept ;
+	dct:description "The correct value is not readily available to the sender of this data. Furthermore, a correct value may not exist." ;
+	rdfs:label "Missing" ;
+	skos:notation "missing" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/noSignificantChange>
+	a skos:Concept ;
+	dct:description "No significant change is expected to occur." ;
+	rdfs:label "No significant change" ;
+	skos:notation "noSignificantChange" ;
+	reg:status "stable" ;
+	reg:related "NOSIG" .
+
+<http://codes.wmo.int/common/nil/notDetectedByAutoSystem>
+	a skos:Concept ;
+	dct:description "The automated observing system did not detect a value (e.g. no cloud detected NCD)." ;
+	rdfs:label "Nothing detected by automated system" ;
+	skos:notation "notDetectedByAutoSystem" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/notObservable>
+	a skos:Concept ;
+	dct:description "A system failure, sensor failure, or sensor obstruction, prevented the intended observation of the value." ;
+	rdfs:label "Not observable" ;
+	skos:notation "notObservable" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/nothingOfOperationalSignificance>
+	a skos:Concept ;
+	dct:description "Nothing was observed or forecast of operational significance (e.g. nil significant cloud NSC, nil significant weather NSW)." ;
+	rdfs:label "Nothing of operational signficance" ;
+	skos:notation "nothingOfOperationalSignificance" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/template>
+	a skos:Concept ;
+	dct:description "The value will be available later." ;
+	rdfs:label "Template" ;
+	skos:notation "template" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/unknown>
+	a skos:Concept ;
+	dct:description "The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists." ;
+	rdfs:label "Unknown" ;
+	skos:notation "unknown" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/common/nil/withheld>
+	a skos:Concept ;
+	dct:description "The value is not divulged." ;
+	rdfs:label "Withheld" ;
+	skos:notation "withheld" ;
+	reg:status "stable" ;
+	reg:related "" .

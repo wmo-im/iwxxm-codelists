@@ -1,17 +1,60 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<AviationColourCode>
-        a                      ldp:Container , skos:Collection , reg:Register ;
-        rdfs:label             "Volcanic Aviation Colour Code"@en ;
-        dct:description        "Volcanic Aviation Colour Code ICAO Annex 15"@en ;
-        dct:modified           "2016-12-30T13:26:16.18Z"^^xsd:dateTime ;
+<http://codes.wmo.int/49-2/AviationColourCode/GREEN>
+	a skos:Concept ;
+	dct:description "Volcano is in normal, non-eruptive state.  Or, after a change from a higher alert level: Volcanic activity considered to have ceased, and volcano reverted to its normal, non-eruptive state." ;
+	rdfs:label "Green" ;
+	skos:notation "GREEN" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/AviationColourCode/NIL>
+	a skos:Concept ;
+	dct:description "Nil" ;
+	rdfs:label "Nil" ;
+	skos:notation "NIL" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        ldp:hasMemberRelation .
+<http://codes.wmo.int/49-2/AviationColourCode/NOT_GIVEN>
+	a skos:Concept ;
+	dct:description "Not Given" ;
+	rdfs:label "Not Given" ;
+	skos:notation "NOT_GIVEN" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AviationColourCode/ORANGE>
+	a skos:Concept ;
+	dct:description "Volcano is exhibiting heightened unrest with increased likelihood of eruption.  Or, volcanic eruption is underway with no or minor ash emission [specify ash-plume height if possible]." ;
+	rdfs:label "Orange" ;
+	skos:notation "ORANGE" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AviationColourCode/RED>
+	a skos:Concept ;
+	dct:description "Eruption is forecasted to be imminent with significant emission of ash into the atmosphere likely. Or, eruption is underway with significant emission of ash into the atmosphere [specify ash-plume height if possible]." ;
+	rdfs:label "Red" ;
+	skos:notation "RED" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AviationColourCode/UNKNOWN>
+	a skos:Concept ;
+	dct:description "Unknown" ;
+	rdfs:label "Unknown" ;
+	skos:notation "UNKNOWN" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AviationColourCode/YELLOW>
+	a skos:Concept ;
+	dct:description "Volcano is experiencing signs of elevated unrest above known background levels. Or, after a change from higher alert level: Volcanic activity has decreased significantly but continues to be closely monitored for possible renewed increase." ;
+	rdfs:label "Yellow" ;
+	skos:notation "YELLOW" ;
+	reg:status "stable" ;
+	reg:related "" .

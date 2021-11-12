@@ -1,20 +1,140 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<SigWxPhenomena>
-        a                        reg:Register , skos:Collection , ldp:Container ;
-        rdfs:label               "Code Table D-10: Significant Weather Phenomena" ;
-        dct:description          "The items within this code table are the types of weather phenomena of significance to aeronautical operations – as used in SIGMET and AIRMET reports and specified in Technical Regulations, Volume II (WMO-No. 49), Part II, Appendix 6, [C.3.1.] 1.1.4. "@en ;
-        dct:modified             "2014-09-03T09:52:41.384Z"^^xsd:dateTime ;
-        reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
-        reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
+<http://codes.wmo.int/49-2/SigWxPhenomena/EMBD_TS>
+	a skos:Concept ;
+	dct:description "Embedded thunderstorm" ;
+	rdfs:label "Embedded thunderstorm" ;
+	skos:notation "EMBD_TS" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/SigWxPhenomena/EMBD_TSGR>
+	a skos:Concept ;
+	dct:description "Embedded thunderstorm with hail" ;
+	rdfs:label "Embedded thunderstorm with hail" ;
+	skos:notation "EMBD_TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        skos:notation            "D-10" ;
-        ldp:membershipPredicate  skos:member .
+<http://codes.wmo.int/49-2/SigWxPhenomena/FRQ_TS>
+	a skos:Concept ;
+	dct:description "Frequent thunderstorm" ;
+	rdfs:label "Frequent thunderstorm" ;
+	skos:notation "FRQ_TS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/FRQ_TSGR>
+	a skos:Concept ;
+	dct:description "Frequent thunderstorm with hail" ;
+	rdfs:label "Frequent thunderstorm with hail" ;
+	skos:notation "FRQ_TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/HVY_DS>
+	a skos:Concept ;
+	dct:description "Heavy dust storm" ;
+	rdfs:label "Heavy dust storm" ;
+	skos:notation "HVY_DS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/HVY_SS>
+	a skos:Concept ;
+	dct:description "Heavy sand storm" ;
+	rdfs:label "Heavy sand storm" ;
+	skos:notation "HVY_SS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/OBSC_TS>
+	a skos:Concept ;
+	dct:description "Obscured thunderstorm" ;
+	rdfs:label "Obscured thunderstorm" ;
+	skos:notation "OBSC_TS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/OBSC_TSGR>
+	a skos:Concept ;
+	dct:description "Obscured thunderstorm with hail" ;
+	rdfs:label "Obscured thunderstorm with hail" ;
+	skos:notation "OBSC_TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/RDOACT_CLD>
+	a skos:Concept ;
+	dct:description "Radioactive cloud" ;
+	rdfs:label "Radioactive cloud" ;
+	skos:notation "RDOACT_CLD" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SEV_ICE>
+	a skos:Concept ;
+	dct:description "Severe airframe icing" ;
+	rdfs:label "Severe airframe icing" ;
+	skos:notation "SEV_ICE" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SEV_ICE_FZRA>
+	a skos:Concept ;
+	dct:description "Severe airframe icing from freezing rain" ;
+	rdfs:label "Severe airframe icing from freezing rain" ;
+	skos:notation "SEV_ICE_FZRA" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SEV_MTW>
+	a skos:Concept ;
+	dct:description "Severe mountain wave" ;
+	rdfs:label "Severe mountain wave" ;
+	skos:notation "SEV_MTW" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SEV_TURB>
+	a skos:Concept ;
+	dct:description "Severe turbulence" ;
+	rdfs:label "Severe turbulence" ;
+	skos:notation "SEV_TURB" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SQL_TS>
+	a skos:Concept ;
+	dct:description "Squall line" ;
+	rdfs:label "Squall line" ;
+	skos:notation "SQL_TS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/SQL_TSGR>
+	a skos:Concept ;
+	dct:description "Squall line with hail" ;
+	rdfs:label "Squall line with hail" ;
+	skos:notation "SQL_TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/TC>
+	a skos:Concept ;
+	dct:description "Tropical cyclone" ;
+	rdfs:label "Tropical cyclone" ;
+	skos:notation "TC" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SigWxPhenomena/VA>
+	a skos:Concept ;
+	dct:description "Volcanic ash" ;
+	rdfs:label "Volcanic ash" ;
+	skos:notation "VA" ;
+	reg:status "stable" ;
+	reg:related "" .

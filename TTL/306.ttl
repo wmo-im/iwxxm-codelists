@@ -1,0 +1,19 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix dct:  <http://purl.org/dc/terms/> . 
+@prefix ldp:  <http://www.w3.org/ns/ldp#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://codes.wmo.int/306/4678>
+	a reg:Register , skos:Collection , ldp:Container  ;
+	ldp:hasMemberRelation skos:member ;
+	dct:description "This register provides terms that may be used to describe significant [recent], present and forecast weather - enumerating the set of meteorologically valid options defined in WMO No. 306 Vol 1 code-table 4678. Each term comprises one or more of the elements from code-table 4678: 'intensity or proximity', 'descriptor', 'precipitation', 'obscuration' and 'other'." ;
+	rdfs:label "Code Table 4678: Significant weather phenomena" ;
+	skos:notation "4678" ;
+	reg:status "stable" ;
+	reg:altLabel "w'w'" ;
+	dct:modified "2017-09-15T15:45:38.696Z" ;
+	owl:versionInfo "3" ;
+	reg:seeAlso "http://www.wmo.int/pages/prog/www/WMOCodes/WMO306_vI1/VolumeI.1.html" ;
+	reg:manager "http://codes.wmo.int/system/organization/www-dm" ;
+	reg:owner "http://codes.wmo.int/system/organization/wmo" .

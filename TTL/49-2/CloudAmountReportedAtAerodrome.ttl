@@ -1,18 +1,84 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<CloudAmountReportedAtAerodrome>
-        a                        ldp:Container , reg:Register , skos:Collection ;
-        rdfs:label               "Code Table D-8: Cloud amount reported at aerodrome" ;
-        dct:description          "The items within this code table are the cloud amount categories of operational significance for aviation as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. This code table contains a subset of the cloud amount categories defined in Part B FM 94 BUFR Code Table 0 20 008."@en ;
-        reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
-        reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-        skos:notation            "D-8" ;
-        ldp:membershipPredicate  skos:member .
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/BKN>
+	a skos:Concept ;
+	dct:description "Broken (5 - 7 oktas)." ;
+	rdfs:label "Broken" ;
+	skos:notation "BKN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/3" .
 
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/EMBD>
+	a skos:Concept ;
+	dct:description "Embedded. Applicable only to cumulonimbus (CB)." ;
+	rdfs:label "Embedded" ;
+	skos:notation "EMBD" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/16" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW>
+	a skos:Concept ;
+	dct:description "Few (1 - 2 oktas)." ;
+	rdfs:label "Few" ;
+	skos:notation "FEW" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/1" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FRQ>
+	a skos:Concept ;
+	dct:description "Frequent. Applicable only to cumulonimbus (CB)." ;
+	rdfs:label "Frequent" ;
+	skos:notation "FRQ" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/12" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/ISOL>
+	a skos:Concept ;
+	dct:description "Isolated. Applicable only to cumulonimbus (CB)." ;
+	rdfs:label "Isolated" ;
+	skos:notation "ISOL" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/8" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/LYR>
+	a skos:Concept ;
+	dct:description "Layers. Applicable only to cumulonimbus (CB)." ;
+	rdfs:label "Layers" ;
+	skos:notation "LYR" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/14" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OCNL>
+	a skos:Concept ;
+	dct:description "Occasional. Applicable only to cumulonimbus (CB)." ;
+	rdfs:label "Occasional" ;
+	skos:notation "OCNL" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/10" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OVC>
+	a skos:Concept ;
+	dct:description "Overcast (8 oktas)." ;
+	rdfs:label "Overcast" ;
+	skos:notation "OVC" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/4" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SCT>
+	a skos:Concept ;
+	dct:description "Scattered (3 - 4 oktas)." ;
+	rdfs:label "Scattered" ;
+	skos:notation "SCT" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/2" .
+
+<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SKC>
+	a skos:Concept ;
+	dct:description "Sky clear (0 oktas)." ;
+	rdfs:label "Sky clear" ;
+	skos:notation "SKC" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/bufr4/codeflag/0-20-008/0" .

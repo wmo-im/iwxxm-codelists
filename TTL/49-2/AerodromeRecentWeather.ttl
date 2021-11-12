@@ -1,18 +1,212 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<http://codes.wmo.int/49-2/AerodromeRecentWeather>
-        a                        skos:Collection ;
-        rdfs:label               "Code Table D-6: Aerodrome recent weather" ;
-        dct:description          "The items within this code table are the weather types that may be reported within a meteorological aerodrome observation report that have occurred during the period since the last issued routine report or last hour, whichever is shorter, but are not observed at the time of the observation. Requirements for reporting recent weather at an aerodrome are specified in Technical Regulations, Volume II (WMO-No. 49), Part II, Appendix 3, [C.3.1.] 4.8.1.1.  This code table contains the set of weather types that are permitted for reporting recent weather. These are a subset of the enumerated set of meteorologically valid combinations specified in Part A, Code Table 4678 comprising elements ‘intensity or proximity’, ‘descriptor’, ‘precipitation’, ‘obscuration’ and/or ‘other’."@en ;
-        reg:manager              <http://codes.wmo.int/system/organization/www-dm> ;
-        reg:owner                <http://codes.wmo.int/system/organization/wmo> ;
-        skos:member              <http://codes.wmo.int/306/4678/TSSN> , <http://codes.wmo.int/306/4678/TSUP> , <http://codes.wmo.int/306/4678/SHUP> , <http://codes.wmo.int/306/4678/DS> , <http://codes.wmo.int/306/4678/FC> , <http://codes.wmo.int/306/4678/VA> , <http://codes.wmo.int/306/4678/FZRA> , <http://codes.wmo.int/306/4678/BLSN> , <http://codes.wmo.int/306/4678/TSGR> , <http://codes.wmo.int/306/4678/SHSN> , <http://codes.wmo.int/306/4678/SHGR> , <http://codes.wmo.int/306/4678/RA> , <http://codes.wmo.int/306/4678/PL> , <http://codes.wmo.int/306/4678/SG> , <http://codes.wmo.int/306/4678/TSGS> , <http://codes.wmo.int/306/4678/RASN> , <http://codes.wmo.int/306/4678/FZDZ> , <http://codes.wmo.int/306/4678/TSRA> , <http://codes.wmo.int/306/4678/UP> , <http://codes.wmo.int/306/4678/TS> , <http://codes.wmo.int/306/4678/DZ> , <http://codes.wmo.int/306/4678/SN> , <http://codes.wmo.int/306/4678/FZUP> , <http://codes.wmo.int/306/4678/SHRA> , <http://codes.wmo.int/306/4678/SS> , <http://codes.wmo.int/306/4678/SHGS> ;
-        skos:notation            "D-6" ;
-        ldp:membershipPredicate  skos:member .
+<http://codes.wmo.int/306/4678/BLSN>
+	a skos:Concept ;
+	dct:description "Blowing snow" ;
+	rdfs:label "Blowing snow" ;
+	skos:notation "REBLSN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/BLSN" .
+
+<http://codes.wmo.int/306/4678/DS>
+	a skos:Concept ;
+	dct:description "Duststorm" ;
+	rdfs:label "Duststorm" ;
+	skos:notation "REDS" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/DS" .
+
+<http://codes.wmo.int/306/4678/DZ>
+	a skos:Concept ;
+	dct:description "Precipitation of drizzle" ;
+	rdfs:label "Precipitation of drizzle" ;
+	skos:notation "REDZ" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/DZ" .
+
+<http://codes.wmo.int/306/4678/FC>
+	a skos:Concept ;
+	dct:description "Funnel cloud(s) (tornado or water-spout)" ;
+	rdfs:label "Funnel cloud(s) (tornado or water-spout)" ;
+	skos:notation "REFC" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/FC" .
+
+<http://codes.wmo.int/306/4678/FZDZ>
+	a skos:Concept ;
+	dct:description "Precipitation of freezing drizzle" ;
+	rdfs:label "Precipitation of freezing drizzle" ;
+	skos:notation "REFZDZ" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/FZDZ" .
+
+<http://codes.wmo.int/306/4678/FZRA>
+	a skos:Concept ;
+	dct:description "Precipitation of freezing rain" ;
+	rdfs:label "Precipitation of freezing rain" ;
+	skos:notation "REFZRA" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/FZRA" .
+
+<http://codes.wmo.int/306/4678/FZUP>
+	a skos:Concept ;
+	dct:description "Unidentified freezing precipitation" ;
+	rdfs:label "Unidentified freezing precipitation" ;
+	skos:notation "REFZUP" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/FZUP" .
+
+<http://codes.wmo.int/306/4678/PL>
+	a skos:Concept ;
+	dct:description "Precipitation of ice pellets" ;
+	rdfs:label "Precipitation of ice pellets" ;
+	skos:notation "REPL" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/PL" .
+
+<http://codes.wmo.int/306/4678/RA>
+	a skos:Concept ;
+	dct:description "Precipitation of rain" ;
+	rdfs:label "Precipitation of rain" ;
+	skos:notation "RERA" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/RA" .
+
+<http://codes.wmo.int/306/4678/RASN>
+	a skos:Concept ;
+	dct:description "Precipitation of rain and snow" ;
+	rdfs:label "Precipitation of rain and snow" ;
+	skos:notation "RERASN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/RASN" .
+
+<http://codes.wmo.int/306/4678/SG>
+	a skos:Concept ;
+	dct:description "Precipitation of snow grains" ;
+	rdfs:label "Precipitation of snow grains" ;
+	skos:notation "RESG" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SG" .
+
+<http://codes.wmo.int/306/4678/SHGR>
+	a skos:Concept ;
+	dct:description "Showery precipitation of hail" ;
+	rdfs:label "Showery precipitation of hail" ;
+	skos:notation "RESHGR" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SHGR" .
+
+<http://codes.wmo.int/306/4678/SHGS>
+	a skos:Concept ;
+	dct:description "Showery precipitation of snow pellets/small hail" ;
+	rdfs:label "Showery precipitation of snow pellets/small hail" ;
+	skos:notation "RESHGS" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SHGS" .
+
+<http://codes.wmo.int/306/4678/SHRA>
+	a skos:Concept ;
+	dct:description "Showery precipitation of rain" ;
+	rdfs:label "Showery precipitation of rain" ;
+	skos:notation "RESHRA" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SHRA" .
+
+<http://codes.wmo.int/306/4678/SHSN>
+	a skos:Concept ;
+	dct:description "Showery precipitation of snow" ;
+	rdfs:label "Showery precipitation of snow" ;
+	skos:notation "RESHSN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SHSN" .
+
+<http://codes.wmo.int/306/4678/SHUP>
+	a skos:Concept ;
+	dct:description "Showery precipitation of unidentified precipitation" ;
+	rdfs:label "Showery precipitation of unidentified precipitation" ;
+	skos:notation "RESHUP" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SHUP" .
+
+<http://codes.wmo.int/306/4678/SN>
+	a skos:Concept ;
+	dct:description "Precipitation of snow" ;
+	rdfs:label "Precipitation of snow" ;
+	skos:notation "RESN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SN" .
+
+<http://codes.wmo.int/306/4678/SS>
+	a skos:Concept ;
+	dct:description "Sandstorm" ;
+	rdfs:label "Sandstorm" ;
+	skos:notation "RESS" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/SS" .
+
+<http://codes.wmo.int/306/4678/TS>
+	a skos:Concept ;
+	dct:description "Thunderstorm" ;
+	rdfs:label "Thunderstorm" ;
+	skos:notation "RETS" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TS" .
+
+<http://codes.wmo.int/306/4678/TSGR>
+	a skos:Concept ;
+	dct:description "Thunderstorm with precipitation of hail" ;
+	rdfs:label "Thunderstorm with precipitation of hail" ;
+	skos:notation "RETSGR" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TSGR" .
+
+<http://codes.wmo.int/306/4678/TSGS>
+	a skos:Concept ;
+	dct:description "Thunderstorm with precipitation of snow pellets/small hail" ;
+	rdfs:label "Thunderstorm with precipitation of snow pellets/small hail" ;
+	skos:notation "RETSGS" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TSGS" .
+
+<http://codes.wmo.int/306/4678/TSRA>
+	a skos:Concept ;
+	dct:description "Thunderstorm with precipitation of rain" ;
+	rdfs:label "Thunderstorm with precipitation of rain" ;
+	skos:notation "RETSRA" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TSRA" .
+
+<http://codes.wmo.int/306/4678/TSSN>
+	a skos:Concept ;
+	dct:description "Thunderstorm with precipitation of snow" ;
+	rdfs:label "Thunderstorm with precipitation of snow" ;
+	skos:notation "RETSSN" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TSSN" .
+
+<http://codes.wmo.int/306/4678/TSUP>
+	a skos:Concept ;
+	dct:description "Thunderstorm with unidentified precipitation" ;
+	rdfs:label "Thunderstorm with unidentified precipitation" ;
+	skos:notation "RETSUP" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/TSUP" .
+
+<http://codes.wmo.int/306/4678/UP>
+	a skos:Concept ;
+	dct:description "Unidentified precipitation" ;
+	rdfs:label "Unidentified precipitation" ;
+	skos:notation "REUP" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/UP" .
+
+<http://codes.wmo.int/306/4678/VA>
+	a skos:Concept ;
+	dct:description "Volcanic ash" ;
+	rdfs:label "Volcanic ash" ;
+	skos:notation "REVA" ;
+	reg:status "stable" ;
+	reg:related "http://codes.wmo.int/306/4678/VA" .

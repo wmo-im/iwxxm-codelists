@@ -1,17 +1,156 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<WeatherCausingVisibilityReduction>
-        a                      ldp:Container , skos:Collection , reg:Register ;
-        rdfs:label             "Weather Causing Visibility Reduction"@en ;
-        dct:description        "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS"@en ;
-        dct:modified           "2016-12-30T13:26:25.95Z"^^xsd:dateTime ;
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/BR>
+	a skos:Concept ;
+	dct:description "Mist" ;
+	rdfs:label "Mist" ;
+	skos:notation "BR" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DS>
+	a skos:Concept ;
+	dct:description "Duststorm" ;
+	rdfs:label "Duststorm" ;
+	skos:notation "DS" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        ldp:hasMemberRelation .
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DU>
+	a skos:Concept ;
+	dct:description "Dust" ;
+	rdfs:label "Dust" ;
+	skos:notation "DU" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DZ>
+	a skos:Concept ;
+	dct:description "Drizzle" ;
+	rdfs:label "Drizzle" ;
+	skos:notation "DZ" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FC>
+	a skos:Concept ;
+	dct:description "Funnel Cloud" ;
+	rdfs:label "Funnel Cloud" ;
+	skos:notation "FC" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FG>
+	a skos:Concept ;
+	dct:description "Fog" ;
+	rdfs:label "Fog" ;
+	skos:notation "FG" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FU>
+	a skos:Concept ;
+	dct:description "Smoke" ;
+	rdfs:label "Smoke" ;
+	skos:notation "FU" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GR>
+	a skos:Concept ;
+	dct:description "Hail" ;
+	rdfs:label "Hail" ;
+	skos:notation "GR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GS>
+	a skos:Concept ;
+	dct:description "Small Hail" ;
+	rdfs:label "Small Hail" ;
+	skos:notation "GS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/HZ>
+	a skos:Concept ;
+	dct:description "Haze" ;
+	rdfs:label "Haze" ;
+	skos:notation "HZ" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PL>
+	a skos:Concept ;
+	dct:description "Ice pellets" ;
+	rdfs:label "Ice pellets" ;
+	skos:notation "PL" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO>
+	a skos:Concept ;
+	dct:description "Dust/stand whirls" ;
+	rdfs:label "Dust/stand whirls" ;
+	skos:notation "PO" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/RA>
+	a skos:Concept ;
+	dct:description "Rain" ;
+	rdfs:label "Rain" ;
+	skos:notation "RA" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SA>
+	a skos:Concept ;
+	dct:description "Sand" ;
+	rdfs:label "Sand" ;
+	skos:notation "SA" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SG>
+	a skos:Concept ;
+	dct:description "Snow grams" ;
+	rdfs:label "Snow grams" ;
+	skos:notation "SG" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SN>
+	a skos:Concept ;
+	dct:description "Snow" ;
+	rdfs:label "Snow" ;
+	skos:notation "SN" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SQ>
+	a skos:Concept ;
+	dct:description "Squall" ;
+	rdfs:label "Squall" ;
+	skos:notation "SQ" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SS>
+	a skos:Concept ;
+	dct:description "Sandstorm" ;
+	rdfs:label "Sandstorm" ;
+	skos:notation "SS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/VA>
+	a skos:Concept ;
+	dct:description "Volcanic Ash" ;
+	rdfs:label "Volcanic Ash" ;
+	skos:notation "VA" ;
+	reg:status "stable" ;
+	reg:related "" .

@@ -1,17 +1,68 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<SpaceWxPhenomena>
-        a                      ldp:Container , reg:Register , skos:Collection ;
-        rdfs:label             "Space Wx Phenomena"@en ;
-        dct:description        "The items within this code table are the types of space weather phenomena of significance to aeronautical operations"@en ;
-        dct:modified           "2019-03-20T16:54:58.099Z"^^xsd:dateTime ;
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/GNSS_MOD>
+	a skos:Concept ;
+	dct:description "GNSS-based navigation and surveillance (degradation) - moderate" ;
+	rdfs:label "GNSS-based navigation and surveillance (degradation) - moderate" ;
+	skos:notation "GNSS_MOD" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/GNSS_SEV>
+	a skos:Concept ;
+	dct:description "GNSS-based navigation and surveillance (degradation) - severe" ;
+	rdfs:label "GNSS-based navigation and surveillance (degradation) - severe" ;
+	skos:notation "GNSS_SEV" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        ldp:hasMemberRelation .
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/HF_COM_MOD>
+	a skos:Concept ;
+	dct:description "HF communications (propagation, absorption) - moderate" ;
+	rdfs:label "HF communications (propagation, absorption) - moderate" ;
+	skos:notation "HF_COM_MOD" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/HF_COM_SEV>
+	a skos:Concept ;
+	dct:description "HF communications (propagation, absorption) - severe" ;
+	rdfs:label "HF communications (propagation, absorption) - severe" ;
+	skos:notation "HF_COM_SEV" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/RADIATION_MOD>
+	a skos:Concept ;
+	dct:description "Radiation at flight levels (increased exposure) - moderate" ;
+	rdfs:label "Radiation at flight levels (increased exposure) - moderate" ;
+	skos:notation "RADIATION_MOD" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/RADIATION_SEV>
+	a skos:Concept ;
+	dct:description "Radiation at flight levels (increased exposure) - severe" ;
+	rdfs:label "Radiation at flight levels (increased exposure) - severe" ;
+	skos:notation "RADIATION_SEV" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/SATCOM_MOD>
+	a skos:Concept ;
+	dct:description "Communications via satellite (propagation, absorption) - moderate" ;
+	rdfs:label "Communications via satellite (propagation, absorption) - moderate" ;
+	skos:notation "SATCOM_MOD" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxPhenomena/SATCOM_SEV>
+	a skos:Concept ;
+	dct:description "Communications via satellite (propagation, absorption) - severe" ;
+	rdfs:label "Communications via satellite (propagation, absorption) - severe" ;
+	skos:notation "SATCOM_SEV" ;
+	reg:status "stable" ;
+	reg:related "" .

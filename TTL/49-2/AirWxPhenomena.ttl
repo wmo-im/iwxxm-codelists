@@ -1,17 +1,148 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<AirWxPhenomena>
-        a                      reg:Register , ldp:Container , skos:Collection ;
-        rdfs:label             "Air Wx Phenomena"@en ;
-        dct:description        "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1"@en ;
-        dct:modified           "2016-12-30T13:26:05.884Z"^^xsd:dateTime ;
+<http://codes.wmo.int/49-2/AirWxPhenomena/BKN_CLD>
+	a skos:Concept ;
+	dct:description "Broken cloud" ;
+	rdfs:label "Broken cloud" ;
+	skos:notation "BKN CLD" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/AirWxPhenomena/FRQ_CB>
+	a skos:Concept ;
+	dct:description "Frequent cumulonimbus cloud" ;
+	rdfs:label "Frequent cumulonimbus cloud" ;
+	skos:notation "FRQ CB" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        ldp:hasMemberRelation .
+<http://codes.wmo.int/49-2/AirWxPhenomena/FRQ_TCU>
+	a skos:Concept ;
+	dct:description "Frequent towering cumulus cloud" ;
+	rdfs:label "Frequent towering cumulus cloud" ;
+	skos:notation "FRQ TCU" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_CB>
+	a skos:Concept ;
+	dct:description "Isolated cumulonimbus cloud" ;
+	rdfs:label "Isolated cumulonimbus cloud" ;
+	skos:notation "ISOL CB" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TCU>
+	a skos:Concept ;
+	dct:description "Isolated towering cumulus cloud" ;
+	rdfs:label "Isolated towering cumulus cloud" ;
+	skos:notation "ISOL TCU" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TS>
+	a skos:Concept ;
+	dct:description "Isolated thunderstorms" ;
+	rdfs:label "Isolated thunderstorms" ;
+	skos:notation "ISOL TS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/ISOL_TSGR>
+	a skos:Concept ;
+	dct:description "Isolated thunderstorms with hail" ;
+	rdfs:label "Isolated thunderstorms with hail" ;
+	skos:notation "ISOL TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/MOD_ICE>
+	a skos:Concept ;
+	dct:description "Moderate icing" ;
+	rdfs:label "Moderate icing" ;
+	skos:notation "MOD ICE" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/MOD_MTW>
+	a skos:Concept ;
+	dct:description "Moderate mountain wave" ;
+	rdfs:label "Moderate mountain wave" ;
+	skos:notation "MOD MTW" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/MOD_TURB>
+	a skos:Concept ;
+	dct:description "Moderate turbulence" ;
+	rdfs:label "Moderate turbulence" ;
+	skos:notation "MOD TURB" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/MT_OBSC>
+	a skos:Concept ;
+	dct:description "Mountain obscuration" ;
+	rdfs:label "Mountain obscuration" ;
+	skos:notation "MT OBSC" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_CB>
+	a skos:Concept ;
+	dct:description "Occasional cumulonimbus cloud" ;
+	rdfs:label "Occasional cumulonimbus cloud" ;
+	skos:notation "OCNL CB" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TCU>
+	a skos:Concept ;
+	dct:description "Occasional towering cumulus cloud" ;
+	rdfs:label "Occasional towering cumulus cloud" ;
+	skos:notation "OCNL TCU" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TS>
+	a skos:Concept ;
+	dct:description "Occasional thunderstorms" ;
+	rdfs:label "Occasional thunderstorms" ;
+	skos:notation "OCNL TS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/OCNL_TSGR>
+	a skos:Concept ;
+	dct:description "Occasional thunderstorms with hail" ;
+	rdfs:label "Occasional thunderstorms with hail" ;
+	skos:notation "OCNL TSGR" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/OVC_CLD>
+	a skos:Concept ;
+	dct:description "Overcast cloud" ;
+	rdfs:label "Overcast cloud" ;
+	skos:notation "OVC CLD" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/SFC_VIS>
+	a skos:Concept ;
+	dct:description "Surface visibility" ;
+	rdfs:label "Surface visibility" ;
+	skos:notation "SFC VIS nnnnM (mm)" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/AirWxPhenomena/SFC_WIND>
+	a skos:Concept ;
+	dct:description "Widespread mean surface wind" ;
+	rdfs:label "Widespread mean surface wind" ;
+	skos:notation "SFC WIND nn[n]MPS" ;
+	reg:status "stable" ;
+	reg:related "" .

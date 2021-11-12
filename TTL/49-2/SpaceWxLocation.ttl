@@ -1,17 +1,60 @@
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix ldp:   <http://www.w3.org/ns/ldp#> .
-@prefix reg:   <http://purl.org/linked-data/registry#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dct:  <http://purl.org/dc/terms/> . 
 
-<SpaceWxLocation>
-        a                      reg:Register , skos:Collection , ldp:Container ;
-        rdfs:label             "Space Wx Location"@en ;
-        dct:description        "The items within this code table are the locations of space weather phenomena of significance to aeronautical operations"@en ;
-        dct:modified           "2019-03-20T16:57:02.324Z"^^xsd:dateTime ;
+<http://codes.wmo.int/49-2/SpaceWxLocation/DAYLIGHT_SIDE>
+	a skos:Concept ;
+	dct:description "Daylight Side" ;
+	rdfs:label "Daylight Side" ;
+	skos:notation "DAYLIGHT_SIDE" ;
+	reg:status "stable" ;
+	reg:related "" .
 
+<http://codes.wmo.int/49-2/SpaceWxLocation/EQN>
+	a skos:Concept ;
+	dct:description "Equatorial latitudes northern hemisphere (30\u00B0N - 0\u00B0N)" ;
+	rdfs:label "Equatorial latitudes northern hemisphere" ;
+	skos:notation "EQN" ;
+	reg:status "stable" ;
+	reg:related "" .
 
-        ldp:hasMemberRelation .
+<http://codes.wmo.int/49-2/SpaceWxLocation/EQS>
+	a skos:Concept ;
+	dct:description "Equatorial latitudes southern hemisphere (0\u00B0S - 30\u00B0S)" ;
+	rdfs:label "Equatorial latitudes southern hemisphere" ;
+	skos:notation "EQS" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxLocation/HNH>
+	a skos:Concept ;
+	dct:description "High latitudes northern hemisphere (90\u00B0N - 60\u00B0N)" ;
+	rdfs:label "High latitudes northern hemisphere" ;
+	skos:notation "HNH" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxLocation/HSH>
+	a skos:Concept ;
+	dct:description "High latitudes southern hemisphere (60\u00B0S - 90\u00B0S)" ;
+	rdfs:label "High latitudes southern hemisphere" ;
+	skos:notation "HSH" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxLocation/MNH>
+	a skos:Concept ;
+	dct:description "Middle latitudes northern hemisphere (60\u00B0N - 30\u00B0N)" ;
+	rdfs:label "Middle latitudes northern hemisphere" ;
+	skos:notation "MNH" ;
+	reg:status "stable" ;
+	reg:related "" .
+
+<http://codes.wmo.int/49-2/SpaceWxLocation/MSH>
+	a skos:Concept ;
+	dct:description "Middle latitudes southern hemisphere (30\u00B0S - 60\u00B0S)" ;
+	rdfs:label "Middle latitudes southern hemisphere" ;
+	skos:notation "MSH" ;
+	reg:status "stable" ;
+	reg:related "" .
