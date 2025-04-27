@@ -26,3 +26,4 @@ http://codes.wmo.int/49-2/MeteorologicalFeature/SANDSTORM,SANDSTORM,experimental
 http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD,CLOUD,experimental,Cloud,Cloud,http://codes.wmo.int/bufr4/codeflag/0-08-011/12
 http://codes.wmo.int/49-2/MeteorologicalFeature/TROPOPAUSE,TROPOPAUSE,experimental,Tropopause,Tropopause,
 http://codes.wmo.int/49-2/MeteorologicalFeature/RADIATION,RADIATION,experimental,Radiation,Radiation,
+http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANIC_ASH,Volcanic_Ash,experimental,Volcanic Ash,Volcanic Ash,

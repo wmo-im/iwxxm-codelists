@@ -1,0 +1,5 @@
+id,notation,status,description,label,related
+http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/LOW_AND_POSSIBLY_HIGHER,LOW_AND_POSSIBLY_HIGHER,stable,Greater than or equal to 0.2 mg/m3 - Low and possibly higher,Greater than or equal to 0.2 mg/m3 - Low and possibly higher,
+http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/MEDIUM_AND_POSSIBLY_HIGHER,MEDIUM_AND_POSSIBLY_HIGHER,stableGreater than or equal to 2 mg/m3 - Medium and possibly higher,Greater than or equal to 2 mg/m3 - Medium and possibly higher,
+http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/HIGH_AND_POSSIBLY_HIGHER,HIGH_AND_POSSIBLY_HIGHER,stable,Greater than or equal to 5 mg/m3 - High and possibly higher,Greater than or equal to 5 mg/m3 - High and possibly higher,
+http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/VERY_HIGH,VERY_HIGH,stable,Greater than or equal to 10 mg/m3 - Very High,Greater than or equal to 10 mg/m3 - Very High,
