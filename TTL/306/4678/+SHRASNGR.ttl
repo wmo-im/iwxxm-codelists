@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy showery precipitation of rain, snow and hail"@en ;
     dct:description "Heavy showery precipitation of rain, snow and hail"@en ;
-    reg:status "stable" ;
     skos:notation "+SHRASNGR" .
 

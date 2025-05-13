@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "GNSS-based navigation and surveillance (degradation) - moderate"@en ;
     dct:description "GNSS-based navigation and surveillance (degradation) - moderate"@en ;
-    reg:status "stable" ;
     skos:notation "GNSS_MOD" .
 

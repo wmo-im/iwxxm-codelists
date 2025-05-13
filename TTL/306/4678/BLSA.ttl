@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Blowing sand"@en ;
     dct:description "Blowing sand"@en ;
-    reg:status "stable" ;
     skos:notation "BLSA" .
 

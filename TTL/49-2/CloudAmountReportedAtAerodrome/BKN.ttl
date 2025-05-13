@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Broken"@en ;
     dct:description "Broken (5 - 7 oktas)."@en ;
-    reg:status "stable" ;
     skos:notation "BKN" .
 

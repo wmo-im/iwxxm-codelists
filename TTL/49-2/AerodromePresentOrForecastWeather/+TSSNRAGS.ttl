@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail"@en ;
     dct:description "Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail"@en ;
-    reg:status "stable" ;
     skos:notation "+TSSNRAGS" .
 

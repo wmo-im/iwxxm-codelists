@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Snow grams"@en ;
     dct:description "Snow grams"@en ;
-    reg:status "stable" ;
     skos:notation "SG" .
 

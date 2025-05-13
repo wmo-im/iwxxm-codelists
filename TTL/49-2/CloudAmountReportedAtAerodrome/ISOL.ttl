@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Isolated"@en ;
     dct:description "Isolated. Applicable only to cumulonimbus (CB)."@en ;
-    reg:status "stable" ;
     skos:notation "ISOL" .
 

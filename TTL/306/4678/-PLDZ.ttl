@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of ice pellets and drizzle"@en ;
     dct:description "Light precipitation of ice pellets and drizzle"@en ;
-    reg:status "stable" ;
     skos:notation "-PLDZ" .
 

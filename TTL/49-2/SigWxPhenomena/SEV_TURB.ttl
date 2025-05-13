@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Severe turbulence"@en ;
     dct:description "Severe turbulence"@en ;
-    reg:status "stable" ;
     skos:notation "SEV_TURB" .
 

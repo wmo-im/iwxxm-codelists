@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Radioactive cloud"@en ;
     dct:description "Radioactive cloud"@en ;
-    reg:status "stable" ;
     skos:notation "RDOACT_CLD" .
 

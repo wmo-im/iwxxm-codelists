@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of rain"@en ;
     dct:description "Light precipitation of rain"@en ;
-    reg:status "stable" ;
     skos:notation "-RA" .
 

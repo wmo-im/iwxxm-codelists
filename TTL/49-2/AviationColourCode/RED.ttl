@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Red"@en ;
     dct:description "Eruption is forecasted to be imminent with significant emission of ash into the atmosphere likely. Or, eruption is underway with significant emission of ash into the atmosphere [specify ash-plume height if possible]."@en ;
-    reg:status "stable" ;
     skos:notation "RED" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Special clouds"@en ;
     dct:description "Special clouds"@en ;
-    reg:status "experimental" ;
     skos:notation "SPECIAL_CLOUDS" .
 

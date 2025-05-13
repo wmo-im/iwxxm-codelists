@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Unidentified precipitation"@en ;
     dct:description "Unidentified precipitation"@en ;
-    reg:status "stable" ;
     skos:notation "UP" .
 

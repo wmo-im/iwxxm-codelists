@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy precipitation of rain, ice pellets and drizzle"@en ;
     dct:description "Heavy precipitation of rain, ice pellets and drizzle"@en ;
-    reg:status "stable" ;
     skos:notation "+RAPLDZ" .
 

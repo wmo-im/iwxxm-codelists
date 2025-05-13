@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of drizzle, rain and snow grains"@en ;
     dct:description "Precipitation of drizzle, rain and snow grains"@en ;
-    reg:status "stable" ;
     skos:notation "DZRASG" .
 

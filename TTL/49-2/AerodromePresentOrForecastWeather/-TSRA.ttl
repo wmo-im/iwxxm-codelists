@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with light precipitation of rain"@en ;
     dct:description "Thunderstorm with light precipitation of rain"@en ;
-    reg:status "stable" ;
     skos:notation "-TSRA" .
 

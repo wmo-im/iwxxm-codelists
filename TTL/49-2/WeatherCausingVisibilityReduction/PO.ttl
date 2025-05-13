@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Dust/stand whirls"@en ;
     dct:description "Dust/stand whirls"@en ;
-    reg:status "stable" ;
     skos:notation "PO" .
 

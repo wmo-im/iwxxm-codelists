@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Above detection range"@en ;
     dct:description "The value was above the detection range of the instrument used to estimate it."@en ;
-    reg:status "stable" ;
     skos:notation "AboveDetectionRange" .
 

@@ -1,0 +1,13 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://codes.wmo.int/iwxxm/SpaceWxLocation/EQN> a reg:Register,
+        skos:Collection,
+        ldp:Container ;
+    rdfs:label "Equatorial latitudes northern hemisphere"@en ;
+    dct:description "Equatorial latitudes northern hemisphere (30\\u00B0N - 0\\u00B0N)"@en ;
+    skos:notation "EQN" .
+

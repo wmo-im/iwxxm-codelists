@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy showery precipitation of snow and snow pellets/small hail"@en ;
     dct:description "Heavy showery precipitation of snow and snow pellets/small hail"@en ;
-    reg:status "stable" ;
     skos:notation "+SHSNGS" .
 

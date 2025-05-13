@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of rain, ice pellets and snow"@en ;
     dct:description "Light precipitation of rain, ice pellets and snow"@en ;
-    reg:status "stable" ;
     skos:notation "-RAPLSN" .
 

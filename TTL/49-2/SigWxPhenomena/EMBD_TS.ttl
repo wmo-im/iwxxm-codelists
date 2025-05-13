@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Embedded thunderstorm"@en ;
     dct:description "Embedded thunderstorm"@en ;
-    reg:status "stable" ;
     skos:notation "EMBD_TS" .
 

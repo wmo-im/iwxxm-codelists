@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Sky clear"@en ;
     dct:description "Sky clear (0 oktas)."@en ;
-    reg:status "stable" ;
     skos:notation "SKC" .
 

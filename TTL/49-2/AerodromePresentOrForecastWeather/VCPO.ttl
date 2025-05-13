@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Dust/sand whirls (dust devils) in the vicinity"@en ;
     dct:description "Dust/sand whirls (dust devils) in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCPO" .
 

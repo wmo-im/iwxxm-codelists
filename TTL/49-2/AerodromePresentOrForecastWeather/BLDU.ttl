@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Blowing dust"@en ;
     dct:description "Blowing dust"@en ;
-    reg:status "stable" ;
     skos:notation "BLDU" .
 

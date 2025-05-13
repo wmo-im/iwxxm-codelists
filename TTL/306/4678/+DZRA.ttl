@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy precipitation of drizzle and rain"@en ;
     dct:description "Heavy precipitation of drizzle and rain"@en ;
-    reg:status "stable" ;
     skos:notation "+DZRA" .
 

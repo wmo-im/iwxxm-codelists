@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Cumulonimbus"@en ;
     dct:description "Cumulonimbus"@en ;
-    reg:status "stable" ;
     skos:notation "CB" .
 

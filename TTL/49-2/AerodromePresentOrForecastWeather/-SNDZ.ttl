@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of snow and drizzle"@en ;
     dct:description "Light precipitation of snow and drizzle"@en ;
-    reg:status "stable" ;
     skos:notation "-SNDZ" .
 

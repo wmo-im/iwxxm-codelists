@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Turbulence"@en ;
     dct:description "Turbulence"@en ;
-    reg:status "experimental" ;
     skos:notation "TURBULENCE" .
 

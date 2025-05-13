@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Mountain obscuration"@en ;
     dct:description "Mountain obscuration"@en ;
-    reg:status "stable" ;
     skos:notation "MT_OBSC" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Green"@en ;
     dct:description "Volcano is in normal, non-eruptive state.  Or, after a change from a higher alert level: Volcanic activity considered to have ceased, and volcano reverted to its normal, non-eruptive state."@en ;
-    reg:status "stable" ;
     skos:notation "GREEN" .
 

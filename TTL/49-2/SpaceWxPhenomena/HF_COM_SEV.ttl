@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "HF communications (propagation, absorption) - severe"@en ;
     dct:description "HF communications (propagation, absorption) - severe"@en ;
-    reg:status "stable" ;
     skos:notation "HF_COM_SEV" .
 

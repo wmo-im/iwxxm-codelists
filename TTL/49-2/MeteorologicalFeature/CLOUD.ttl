@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Cloud"@en ;
     dct:description "Cloud"@en ;
-    reg:status "experimental" ;
     skos:notation "CLOUD" .
 

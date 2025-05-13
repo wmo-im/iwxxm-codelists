@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Blowing snow in the vicinity"@en ;
     dct:description "Blowing snow in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCBLSN" .
 

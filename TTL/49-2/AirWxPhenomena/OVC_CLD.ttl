@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Overcast cloud"@en ;
     dct:description "Overcast cloud"@en ;
-    reg:status "stable" ;
     skos:notation "OVC_CLD" .
 

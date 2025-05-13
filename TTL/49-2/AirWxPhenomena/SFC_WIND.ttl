@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Widespread mean surface wind"@en ;
     dct:description "Widespread mean surface wind"@en ;
-    reg:status "stable" ;
     skos:notation "SFC_WIND" .
 

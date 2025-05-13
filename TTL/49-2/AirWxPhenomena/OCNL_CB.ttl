@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Occasional cumulonimbus cloud"@en ;
     dct:description "Occasional cumulonimbus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "OCNL_CB" .
 

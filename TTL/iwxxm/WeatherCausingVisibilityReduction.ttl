@@ -1,0 +1,18 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://codes.wmo.int/iwxxm/WeatherCausingVisibilityReduction> a reg:Register,
+        skos:Collection,
+        ldp:Container ;
+    rdfs:label "Weather Causing Visibility Reduction"@en ;
+    dct:description "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS"@en ;
+    dct:modified "2016-12-30T13:26:25.950000+00:00"^^xsd:dateTime ;
+    reg:status "stable" ;
+    owl:versionInfo 1e+00 ;
+    skos:notation "WeatherCausingVisibilityReduction" .
+

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Dust"@en ;
     dct:description "Dust"@en ;
-    reg:status "stable" ;
     skos:notation "DU" .
 

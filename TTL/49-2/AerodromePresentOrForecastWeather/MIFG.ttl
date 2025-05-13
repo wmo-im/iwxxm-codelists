@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Shallow fog"@en ;
     dct:description "Shallow fog"@en ;
-    reg:status "stable" ;
     skos:notation "MIFG" .
 

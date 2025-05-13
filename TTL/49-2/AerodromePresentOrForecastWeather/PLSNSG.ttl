@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of ice pellets, snow and snow grains"@en ;
     dct:description "Precipitation of ice pellets, snow and snow grains"@en ;
-    reg:status "stable" ;
     skos:notation "PLSNSG" .
 

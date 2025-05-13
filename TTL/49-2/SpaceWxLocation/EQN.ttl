@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Equatorial latitudes northern hemisphere"@en ;
     dct:description "Equatorial latitudes northern hemisphere (30\\u00B0N - 0\\u00B0N)"@en ;
-    reg:status "stable" ;
     skos:notation "EQN" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with light precipitation of snow"@en ;
     dct:description "Thunderstorm with light precipitation of snow"@en ;
-    reg:status "stable" ;
     skos:notation "-TSSN" .
 

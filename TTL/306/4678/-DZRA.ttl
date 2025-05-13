@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of drizzle and rain"@en ;
     dct:description "Light precipitation of drizzle and rain"@en ;
-    reg:status "stable" ;
     skos:notation "-DZRA" .
 

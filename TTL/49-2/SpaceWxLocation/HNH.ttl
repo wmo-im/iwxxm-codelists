@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "High latitudes northern hemisphere"@en ;
     dct:description "High latitudes northern hemisphere (90\\u00B0N - 60\\u00B0N)"@en ;
-    reg:status "stable" ;
     skos:notation "HNH" .
 

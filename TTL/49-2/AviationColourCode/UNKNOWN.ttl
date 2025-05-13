@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Unknown"@en ;
     dct:description "Unknown"@en ;
-    reg:status "stable" ;
     skos:notation "UNKNOWN" .
 

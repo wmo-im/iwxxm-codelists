@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Obscured thunderstorm"@en ;
     dct:description "Obscured thunderstorm"@en ;
-    reg:status "stable" ;
     skos:notation "OBSC_TS" .
 

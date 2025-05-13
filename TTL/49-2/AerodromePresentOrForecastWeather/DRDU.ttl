@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Low drifting dust"@en ;
     dct:description "Low drifting dust"@en ;
-    reg:status "stable" ;
     skos:notation "DRDU" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Frequent cumulonimbus cloud"@en ;
     dct:description "Frequent cumulonimbus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "FRQ_CB" .
 

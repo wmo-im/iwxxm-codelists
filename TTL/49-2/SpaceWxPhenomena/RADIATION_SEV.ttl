@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Radiation at flight levels (increased exposure) - severe"@en ;
     dct:description "Radiation at flight levels (increased exposure) - severe"@en ;
-    reg:status "stable" ;
     skos:notation "RADIATION_SEV" .
 

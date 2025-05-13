@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light duststorm"@en ;
     dct:description "Light duststorm"@en ;
-    reg:status "stable" ;
     skos:notation "-DS" .
 

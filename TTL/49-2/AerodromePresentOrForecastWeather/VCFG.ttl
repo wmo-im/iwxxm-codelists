@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Fog in the vicinity"@en ;
     dct:description "Fog in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCFG" .
 

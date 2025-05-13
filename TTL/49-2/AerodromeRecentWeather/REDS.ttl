@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Duststorm"@en ;
     dct:description "Duststorm"@en ;
-    reg:status "stable" ;
     skos:notation "REDS" .
 

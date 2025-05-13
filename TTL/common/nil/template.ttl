@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Template"@en ;
     dct:description "The value will be available later."@en ;
-    reg:status "stable" ;
     skos:notation "template" .
 

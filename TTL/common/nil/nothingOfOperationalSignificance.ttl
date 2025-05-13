@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Nothing of operational signficance"@en ;
     dct:description "Nothing was observed or forecast of operational significance (e.g. nil significant cloud NSC, nil significant weather NSW)."@en ;
-    reg:status "stable" ;
     skos:notation "nothingOfOperationalSignificance" .
 

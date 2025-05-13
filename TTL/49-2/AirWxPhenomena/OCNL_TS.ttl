@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Occasional thunderstorms"@en ;
     dct:description "Occasional thunderstorms"@en ;
-    reg:status "stable" ;
     skos:notation "OCNL_TS" .
 

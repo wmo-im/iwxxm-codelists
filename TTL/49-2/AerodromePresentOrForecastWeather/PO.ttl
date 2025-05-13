@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Dust/sand whirls (dust devils)"@en ;
     dct:description "Dust/sand whirls (dust devils)"@en ;
-    reg:status "stable" ;
     skos:notation "PO" .
 

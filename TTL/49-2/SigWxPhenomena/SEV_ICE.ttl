@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Severe airframe icing"@en ;
     dct:description "Severe airframe icing"@en ;
-    reg:status "stable" ;
     skos:notation "SEV_ICE" .
 

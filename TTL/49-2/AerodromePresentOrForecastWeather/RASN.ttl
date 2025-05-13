@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of rain and snow"@en ;
     dct:description "Precipitation of rain and snow"@en ;
-    reg:status "stable" ;
     skos:notation "RASN" .
 

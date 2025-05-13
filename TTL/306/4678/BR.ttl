@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Mist"@en ;
     dct:description "Mist"@en ;
-    reg:status "stable" ;
     skos:notation "BR" .
 

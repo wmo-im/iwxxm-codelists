@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with precipitation of snow pellets/small hail"@en ;
     dct:description "Thunderstorm with precipitation of snow pellets/small hail"@en ;
-    reg:status "stable" ;
     skos:notation "RETSGS" .
 

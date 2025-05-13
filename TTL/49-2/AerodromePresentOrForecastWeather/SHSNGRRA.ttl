@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of snow, hail and rain"@en ;
     dct:description "Showery precipitation of snow, hail and rain"@en ;
-    reg:status "stable" ;
     skos:notation "SHSNGRRA" .
 

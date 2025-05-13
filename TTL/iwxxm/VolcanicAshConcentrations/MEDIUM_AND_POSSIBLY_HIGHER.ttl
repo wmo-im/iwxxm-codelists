@@ -7,6 +7,5 @@
         skos:Collection,
         ldp:Container ;
     dct:description "Greater than or equal to 2 mg/m3 - Medium and possibly higher"@en ;
-    reg:status "stableGreater than or equal to 2 mg/m3 - Medium and possibly higher" ;
     skos:notation "MEDIUM_AND_POSSIBLY_HIGHER" .
 

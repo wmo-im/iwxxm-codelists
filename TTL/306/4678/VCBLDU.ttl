@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Blowing dust in the vicinity"@en ;
     dct:description "Blowing dust in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCBLDU" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Quasi-stationary front above the surface"@en ;
     dct:description "Quasi-stationary front above the surface"@en ;
-    reg:status "experimental" ;
     skos:notation "QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE" .
 

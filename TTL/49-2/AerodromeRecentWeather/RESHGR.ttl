@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of hail"@en ;
     dct:description "Showery precipitation of hail"@en ;
-    reg:status "stable" ;
     skos:notation "RESHGR" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Squall line with hail"@en ;
     dct:description "Squall line with hail"@en ;
-    reg:status "stable" ;
     skos:notation "SQL_TSGR" .
 

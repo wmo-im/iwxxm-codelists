@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Frequent"@en ;
     dct:description "Frequent. Applicable only to cumulonimbus (CB)."@en ;
-    reg:status "stable" ;
     skos:notation "FRQ" .
 

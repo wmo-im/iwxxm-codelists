@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of unidentified precipitation"@en ;
     dct:description "Showery precipitation of unidentified precipitation"@en ;
-    reg:status "stable" ;
     skos:notation "RESHUP" .
 

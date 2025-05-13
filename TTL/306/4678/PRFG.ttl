@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Partial fog (covering part of the aerodrome)"@en ;
     dct:description "Partial fog (covering part of the aerodrome)"@en ;
-    reg:status "stable" ;
     skos:notation "PRFG" .
 

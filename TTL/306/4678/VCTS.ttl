@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm in the vicinity"@en ;
     dct:description "Thunderstorm in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCTS" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Instability line"@en ;
     dct:description "Instability line"@en ;
-    reg:status "experimental" ;
     skos:notation "INSTABILITY_LINE" .
 

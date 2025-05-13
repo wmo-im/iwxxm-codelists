@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Isolated cumulonimbus cloud"@en ;
     dct:description "Isolated cumulonimbus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "ISOL_CB" .
 

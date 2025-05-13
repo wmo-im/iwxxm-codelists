@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Cloud clear"@en ;
     dct:description "Cloud clear"@en ;
-    reg:status "experimental" ;
     skos:notation "CLOUD_CLEAR" .
 

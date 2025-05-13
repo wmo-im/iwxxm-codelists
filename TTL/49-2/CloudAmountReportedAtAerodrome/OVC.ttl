@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Overcast"@en ;
     dct:description "Overcast (8 oktas)."@en ;
-    reg:status "stable" ;
     skos:notation "OVC" .
 

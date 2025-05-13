@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of snow"@en ;
     dct:description "Showery precipitation of snow"@en ;
-    reg:status "stable" ;
     skos:notation "SHSN" .
 

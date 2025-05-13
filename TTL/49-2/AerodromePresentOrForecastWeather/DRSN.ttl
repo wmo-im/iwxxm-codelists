@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Low drifting snow"@en ;
     dct:description "Low drifting snow"@en ;
-    reg:status "stable" ;
     skos:notation "DRSN" .
 

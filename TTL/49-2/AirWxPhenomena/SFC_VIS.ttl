@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Surface visibility"@en ;
     dct:description "Surface visibility"@en ;
-    reg:status "stable" ;
     skos:notation "SFC_VIS" .
 

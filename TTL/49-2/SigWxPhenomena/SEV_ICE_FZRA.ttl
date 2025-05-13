@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Severe airframe icing from freezing rain"@en ;
     dct:description "Severe airframe icing from freezing rain"@en ;
-    reg:status "stable" ;
     skos:notation "SEV_ICE_FZRA" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Rain"@en ;
     dct:description "Rain"@en ;
-    reg:status "stable" ;
     skos:notation "RA" .
 

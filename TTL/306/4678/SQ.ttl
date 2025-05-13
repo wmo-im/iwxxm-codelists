@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Squalls"@en ;
     dct:description "Squalls"@en ;
-    reg:status "stable" ;
     skos:notation "SQ" .
 

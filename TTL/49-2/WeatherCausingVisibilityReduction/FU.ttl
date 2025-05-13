@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Smoke"@en ;
     dct:description "Smoke"@en ;
-    reg:status "stable" ;
     skos:notation "FU" .
 

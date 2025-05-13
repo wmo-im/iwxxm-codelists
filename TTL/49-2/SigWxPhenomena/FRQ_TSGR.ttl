@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Frequent thunderstorm with hail"@en ;
     dct:description "Frequent thunderstorm with hail"@en ;
-    reg:status "stable" ;
     skos:notation "FRQ_TSGR" .
 

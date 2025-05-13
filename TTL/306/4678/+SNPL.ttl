@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy precipitation of snow and ice pellets"@en ;
     dct:description "Heavy precipitation of snow and ice pellets"@en ;
-    reg:status "stable" ;
     skos:notation "+SNPL" .
 

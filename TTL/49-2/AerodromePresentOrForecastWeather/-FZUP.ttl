@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light unidentified freezing precipitation"@en ;
     dct:description "Light unidentified freezing precipitation"@en ;
-    reg:status "stable" ;
     skos:notation "-FZUP" .
 

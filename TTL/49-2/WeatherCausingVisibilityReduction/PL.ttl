@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Ice pellets"@en ;
     dct:description "Ice pellets"@en ;
-    reg:status "stable" ;
     skos:notation "PL" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Volcanic Ash"@en ;
     dct:description "Volcanic Ash"@en ;
-    reg:status "experimental" ;
     skos:notation "Volcanic_Ash" .
 

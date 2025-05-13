@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Moderate turbulence"@en ;
     dct:description "Moderate turbulence"@en ;
-    reg:status "stable" ;
     skos:notation "MOD_TURB" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy precipitation of snow grains, rain and snow"@en ;
     dct:description "Heavy precipitation of snow grains, rain and snow"@en ;
-    reg:status "stable" ;
     skos:notation "+SGRASN" .
 

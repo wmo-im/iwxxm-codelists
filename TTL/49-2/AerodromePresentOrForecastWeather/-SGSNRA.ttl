@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of snow grains, snow and rain"@en ;
     dct:description "Light precipitation of snow grains, snow and rain"@en ;
-    reg:status "stable" ;
     skos:notation "-SGSNRA" .
 

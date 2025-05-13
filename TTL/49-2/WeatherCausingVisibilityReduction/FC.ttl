@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Funnel Cloud"@en ;
     dct:description "Funnel Cloud"@en ;
-    reg:status "stable" ;
     skos:notation "FC" .
 

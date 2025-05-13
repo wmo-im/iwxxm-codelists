@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Sand"@en ;
     dct:description "Sand"@en ;
-    reg:status "stable" ;
     skos:notation "SA" .
 

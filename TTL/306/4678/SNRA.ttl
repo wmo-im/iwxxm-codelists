@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of snow and rain"@en ;
     dct:description "Precipitation of snow and rain"@en ;
-    reg:status "stable" ;
     skos:notation "SNRA" .
 

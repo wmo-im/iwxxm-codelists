@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Tropical cyclone"@en ;
     dct:description "Tropical cyclone"@en ;
-    reg:status "stable" ;
     skos:notation "TC" .
 

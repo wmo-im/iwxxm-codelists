@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Greater than or equal to 5 mg/m3 - High and possibly higher"@en ;
     dct:description "Greater than or equal to 5 mg/m3 - High and possibly higher"@en ;
-    reg:status "stable" ;
     skos:notation "HIGH_AND_POSSIBLY_HIGHER" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Moderate mountain wave"@en ;
     dct:description "Moderate mountain wave"@en ;
-    reg:status "stable" ;
     skos:notation "MOD_MTW" .
 

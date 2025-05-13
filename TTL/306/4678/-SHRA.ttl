@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light showery precipitation of rain"@en ;
     dct:description "Light showery precipitation of rain"@en ;
-    reg:status "stable" ;
     skos:notation "-SHRA" .
 

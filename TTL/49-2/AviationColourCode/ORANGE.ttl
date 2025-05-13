@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Orange"@en ;
     dct:description "Volcano is exhibiting heightened unrest with increased likelihood of eruption.  Or, volcanic eruption is underway with no or minor ash emission [specify ash-plume height if possible]."@en ;
-    reg:status "stable" ;
     skos:notation "ORANGE" .
 

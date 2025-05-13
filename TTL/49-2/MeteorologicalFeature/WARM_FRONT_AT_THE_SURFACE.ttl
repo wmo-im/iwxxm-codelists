@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Warm front at the surface"@en ;
     dct:description "Warm front at the surface"@en ;
-    reg:status "experimental" ;
     skos:notation "WARM_FRONT_AT_THE_SURFACE" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Middle latitudes northern hemisphere"@en ;
     dct:description "Middle latitudes northern hemisphere (60\\u00B0N - 30\\u00B0N)"@en ;
-    reg:status "stable" ;
     skos:notation "MNH" .
 

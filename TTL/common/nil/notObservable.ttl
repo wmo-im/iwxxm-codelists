@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Not observable"@en ;
     dct:description "A system failure, sensor failure, or sensor obstruction, prevented the intended observation of the value."@en ;
-    reg:status "stable" ;
     skos:notation "notObservable" .
 

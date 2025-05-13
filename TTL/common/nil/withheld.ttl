@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Withheld"@en ;
     dct:description "The value is not divulged."@en ;
-    reg:status "stable" ;
     skos:notation "withheld" .
 

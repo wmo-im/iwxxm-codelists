@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Occasional thunderstorms with hail"@en ;
     dct:description "Occasional thunderstorms with hail"@en ;
-    reg:status "stable" ;
     skos:notation "OCNL_TSGR" .
 

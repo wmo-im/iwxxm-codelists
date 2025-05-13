@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label " Night Side"@en ;
     dct:description "Night Side"@en ;
-    reg:status "stable" ;
     skos:notation "NIGHTSIDE" .
 

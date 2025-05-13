@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Occasional towering cumulus cloud"@en ;
     dct:description "Occasional towering cumulus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "OCNL_TCU" .
 

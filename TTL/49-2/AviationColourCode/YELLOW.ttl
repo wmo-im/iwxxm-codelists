@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Yellow"@en ;
     dct:description "Volcano is experiencing signs of elevated unrest above known background levels. Or, after a change from higher alert level: Volcanic activity has decreased significantly but continues to be closely monitored for possible renewed increase."@en ;
-    reg:status "stable" ;
     skos:notation "YELLOW" .
 

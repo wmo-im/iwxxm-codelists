@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Low drifting sand"@en ;
     dct:description "Low drifting sand"@en ;
-    reg:status "stable" ;
     skos:notation "DRSA" .
 

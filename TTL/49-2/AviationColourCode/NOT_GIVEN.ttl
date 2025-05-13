@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Not Given"@en ;
     dct:description "Not Given"@en ;
-    reg:status "stable" ;
     skos:notation "NOT_GIVEN" .
 

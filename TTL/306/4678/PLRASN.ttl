@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of ice pellets, rain and snow"@en ;
     dct:description "Precipitation of ice pellets, rain and snow"@en ;
-    reg:status "stable" ;
     skos:notation "PLRASN" .
 

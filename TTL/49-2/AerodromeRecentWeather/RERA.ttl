@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of rain"@en ;
     dct:description "Precipitation of rain"@en ;
-    reg:status "stable" ;
     skos:notation "RERA" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Embedded thunderstorm with hail"@en ;
     dct:description "Embedded thunderstorm with hail"@en ;
-    reg:status "stable" ;
     skos:notation "EMBD_TSGR" .
 

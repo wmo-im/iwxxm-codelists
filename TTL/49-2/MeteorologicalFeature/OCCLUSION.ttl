@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Occlusion"@en ;
     dct:description "Occlusion"@en ;
-    reg:status "experimental" ;
     skos:notation "OCCLUSION" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm"@en ;
     dct:description "Thunderstorm"@en ;
-    reg:status "stable" ;
     skos:notation "RETS" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Drizzle"@en ;
     dct:description "Drizzle"@en ;
-    reg:status "stable" ;
     skos:notation "DZ" .
 

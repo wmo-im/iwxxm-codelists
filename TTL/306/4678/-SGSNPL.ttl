@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of snow grains, snow and ice pellets"@en ;
     dct:description "Light precipitation of snow grains, snow and ice pellets"@en ;
-    reg:status "stable" ;
     skos:notation "-SGSNPL" .
 

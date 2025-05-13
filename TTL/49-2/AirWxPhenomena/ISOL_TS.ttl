@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Isolated thunderstorms"@en ;
     dct:description "Isolated thunderstorms"@en ;
-    reg:status "stable" ;
     skos:notation "ISOL_TS" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with unidentified precipitation"@en ;
     dct:description "Thunderstorm with unidentified precipitation"@en ;
-    reg:status "stable" ;
     skos:notation "RETSUP" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy precipitation of rain, drizzle and snow grains"@en ;
     dct:description "Heavy precipitation of rain, drizzle and snow grains"@en ;
-    reg:status "stable" ;
     skos:notation "+RADZSG" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "No significant change"@en ;
     dct:description "No significant change is expected to occur."@en ;
-    reg:status "stable" ;
     skos:notation "noSignificantChange" .
 

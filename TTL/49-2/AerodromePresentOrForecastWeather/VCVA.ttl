@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Volcanic ash in the vicinity"@en ;
     dct:description "Volcanic ash in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCVA" .
 

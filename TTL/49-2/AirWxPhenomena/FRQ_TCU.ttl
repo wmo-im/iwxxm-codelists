@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Frequent towering cumulus cloud"@en ;
     dct:description "Frequent towering cumulus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "FRQ_TCU" .
 

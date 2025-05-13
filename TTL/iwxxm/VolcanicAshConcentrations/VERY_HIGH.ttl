@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Greater than or equal to 10 mg/m3 - Very High"@en ;
     dct:description "Greater than or equal to 10 mg/m3 - Very High"@en ;
-    reg:status "stable" ;
     skos:notation "VERY_HIGH" .
 

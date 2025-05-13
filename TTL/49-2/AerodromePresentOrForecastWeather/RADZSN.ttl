@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of rain, drizzle and snow"@en ;
     dct:description "Precipitation of rain, drizzle and snow"@en ;
-    reg:status "stable" ;
     skos:notation "RADZSN" .
 

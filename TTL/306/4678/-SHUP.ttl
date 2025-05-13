@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light unidentified showery precipitation"@en ;
     dct:description "Light unidentified showery precipitation"@en ;
-    reg:status "stable" ;
     skos:notation "-SHUP" .
 

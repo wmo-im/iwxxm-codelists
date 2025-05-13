@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Well-developed funnel cloud(s) (tornado or waterspout)"@en ;
     dct:description "Well-developed funnel cloud(s) (tornado or waterspout)"@en ;
-    reg:status "stable" ;
     skos:notation "+FC" .
 

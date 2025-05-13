@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light showery precipitation of rain and snow"@en ;
     dct:description "Light showery precipitation of rain and snow"@en ;
-    reg:status "stable" ;
     skos:notation "-SHRASN" .
 

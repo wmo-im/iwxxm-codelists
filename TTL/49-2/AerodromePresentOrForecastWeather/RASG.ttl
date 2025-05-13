@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of rain and snow grains"@en ;
     dct:description "Precipitation of rain and snow grains"@en ;
-    reg:status "stable" ;
     skos:notation "RASG" .
 

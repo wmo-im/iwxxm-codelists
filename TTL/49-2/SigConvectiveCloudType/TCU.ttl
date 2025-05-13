@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Towering cumulus"@en ;
     dct:description "Towering cumulus"@en ;
-    reg:status "stable" ;
     skos:notation "TCU" .
 

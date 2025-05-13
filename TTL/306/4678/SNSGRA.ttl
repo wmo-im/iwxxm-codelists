@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of snow, snow grains and rain"@en ;
     dct:description "Precipitation of snow, snow grains and rain"@en ;
-    reg:status "stable" ;
     skos:notation "SNSGRA" .
 

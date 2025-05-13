@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Haze"@en ;
     dct:description "Haze"@en ;
-    reg:status "stable" ;
     skos:notation "HZ" .
 

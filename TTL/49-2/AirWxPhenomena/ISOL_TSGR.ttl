@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Isolated thunderstorms with hail"@en ;
     dct:description "Isolated thunderstorms with hail"@en ;
-    reg:status "stable" ;
     skos:notation "ISOL_TSGR" .
 

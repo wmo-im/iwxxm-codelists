@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Funnel cloud(s) (tornado or water-spout)"@en ;
     dct:description "Funnel cloud(s) (tornado or water-spout)"@en ;
-    reg:status "stable" ;
     skos:notation "REFC" .
 

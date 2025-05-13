@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Layers"@en ;
     dct:description "Layers. Applicable only to cumulonimbus (CB)."@en ;
-    reg:status "stable" ;
     skos:notation "LYR" .
 

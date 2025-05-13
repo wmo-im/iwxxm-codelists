@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Communications via satellite (propagation, absorption) - severe"@en ;
     dct:description "Communications via satellite (propagation, absorption) - severe"@en ;
-    reg:status "stable" ;
     skos:notation "SATCOM_SEV" .
 

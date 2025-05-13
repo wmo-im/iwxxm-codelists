@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Volcano"@en ;
     dct:description "Volcano"@en ;
-    reg:status "experimental" ;
     skos:notation "VOLCANO" .
 

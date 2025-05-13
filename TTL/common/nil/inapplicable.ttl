@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Inapplicable"@en ;
     dct:description "There is no value."@en ;
-    reg:status "stable" ;
     skos:notation "inapplicable" .
 

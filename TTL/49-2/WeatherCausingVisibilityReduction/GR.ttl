@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Hail"@en ;
     dct:description "Hail"@en ;
-    reg:status "stable" ;
     skos:notation "GR" .
 

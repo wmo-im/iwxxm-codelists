@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Sandstorm in the vicinity"@en ;
     dct:description "Sandstorm in the vicinity"@en ;
-    reg:status "stable" ;
     skos:notation "VCSS" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Moderate icing"@en ;
     dct:description "Moderate icing"@en ;
-    reg:status "stable" ;
     skos:notation "MOD_ICE" .
 

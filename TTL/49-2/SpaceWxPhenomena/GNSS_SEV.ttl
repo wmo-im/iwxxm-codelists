@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "GNSS-based navigation and surveillance (degradation) - severe"@en ;
     dct:description "GNSS-based navigation and surveillance (degradation) - severe"@en ;
-    reg:status "stable" ;
     skos:notation "GNSS_SEV" .
 

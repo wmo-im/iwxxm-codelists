@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Tropopause"@en ;
     dct:description "Tropopause"@en ;
-    reg:status "experimental" ;
     skos:notation "TROPOPAUSE" .
 

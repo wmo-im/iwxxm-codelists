@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Light precipitation of snow"@en ;
     dct:description "Light precipitation of snow"@en ;
-    reg:status "stable" ;
     skos:notation "-SN" .
 

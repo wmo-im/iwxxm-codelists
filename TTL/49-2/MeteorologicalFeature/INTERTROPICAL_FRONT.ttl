@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Intertropical front"@en ;
     dct:description "Intertropical front"@en ;
-    reg:status "experimental" ;
     skos:notation "INTERTROPICAL_FRONT" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of rain, snow and snow pellets/small hail"@en ;
     dct:description "Showery precipitation of rain, snow and snow pellets/small hail"@en ;
-    reg:status "stable" ;
     skos:notation "SHRASNGS" .
 

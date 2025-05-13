@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of freezing rain and drizzle"@en ;
     dct:description "Precipitation of freezing rain and drizzle"@en ;
-    reg:status "stable" ;
     skos:notation "FZRADZ" .
 

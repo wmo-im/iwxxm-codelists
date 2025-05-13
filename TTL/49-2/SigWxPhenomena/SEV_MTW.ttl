@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Severe mountain wave"@en ;
     dct:description "Severe mountain wave"@en ;
-    reg:status "stable" ;
     skos:notation "SEV_MTW" .
 

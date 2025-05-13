@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Convergence line"@en ;
     dct:description "Convergence line"@en ;
-    reg:status "experimental" ;
     skos:notation "CONVERGENCE_LINE" .
 

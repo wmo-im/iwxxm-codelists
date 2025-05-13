@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Few"@en ;
     dct:description "Few (1 - 2 oktas)."@en ;
-    reg:status "stable" ;
     skos:notation "FEW" .
 

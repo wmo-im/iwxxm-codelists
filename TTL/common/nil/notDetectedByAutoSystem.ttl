@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Nothing detected by automated system"@en ;
     dct:description "The automated observing system did not detect a value (e.g. no cloud detected NCD)."@en ;
-    reg:status "stable" ;
     skos:notation "notDetectedByAutoSystem" .
 

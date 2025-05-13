@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Showery precipitation of rain"@en ;
     dct:description "Showery precipitation of rain"@en ;
-    reg:status "stable" ;
     skos:notation "RESHRA" .
 

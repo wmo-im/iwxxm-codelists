@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Squall line"@en ;
     dct:description "Squall line"@en ;
-    reg:status "stable" ;
     skos:notation "SQL_TS" .
 

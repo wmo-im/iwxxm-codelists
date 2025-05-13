@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Patches of fog"@en ;
     dct:description "Patches of fog"@en ;
-    reg:status "stable" ;
     skos:notation "BCFG" .
 

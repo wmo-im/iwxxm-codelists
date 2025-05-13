@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Broken cloud"@en ;
     dct:description "Broken cloud"@en ;
-    reg:status "stable" ;
     skos:notation "BKN_CLD" .
 

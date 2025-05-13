@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Isolated towering cumulus cloud"@en ;
     dct:description "Isolated towering cumulus cloud"@en ;
-    reg:status "stable" ;
     skos:notation "ISOL_TCU" .
 

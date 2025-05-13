@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Atmospherics"@en ;
     dct:description "Atmospherics"@en ;
-    reg:status "experimental" ;
     skos:notation "ATMOSPHERICS" .
 

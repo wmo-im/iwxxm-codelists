@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Frequent thunderstorm"@en ;
     dct:description "Frequent thunderstorm"@en ;
-    reg:status "stable" ;
     skos:notation "FRQ_TS" .
 

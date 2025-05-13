@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Sandstorm"@en ;
     dct:description "Sandstorm"@en ;
-    reg:status "experimental" ;
     skos:notation "SANDSTORM" .
 

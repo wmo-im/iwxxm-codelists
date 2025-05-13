@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Fog"@en ;
     dct:description "Fog"@en ;
-    reg:status "stable" ;
     skos:notation "FG" .
 

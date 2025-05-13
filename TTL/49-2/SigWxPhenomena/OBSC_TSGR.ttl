@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Obscured thunderstorm with hail"@en ;
     dct:description "Obscured thunderstorm with hail"@en ;
-    reg:status "stable" ;
     skos:notation "OBSC_TSGR" .
 

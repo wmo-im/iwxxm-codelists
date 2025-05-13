@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Thunderstorm with light precipitation of rain, hail and snow"@en ;
     dct:description "Thunderstorm with light precipitation of rain, hail and snow"@en ;
-    reg:status "stable" ;
     skos:notation "-TSRAGRSN" .
 

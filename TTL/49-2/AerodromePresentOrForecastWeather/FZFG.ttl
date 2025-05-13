@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Freezing fog"@en ;
     dct:description "Freezing fog"@en ;
-    reg:status "stable" ;
     skos:notation "FZFG" .
 

@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Unknown"@en ;
     dct:description "The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists."@en ;
-    reg:status "stable" ;
     skos:notation "unknown" .
 

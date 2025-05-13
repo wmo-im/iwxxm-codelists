@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "HF communications (propagation, absorption) - moderate"@en ;
     dct:description "HF communications (propagation, absorption) - moderate"@en ;
-    reg:status "stable" ;
     skos:notation "HF_COM_MOD" .
 

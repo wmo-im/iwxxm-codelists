@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Radiation"@en ;
     dct:description "Radiation"@en ;
-    reg:status "experimental" ;
     skos:notation "RADIATION" .
 

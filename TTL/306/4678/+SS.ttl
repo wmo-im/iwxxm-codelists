@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy sandstorm"@en ;
     dct:description "Heavy sandstorm"@en ;
-    reg:status "stable" ;
     skos:notation "+SS" .
 

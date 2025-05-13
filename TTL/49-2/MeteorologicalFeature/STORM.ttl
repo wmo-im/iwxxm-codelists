@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Storm"@en ;
     dct:description "Storm"@en ;
-    reg:status "experimental" ;
     skos:notation "STORM" .
 

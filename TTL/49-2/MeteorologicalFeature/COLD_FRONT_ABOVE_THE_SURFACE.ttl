@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Cold front above the surface"@en ;
     dct:description "Cold front above the surface"@en ;
-    reg:status "experimental" ;
     skos:notation "COLD_FRONT_ABOVE_THE_SURFACE" .
 

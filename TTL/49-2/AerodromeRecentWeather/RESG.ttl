@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of snow grains"@en ;
     dct:description "Precipitation of snow grains"@en ;
-    reg:status "stable" ;
     skos:notation "RESG" .
 

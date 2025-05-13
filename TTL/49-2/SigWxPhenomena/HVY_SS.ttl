@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Heavy sand storm"@en ;
     dct:description "Heavy sand storm"@en ;
-    reg:status "stable" ;
     skos:notation "HVY_SS" .
 

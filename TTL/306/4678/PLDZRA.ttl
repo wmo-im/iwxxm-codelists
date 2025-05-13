@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Precipitation of ice pellets, drizzle and rain"@en ;
     dct:description "Precipitation of ice pellets, drizzle and rain"@en ;
-    reg:status "stable" ;
     skos:notation "PLDZRA" .
 

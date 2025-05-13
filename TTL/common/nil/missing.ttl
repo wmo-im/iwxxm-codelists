@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Missing"@en ;
     dct:description "The correct value is not readily available to the sender of this data. Furthermore, a correct value may not exist."@en ;
-    reg:status "stable" ;
     skos:notation "missing" .
 

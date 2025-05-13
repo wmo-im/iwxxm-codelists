@@ -9,6 +9,5 @@
         ldp:Container ;
     rdfs:label "Nil"@en ;
     dct:description "Nil"@en ;
-    reg:status "stable" ;
     skos:notation "NIL" .
 
