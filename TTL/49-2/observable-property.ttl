@@ -14,7 +14,7 @@
     dct:modified "2017-11-23T11:08:18.808000+00:00"^^xsd:dateTime ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
-    reg:status "experimental" ;
+    reg:status "stable" ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,
         <http://icao.int/iwxxm/2.1> ;
     skos:notation "observable-property" .

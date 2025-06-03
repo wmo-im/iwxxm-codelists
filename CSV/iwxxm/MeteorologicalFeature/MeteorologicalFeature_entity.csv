@@ -26,4 +26,4 @@ http://codes.wmo.int/iwxxm/MeteorologicalFeature/SANDSTORM,SANDSTORM,stable,Sand
 http://codes.wmo.int/iwxxm/MeteorologicalFeature/CLOUD,CLOUD,stable,Cloud,Cloud,http://codes.wmo.int/bufr4/codeflag/0-08-011/12,2021-2;2023-1;2025-2
 http://codes.wmo.int/iwxxm/MeteorologicalFeature/TROPOPAUSE,TROPOPAUSE,stable,Tropopause,Tropopause,,2021-2;2023-1;2025-2
 http://codes.wmo.int/iwxxm/MeteorologicalFeature/RADIATION,RADIATION,stable,Radiation,Radiation,,2021-2;2023-1;2025-2
-http://codes.wmo.int/iwxxm/MeteorologicalFeature/VOLCANIC_ASH,Volcanic_Ash,experimental,Volcanic Ash,Volcanic Ash,,2025-2
+http://codes.wmo.int/iwxxm/MeteorologicalFeature/VOLCANIC_ASH,VOLCANIC_ASH,experimental,Volcanic Ash,Volcanic Ash,,2025-2

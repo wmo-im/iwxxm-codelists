@@ -16,5 +16,6 @@
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
+    skos:altLabel "NOSIG"@en ;
     skos:notation "noSignificantChange" .
 

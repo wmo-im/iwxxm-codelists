@@ -95,7 +95,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -142,7 +142,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -196,7 +196,7 @@ def main():
                                 g.add((n_concept, RDF.type, SKOS.Concept))
                                 for l in list(record_entity):
                                     # Skipping some columns in the CSV file to make a minimal RDF file
-                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'iwxxmVersionInfo':
+                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'altLabel' and l != 'iwxxmVersionInfo':
                                         continue
                                     if l != 'id':
                                         if record_entity.iloc[k][l] != '' and not pandas.isna(record_entity.iloc[k][l]):
@@ -218,7 +218,7 @@ def main():
                                     g.add((n_register, RDF.type, REG.Register))
                                     for j in list(record):
                                         # Skipping some columns in the CSV file to make a minimal RDF file
-                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'modified' and j != 'iwxxmVersionInfo':
+                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'iwxxmVersionInfo':
                                             continue
                                         if j != 'id':
                                             if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):

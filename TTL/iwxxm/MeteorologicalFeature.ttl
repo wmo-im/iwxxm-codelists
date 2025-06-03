@@ -12,7 +12,7 @@
     rdfs:label "Meteorological Features"@en ;
     dct:description "The items within this code table are the weather phenomena being represented by a weather object."@en ;
     dct:modified "2021-07-15T00:00:00+00:00"^^xsd:dateTime ;
-    reg:status "experimental" ;
+    reg:status "stable" ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2> ;

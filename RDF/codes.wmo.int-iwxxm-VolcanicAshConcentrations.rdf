@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:ldp="http://www.w3.org/ns/ldp#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:reg="http://purl.org/linked-data/registry#"
 >
   <reg:Register rdf:about="http://codes.wmo.int/iwxxm/VolcanicAshConcentrations">
@@ -21,6 +21,7 @@
       <skos:Concept rdf:about="http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/MEDIUM_AND_POSSIBLY_HIGHER">
         <skos:notation>MEDIUM_AND_POSSIBLY_HIGHER</skos:notation>
         <dct:description xml:lang="en">Greater than or equal to 2 mg/m3 - Medium and possibly higher</dct:description>
+        <rdfs:label xml:lang="en">Greater than or equal to 2 mg/m3 - Medium and possibly higher</rdfs:label>
         <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
