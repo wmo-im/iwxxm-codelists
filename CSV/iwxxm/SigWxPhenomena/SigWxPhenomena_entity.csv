@@ -1,18 +1,18 @@
-id,notation,status,description,label,related
-http://codes.wmo.int/iwxxm/SigWxPhenomena/EMBD_TS,EMBD_TS,stable,Embedded thunderstorm,Embedded thunderstorm,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/EMBD_TSGR,EMBD_TSGR,stable,Embedded thunderstorm with hail,Embedded thunderstorm with hail,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/FRQ_TS,FRQ_TS,stable,Frequent thunderstorm,Frequent thunderstorm,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/FRQ_TSGR,FRQ_TSGR,stable,Frequent thunderstorm with hail,Frequent thunderstorm with hail,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/HVY_DS,HVY_DS,stable,Heavy dust storm,Heavy dust storm,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/HVY_SS,HVY_SS,stable,Heavy sand storm,Heavy sand storm,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/OBSC_TS,OBSC_TS,stable,Obscured thunderstorm,Obscured thunderstorm,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/OBSC_TSGR,OBSC_TSGR,stable,Obscured thunderstorm with hail,Obscured thunderstorm with hail,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/RDOACT_CLD,RDOACT_CLD,stable,Radioactive cloud,Radioactive cloud,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_ICE,SEV_ICE,stable,Severe airframe icing,Severe airframe icing,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_ICE_FZRA,SEV_ICE_FZRA,stable,Severe airframe icing from freezing rain,Severe airframe icing from freezing rain,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_MTW,SEV_MTW,stable,Severe mountain wave,Severe mountain wave,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_TURB,SEV_TURB,stable,Severe turbulence,Severe turbulence,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SQL_TS,SQL_TS,stable,Squall line,Squall line,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/SQL_TSGR,SQL_TSGR,stable,Squall line with hail,Squall line with hail,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/TC,TC,stable,Tropical cyclone,Tropical cyclone,
-http://codes.wmo.int/iwxxm/SigWxPhenomena/VA,VA,stable,Volcanic ash,Volcanic ash,
+id,notation,status,description,label,related,iwxxmVersionInfo
+http://codes.wmo.int/iwxxm/SigWxPhenomena/EMBD_TS,EMBD_TS,stable,Embedded thunderstorm,Embedded thunderstorm,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/EMBD_TSGR,EMBD_TSGR,stable,Embedded thunderstorm with hail,Embedded thunderstorm with hail,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/FRQ_TS,FRQ_TS,stable,Frequent thunderstorm,Frequent thunderstorm,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/FRQ_TSGR,FRQ_TSGR,stable,Frequent thunderstorm with hail,Frequent thunderstorm with hail,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/HVY_DS,HVY_DS,stable,Heavy dust storm,Heavy dust storm,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/HVY_SS,HVY_SS,stable,Heavy sand storm,Heavy sand storm,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/OBSC_TS,OBSC_TS,stable,Obscured thunderstorm,Obscured thunderstorm,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/OBSC_TSGR,OBSC_TSGR,stable,Obscured thunderstorm with hail,Obscured thunderstorm with hail,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/RDOACT_CLD,RDOACT_CLD,stable,Radioactive cloud,Radioactive cloud,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_ICE,SEV_ICE,stable,Severe airframe icing,Severe airframe icing,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_ICE_FZRA,SEV_ICE_FZRA,stable,Severe airframe icing from freezing rain,Severe airframe icing from freezing rain,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_MTW,SEV_MTW,stable,Severe mountain wave,Severe mountain wave,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SEV_TURB,SEV_TURB,stable,Severe turbulence,Severe turbulence,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SQL_TS,SQL_TS,stable,Squall line,Squall line,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/SQL_TSGR,SQL_TSGR,stable,Squall line with hail,Squall line with hail,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/TC,TC,stable,Tropical cyclone,Tropical cyclone,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/iwxxm/SigWxPhenomena/VA,VA,stable,Volcanic ash,Volcanic ash,,1.1;2.1;3.0;2021-2;2023-1;2025-2

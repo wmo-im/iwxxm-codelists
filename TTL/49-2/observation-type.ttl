@@ -14,6 +14,7 @@
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:status "stable" ;
-    owl:versionInfo 4 ;
+    owl:versionInfo <http://icao.int/iwxxm/1.1>,
+        <http://icao.int/iwxxm/2.1> ;
     skos:notation "observation-type" .
 

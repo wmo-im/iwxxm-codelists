@@ -15,6 +15,11 @@
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:status "stable" ;
-    owl:versionInfo 12 ;
+    owl:versionInfo <http://icao.int/iwxxm/1.1>,
+        <http://icao.int/iwxxm/2.1>,
+        <http://icao.int/iwxxm/2021-2>,
+        <http://icao.int/iwxxm/2023-1>,
+        <http://icao.int/iwxxm/2025-2>,
+        <http://icao.int/iwxxm/3.0> ;
     skos:notation "nil" .
 

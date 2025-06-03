@@ -4,6 +4,7 @@ import re
 import os
 import shutil
 import pandas
+import urllib.parse
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
 from rdflib.namespace import OWL, SKOS, RDFS, RDF, DC, XSD
 
@@ -34,7 +35,10 @@ dictionary = {'description':DCT.description,
               'owner':REG.owner,
               'source':DC.source,
               'publisher':DCT.publisher,
-              'subregister':REG.subregister}
+              'subregister':REG.subregister,
+              'iwxxmVersionInfo':OWL.versionInfo}
+
+IWXXMNameSpace= 'http://icao.int/iwxxm/'
 
 def clean(astr):
     if '"' in astr:
@@ -91,12 +95,15 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'modified' and j != 'versionInfo' and j != 'manager' and j != 'owner':
+                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                     if j == 'notation' or j == 'status':
                                         g.add((ref, dictionary[j], Literal(record.iloc[i][j])))
+                                    elif j == 'iwxxmVersionInfo':
+                                        for m in record.iloc[i][j].split(';'):
+                                            g.add((ref, dictionary[j], URIRef(urllib.parse.urljoin(IWXXMNameSpace, Literal(m.strip())))))
                                     elif re.match(r'^http://', record.astype(str).iloc[i][j]):
                                         g.add((ref, dictionary[j], URIRef(record.iloc[i][j])))
                                     elif re.match(r'^[0-9]+$', record.astype(str).iloc[i][j]):
@@ -135,12 +142,15 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label':
+                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                     if j == 'notation' or j == 'status':
                                         g.add((ref, dictionary[j], Literal(record.iloc[i][j])))
+                                    elif j == 'iwxxmVersionInfo':
+                                        for m in record.iloc[i][j].split(';'):
+                                            g.add((ref, dictionary[j], URIRef(urllib.parse.urljoin(IWXXMNameSpace, Literal(m.strip())))))
                                     elif re.match(r'^http://', record.astype(str).iloc[i][j]):
                                         g.add((ref, dictionary[j], URIRef(record.iloc[i][j])))
                                     elif re.match(r'^[0-9]+$', record.astype(str).iloc[i][j]):
@@ -186,12 +196,15 @@ def main():
                                 g.add((n_concept, RDF.type, SKOS.Concept))
                                 for l in list(record_entity):
                                     # Skipping some columns in the CSV file to make a minimal RDF file
-                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label':
+                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'iwxxmVersionInfo':
                                         continue
                                     if l != 'id':
                                         if record_entity.iloc[k][l] != '' and not pandas.isna(record_entity.iloc[k][l]):
                                             if l == 'notation' or l == 'status':
                                                 g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l])))
+                                            elif l == 'iwxxmVersionInfo':
+                                                for m in record_entity.iloc[k][l].split(';'):
+                                                    g.add((n_concept, dictionary[l], URIRef(urllib.parse.urljoin(IWXXMNameSpace, Literal(m.strip())))))
                                             elif re.match(r'^http://', record_entity.astype(str).iloc[k][l]):
                                                 g.add((n_concept, dictionary[l], URIRef(record_entity.iloc[k][l])))
                                             elif re.match(r'^[0-9]+$', record_entity.astype(str).iloc[k][l]):
@@ -205,12 +218,15 @@ def main():
                                     g.add((n_register, RDF.type, REG.Register))
                                     for j in list(record):
                                         # Skipping some columns in the CSV file to make a minimal RDF file
-                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'modified' and j != 'versionInfo':
+                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'modified' and j != 'iwxxmVersionInfo':
                                             continue
                                         if j != 'id':
                                             if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                                 if j == 'notation' or j == 'status':
                                                     g.add((n_register, dictionary[j], Literal(record.iloc[i][j])))
+                                                elif j == 'iwxxmVersionInfo':
+                                                    for m in record.iloc[i][j].split(';'):
+                                                        g.add((n_register, dictionary[j], URIRef(urllib.parse.urljoin(IWXXMNameSpace, Literal(m.strip())))))
                                                 elif re.match(r'^http://', record.astype(str).iloc[i][j]):
                                                     g.add((n_register, dictionary[j], URIRef(record.iloc[i][j])))
                                                 elif re.match(r'^[0-9]+$', record.astype(str).iloc[i][j]):

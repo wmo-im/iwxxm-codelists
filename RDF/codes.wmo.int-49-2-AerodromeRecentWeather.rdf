@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ldp="http://www.w3.org/ns/ldp#"
-  xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:reg="http://purl.org/linked-data/registry#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:reg="http://purl.org/linked-data/registry#"
 >
   <reg:Register rdf:about="http://codes.wmo.int/306/4678">
     <skos:member>
@@ -14,6 +14,12 @@
         <skos:notation>REBLSN</skos:notation>
         <dct:description xml:lang="en">Blowing snow</dct:description>
         <rdfs:label xml:lang="en">Blowing snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -21,6 +27,12 @@
         <skos:notation>REDS</skos:notation>
         <dct:description xml:lang="en">Duststorm</dct:description>
         <rdfs:label xml:lang="en">Duststorm</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -28,6 +40,12 @@
         <skos:notation>REDZ</skos:notation>
         <dct:description xml:lang="en">Precipitation of drizzle</dct:description>
         <rdfs:label xml:lang="en">Precipitation of drizzle</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -35,6 +53,12 @@
         <skos:notation>REFC</skos:notation>
         <dct:description xml:lang="en">Funnel cloud(s) (tornado or water-spout)</dct:description>
         <rdfs:label xml:lang="en">Funnel cloud(s) (tornado or water-spout)</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -42,6 +66,12 @@
         <skos:notation>REFZDZ</skos:notation>
         <dct:description xml:lang="en">Precipitation of freezing drizzle</dct:description>
         <rdfs:label xml:lang="en">Precipitation of freezing drizzle</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -49,6 +79,12 @@
         <skos:notation>REFZRA</skos:notation>
         <dct:description xml:lang="en">Precipitation of freezing rain</dct:description>
         <rdfs:label xml:lang="en">Precipitation of freezing rain</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -56,6 +92,12 @@
         <skos:notation>REFZUP</skos:notation>
         <dct:description xml:lang="en">Unidentified freezing precipitation</dct:description>
         <rdfs:label xml:lang="en">Unidentified freezing precipitation</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -63,6 +105,12 @@
         <skos:notation>REPL</skos:notation>
         <dct:description xml:lang="en">Precipitation of ice pellets</dct:description>
         <rdfs:label xml:lang="en">Precipitation of ice pellets</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -70,6 +118,12 @@
         <skos:notation>RERA</skos:notation>
         <dct:description xml:lang="en">Precipitation of rain</dct:description>
         <rdfs:label xml:lang="en">Precipitation of rain</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -77,6 +131,12 @@
         <skos:notation>RERASN</skos:notation>
         <dct:description xml:lang="en">Precipitation of rain and snow</dct:description>
         <rdfs:label xml:lang="en">Precipitation of rain and snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -84,6 +144,12 @@
         <skos:notation>RESG</skos:notation>
         <dct:description xml:lang="en">Precipitation of snow grains</dct:description>
         <rdfs:label xml:lang="en">Precipitation of snow grains</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -91,6 +157,12 @@
         <skos:notation>RESHGR</skos:notation>
         <dct:description xml:lang="en">Showery precipitation of hail</dct:description>
         <rdfs:label xml:lang="en">Showery precipitation of hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -98,6 +170,12 @@
         <skos:notation>RESHGS</skos:notation>
         <dct:description xml:lang="en">Showery precipitation of snow pellets/small hail</dct:description>
         <rdfs:label xml:lang="en">Showery precipitation of snow pellets/small hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -105,6 +183,12 @@
         <skos:notation>RESHRA</skos:notation>
         <dct:description xml:lang="en">Showery precipitation of rain</dct:description>
         <rdfs:label xml:lang="en">Showery precipitation of rain</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -112,6 +196,12 @@
         <skos:notation>RESHSN</skos:notation>
         <dct:description xml:lang="en">Showery precipitation of snow</dct:description>
         <rdfs:label xml:lang="en">Showery precipitation of snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -119,6 +209,12 @@
         <skos:notation>RESHUP</skos:notation>
         <dct:description xml:lang="en">Showery precipitation of unidentified precipitation</dct:description>
         <rdfs:label xml:lang="en">Showery precipitation of unidentified precipitation</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -126,6 +222,12 @@
         <skos:notation>RESN</skos:notation>
         <dct:description xml:lang="en">Precipitation of snow</dct:description>
         <rdfs:label xml:lang="en">Precipitation of snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -133,6 +235,12 @@
         <skos:notation>RESS</skos:notation>
         <dct:description xml:lang="en">Sandstorm</dct:description>
         <rdfs:label xml:lang="en">Sandstorm</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -140,6 +248,12 @@
         <skos:notation>RETS</skos:notation>
         <dct:description xml:lang="en">Thunderstorm</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -147,6 +261,12 @@
         <skos:notation>RETSGR</skos:notation>
         <dct:description xml:lang="en">Thunderstorm with precipitation of hail</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm with precipitation of hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -154,6 +274,12 @@
         <skos:notation>RETSGS</skos:notation>
         <dct:description xml:lang="en">Thunderstorm with precipitation of snow pellets/small hail</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm with precipitation of snow pellets/small hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -161,6 +287,12 @@
         <skos:notation>RETSRA</skos:notation>
         <dct:description xml:lang="en">Thunderstorm with precipitation of rain</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm with precipitation of rain</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -168,6 +300,12 @@
         <skos:notation>RETSSN</skos:notation>
         <dct:description xml:lang="en">Thunderstorm with precipitation of snow</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm with precipitation of snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -175,6 +313,12 @@
         <skos:notation>RETSUP</skos:notation>
         <dct:description xml:lang="en">Thunderstorm with unidentified precipitation</dct:description>
         <rdfs:label xml:lang="en">Thunderstorm with unidentified precipitation</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -182,6 +326,12 @@
         <skos:notation>REUP</skos:notation>
         <dct:description xml:lang="en">Unidentified precipitation</dct:description>
         <rdfs:label xml:lang="en">Unidentified precipitation</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -189,6 +339,12 @@
         <skos:notation>REVA</skos:notation>
         <dct:description xml:lang="en">Volcanic ash</dct:description>
         <rdfs:label xml:lang="en">Volcanic ash</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
@@ -197,7 +353,12 @@
     <dct:description xml:lang="en">The items within this code table are the weather types that may be reported within a meteorological aerodrome observation report that have occurred during the period since the last issued routine report or last hour, whichever is shorter, but are not observed at the time of the observation. Requirements for reporting recent weather at an aerodrome are specified in Technical Regulations, Volume II (WMO-No. 49), Part II, Appendix 3, [C.3.1.] 4.8.1.1.  This code table contains the set of weather types that are permitted for reporting recent weather. These are a subset of the enumerated set of meteorologically valid combinations specified in Part A, Code Table 4678 comprising elements ‘intensity or proximity’, ‘descriptor’, ‘precipitation’, ‘obscuration’ and/or ‘other’.</dct:description>
     <rdfs:label xml:lang="en">Code Table D-6: Aerodrome recent weather</rdfs:label>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-04T15:53:40.229000+00:00</dct:modified>
-    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:versionInfo>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/1.1"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
     <ldp:hasMemberRelation rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
   </reg:Register>
 </rdf:RDF>

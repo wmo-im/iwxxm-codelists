@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:reg="http://purl.org/linked-data/registry#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:reg="http://purl.org/linked-data/registry#"
 >
   <reg:Register rdf:about="http://codes.wmo.int/iwxxm/WeatherCausingVisibilityReduction">
     <skos:member>
@@ -14,6 +14,11 @@
         <skos:notation>BR</skos:notation>
         <dct:description xml:lang="en">Mist</dct:description>
         <rdfs:label xml:lang="en">Mist</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -21,6 +26,11 @@
         <skos:notation>DS</skos:notation>
         <dct:description xml:lang="en">Duststorm</dct:description>
         <rdfs:label xml:lang="en">Duststorm</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -28,6 +38,11 @@
         <skos:notation>DU</skos:notation>
         <dct:description xml:lang="en">Dust</dct:description>
         <rdfs:label xml:lang="en">Dust</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -35,6 +50,11 @@
         <skos:notation>DZ</skos:notation>
         <dct:description xml:lang="en">Drizzle</dct:description>
         <rdfs:label xml:lang="en">Drizzle</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -42,6 +62,11 @@
         <skos:notation>FC</skos:notation>
         <dct:description xml:lang="en">Funnel Cloud</dct:description>
         <rdfs:label xml:lang="en">Funnel Cloud</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -49,6 +74,11 @@
         <skos:notation>FG</skos:notation>
         <dct:description xml:lang="en">Fog</dct:description>
         <rdfs:label xml:lang="en">Fog</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -56,6 +86,11 @@
         <skos:notation>FU</skos:notation>
         <dct:description xml:lang="en">Smoke</dct:description>
         <rdfs:label xml:lang="en">Smoke</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -63,6 +98,11 @@
         <skos:notation>GR</skos:notation>
         <dct:description xml:lang="en">Hail</dct:description>
         <rdfs:label xml:lang="en">Hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -70,6 +110,11 @@
         <skos:notation>GS</skos:notation>
         <dct:description xml:lang="en">Small Hail</dct:description>
         <rdfs:label xml:lang="en">Small Hail</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -77,6 +122,11 @@
         <skos:notation>HZ</skos:notation>
         <dct:description xml:lang="en">Haze</dct:description>
         <rdfs:label xml:lang="en">Haze</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -84,6 +134,11 @@
         <skos:notation>PL</skos:notation>
         <dct:description xml:lang="en">Ice pellets</dct:description>
         <rdfs:label xml:lang="en">Ice pellets</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -91,6 +146,11 @@
         <skos:notation>PO</skos:notation>
         <dct:description xml:lang="en">Dust/stand whirls</dct:description>
         <rdfs:label xml:lang="en">Dust/stand whirls</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -98,6 +158,11 @@
         <skos:notation>RA</skos:notation>
         <dct:description xml:lang="en">Rain</dct:description>
         <rdfs:label xml:lang="en">Rain</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -105,6 +170,11 @@
         <skos:notation>SA</skos:notation>
         <dct:description xml:lang="en">Sand</dct:description>
         <rdfs:label xml:lang="en">Sand</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -112,6 +182,11 @@
         <skos:notation>SG</skos:notation>
         <dct:description xml:lang="en">Snow grams</dct:description>
         <rdfs:label xml:lang="en">Snow grams</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -119,6 +194,11 @@
         <skos:notation>SN</skos:notation>
         <dct:description xml:lang="en">Snow</dct:description>
         <rdfs:label xml:lang="en">Snow</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -126,6 +206,11 @@
         <skos:notation>SQ</skos:notation>
         <dct:description xml:lang="en">Squall</dct:description>
         <rdfs:label xml:lang="en">Squall</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -133,6 +218,11 @@
         <skos:notation>SS</skos:notation>
         <dct:description xml:lang="en">Sandstorm</dct:description>
         <rdfs:label xml:lang="en">Sandstorm</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <skos:member>
@@ -140,6 +230,11 @@
         <skos:notation>VA</skos:notation>
         <dct:description xml:lang="en">Volcanic Ash</dct:description>
         <rdfs:label xml:lang="en">Volcanic Ash</rdfs:label>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
     <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
@@ -148,7 +243,11 @@
     <dct:description xml:lang="en">ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS</dct:description>
     <rdfs:label xml:lang="en">Weather Causing Visibility Reduction</rdfs:label>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-30T13:26:25.950000+00:00</dct:modified>
-    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</owl:versionInfo>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2.1"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/3.0"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2021-2"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2023-1"/>
+    <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
     <ldp:hasMemberRelation rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
   </reg:Register>
 </rdf:RDF>

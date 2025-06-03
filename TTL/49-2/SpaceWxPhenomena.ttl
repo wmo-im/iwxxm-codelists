@@ -13,6 +13,8 @@
     dct:description "The items within this code table are the types of space weather phenomena of significance to aeronautical operations"@en ;
     dct:modified "2019-03-20T16:54:58.099000+00:00"^^xsd:dateTime ;
     reg:status "stable" ;
-    owl:versionInfo 1 ;
+    owl:versionInfo <http://icao.int/iwxxm/2021-2>,
+        <http://icao.int/iwxxm/2023-1>,
+        <http://icao.int/iwxxm/3.0> ;
     skos:notation "SpaceWxPhenomena" .
 

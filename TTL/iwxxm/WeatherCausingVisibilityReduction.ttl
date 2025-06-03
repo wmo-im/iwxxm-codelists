@@ -13,6 +13,10 @@
     dct:description "ICAO Annex 3/ WMO No. 49-2 Appendix 6 Section 2.1 under SFC VIS"@en ;
     dct:modified "2016-12-30T13:26:25.950000+00:00"^^xsd:dateTime ;
     reg:status "stable" ;
-    owl:versionInfo 1e+00 ;
+    owl:versionInfo <http://icao.int/iwxxm/2.1>,
+        <http://icao.int/iwxxm/2021-2>,
+        <http://icao.int/iwxxm/2023-1>,
+        <http://icao.int/iwxxm/2025-2>,
+        <http://icao.int/iwxxm/3.0> ;
     skos:notation "WeatherCausingVisibilityReduction" .
 
