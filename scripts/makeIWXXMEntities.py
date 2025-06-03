@@ -34,6 +34,7 @@ dictionary = {'description':DCT.description,
               'manager':REG.manager,
               'owner':REG.owner,
               'source':DC.source,
+              'note':SKOS.note,
               'publisher':DCT.publisher,
               'subregister':REG.subregister,
               'iwxxmVersionInfo':OWL.versionInfo}
@@ -95,7 +96,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -142,7 +143,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -196,7 +197,7 @@ def main():
                                 g.add((n_concept, RDF.type, SKOS.Concept))
                                 for l in list(record_entity):
                                     # Skipping some columns in the CSV file to make a minimal RDF file
-                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'altLabel' and l != 'iwxxmVersionInfo':
+                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'altLabel' and l != 'note' and l != 'iwxxmVersionInfo':
                                         continue
                                     if l != 'id':
                                         if record_entity.iloc[k][l] != '' and not pandas.isna(record_entity.iloc[k][l]):
@@ -208,9 +209,9 @@ def main():
                                             elif re.match(r'^http://', record_entity.astype(str).iloc[k][l]):
                                                 g.add((n_concept, dictionary[l], URIRef(record_entity.iloc[k][l])))
                                             elif re.match(r'^[0-9]+$', record_entity.astype(str).iloc[k][l]):
-                                                g.add((n_concept, dictionary[j], Literal(record_entity.iloc[k][l], datatype=XSD.integer)))
+                                                g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l], datatype=XSD.integer)))
                                             elif re.match(r'^(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))$', record_entity.astype(str).iloc[k][l]):
-                                                g.add((n_concept, dictionary[j], Literal(record_entity.iloc[k][l], datatype=XSD.dateTime)))
+                                                g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l], datatype=XSD.dateTime)))
                                             else:
                                                 g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l], lang="en")))
                                     n_register = URIRef(os.path.dirname(record_entity.iloc[k]['id']))
@@ -218,7 +219,7 @@ def main():
                                     g.add((n_register, RDF.type, REG.Register))
                                     for j in list(record):
                                         # Skipping some columns in the CSV file to make a minimal RDF file
-                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'iwxxmVersionInfo':
+                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'note' and j != 'iwxxmVersionInfo':
                                             continue
                                         if j != 'id':
                                             if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):

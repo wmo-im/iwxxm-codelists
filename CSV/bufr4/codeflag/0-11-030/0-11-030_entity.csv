@@ -1,0 +1,26 @@
+id,notation,status,description,label,note,iwxxmVersionInfo
+http://codes.wmo.int/bufr4/codeflag/0-11-030/0,0,stable,Nil,0,in cloud,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/1,1,stable,Light,1,in cloud,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/2,2,stable,Moderate,2,in cloud,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/3,3,stable,Severe,3,in cloud,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/4,4,stable,Nil,4,in clear air,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/5,5,stable,Light,5,in clear air,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/6,6,stable,Moderate,6,in clear air,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/7,7,stable,Severe,7,in clear air,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/8,8,stable,Nil,8,cloud/clear air not specified,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/9,9,stable,Light,9,cloud/clear air not specified,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/10,10,stable,Moderate,10,cloud/clear air not specified,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/11,11,stable,Severe,11,cloud/clear air not specified,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/12,12,stable,"Extreme, in clear air",12,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/13,13,stable,"Extreme, in cloud",13,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/14,14,stable,"Extreme, cloud/clear air not specified",14,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/15,15,stable,"Light, isolated moderate",15,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/16,16,stable,"Light, occasional moderate",16,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/17,17,stable,"Light, frequently moderate",17,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/18,18,stable,"Moderate, isolated severe",18,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/19,19,stable,"Moderate, occasional severe",19,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/20,20,stable,"Moderate, frequently severe",20,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/21,21,stable,"Severe, isolated extreme",21,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/22,22,stable,"Severe, occasional extreme",22,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/23,23,stable,"Severe, frequently extreme",23,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+http://codes.wmo.int/bufr4/codeflag/0-11-030/63,63,stable,Missing value,63,,1.1;2.1;3.0;2021-2;2023-1;2025-2
