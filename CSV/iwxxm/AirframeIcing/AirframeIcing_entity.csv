@@ -1,0 +1,15 @@
+id,notation,status,description,label,related,iwxxmVersionInfo
+http://codes.wmo.int/iwxxm/AirframeIcing/0,0,experimental,No icing,0,http://codes.wmo.int/bufr4/codeflag/0-20-041/0,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/1,1,experimental,Light icing,1,http://codes.wmo.int/bufr4/codeflag/0-20-041/1,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/2,2,experimental,Light icing in cloud,2,http://codes.wmo.int/bufr4/codeflag/0-20-041/2,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/3,3,experimental,Light icing in precipitation,3,http://codes.wmo.int/bufr4/codeflag/0-20-041/3,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/4,4,experimental,Moderate icing,4,http://codes.wmo.int/bufr4/codeflag/0-20-041/4,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/5,5,experimental,Moderate icing in cloud,5,http://codes.wmo.int/bufr4/codeflag/0-20-041/5,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/6,6,experimental,Moderate icing in precipitation,6,http://codes.wmo.int/bufr4/codeflag/0-20-041/6,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/7,7,experimental,Severe icing,7,http://codes.wmo.int/bufr4/codeflag/0-20-041/7,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/8,8,experimental,Severe icing in cloud,8,http://codes.wmo.int/bufr4/codeflag/0-20-041/8,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/9,9,experimental,Severe icing in precipitation,9,http://codes.wmo.int/bufr4/codeflag/0-20-041/9,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/10,10,experimental,Trace of icing,10,http://codes.wmo.int/bufr4/codeflag/0-20-041/10,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/11,11,experimental,Trace of icing in cloud,11,http://codes.wmo.int/bufr4/codeflag/0-20-041/11,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/12,12,experimental,Trace of icing in precipitation,12,http://codes.wmo.int/bufr4/codeflag/0-20-041/12,2025-2
+http://codes.wmo.int/iwxxm/AirframeIcing/15,15,experimental,Missing value,15,http://codes.wmo.int/bufr4/codeflag/0-20-041/15,2025-2

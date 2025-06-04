@@ -1,0 +1,12 @@
+id,notation,status,description,label,note,related,iwxxmVersionInfo
+http://codes.wmo.int/iwxxm/StateOfTheSea/0,0,stable,Calm (glassy),0,0,http://codes.wmo.int/bufr4/codeflag/0-22-061/0,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/1,1,stable,Calm (rippled),1,0 - 0.1,http://codes.wmo.int/bufr4/codeflag/0-22-061/1,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/2,2,stable,Smooth (wavelets),2,0.1 - 0.5,http://codes.wmo.int/bufr4/codeflag/0-22-061/2,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/3,3,stable,Slight,3,0.5 - 1.25,http://codes.wmo.int/bufr4/codeflag/0-22-061/3,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/4,4,stable,Moderate,4,1.25 - 2.5,http://codes.wmo.int/bufr4/codeflag/0-22-061/4,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/5,5,stable,Rough,5,2.5 - 4,http://codes.wmo.int/bufr4/codeflag/0-22-061/5,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/6,6,stable,Very rough,6,4 - 6,http://codes.wmo.int/bufr4/codeflag/0-22-061/6,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/7,7,stable,High,7,6 - 9,http://codes.wmo.int/bufr4/codeflag/0-22-061/7,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/8,8,stable,Very high,8,9 - 14,http://codes.wmo.int/bufr4/codeflag/0-22-061/8,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/9,9,stable,Phenomenal,9,Over 14,http://codes.wmo.int/bufr4/codeflag/0-22-061/9,2025-2
+http://codes.wmo.int/iwxxm/StateOfTheSea/15,15,stable,Missing value,15,,http://codes.wmo.int/bufr4/codeflag/0-22-061/15,2025-2

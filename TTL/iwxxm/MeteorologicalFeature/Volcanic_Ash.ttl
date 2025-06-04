@@ -11,5 +11,5 @@
     rdfs:label "Volcanic Ash"@en ;
     dct:description "Volcanic Ash"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
-    skos:notation "Volcanic_Ash" .
+    skos:notation "VOLCANIC_ASH" .
 

@@ -1,0 +1,19 @@
+id,notation,status,description,label,note,related,iwxxmVersionInfo
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/0,0,experimental,Sky clear,0,,http://codes.wmo.int/bufr4/codeflag/0-20-008/0,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/1,1,experimental,Few,1,,http://codes.wmo.int/bufr4/codeflag/0-20-008/1,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/2,2,experimental,Scattered,2,,http://codes.wmo.int/bufr4/codeflag/0-20-008/2,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/3,3,experimental,Broken,3,,http://codes.wmo.int/bufr4/codeflag/0-20-008/3,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/4,4,experimental,Overcast,4,,http://codes.wmo.int/bufr4/codeflag/0-20-008/4,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/6,6,experimental,Scattered/broken,6,(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s)),http://codes.wmo.int/bufr4/codeflag/0-20-008/6,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/7,7,experimental,Broken/overcast,7,(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s)),http://codes.wmo.int/bufr4/codeflag/0-20-008/7,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/8,8,experimental,Isolated,8,(Used on aviation charts to describe the cloud type Cb),http://codes.wmo.int/bufr4/codeflag/0-20-008/8,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/9,9,experimental,Isolated embedded,9,(Used on aviation charts to describe the cloud type Cb),http://codes.wmo.int/bufr4/codeflag/0-20-008/9,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/10,10,experimental,Occasional,10,(Used on aviation charts to describe the cloud type Cb),http://codes.wmo.int/bufr4/codeflag/0-20-008/10,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/11,11,experimental,Occasional embedded,11,(Used on aviation charts to describe the cloud type Cb),http://codes.wmo.int/bufr4/codeflag/0-20-008/11,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/12,12,experimental,Frequent,12,(Used on aviation charts to describe the cloud type Cb),http://codes.wmo.int/bufr4/codeflag/0-20-008/12,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/13,13,experimental,Dense,13,(Used on aviation charts to describe cloud that would cause sudden changes in visibility (less than 1 000 m)),http://codes.wmo.int/bufr4/codeflag/0-20-008/13,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/14,14,experimental,Layers,14,,http://codes.wmo.int/bufr4/codeflag/0-20-008/14,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/15,15,experimental,Obscured (OBSC),15,,http://codes.wmo.int/bufr4/codeflag/0-20-008/15,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/16,16,experimental,Embedded (EMBD),16,,http://codes.wmo.int/bufr4/codeflag/0-20-008/16,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/17,17,experimental,Frequent embedded,17,,http://codes.wmo.int/bufr4/codeflag/0-20-008/17,2025-2
+http://codes.wmo.int/iwxxm/CloudDistributionForAviation/31,31,experimental,Missing value,31,,http://codes.wmo.int/bufr4/codeflag/0-20-008/31,2025-2
