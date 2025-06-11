@@ -1,29 +1,29 @@
-id,notation,status,description,label,related,iwxxmVersionInfo
-http://codes.wmo.int/49-2/MeteorologicalFeature/DUSTSTORM,DUSTSTORM,stable,Duststorm,Duststorm,http://codes.wmo.int/bufr4/codeflag/0-08-011/24,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/CONVERGENCE_LINE,CONVERGENCE_LINE,stable,Convergence line,Convergence line,http://codes.wmo.int/bufr4/codeflag/0-08-011/9,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_AT_THE_SURFACE,QUASI-STATIONARY_FRONT_AT_THE_SURFACE,stable,Quasi-stationary front at the surface,Quasi-stationary front at the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/0,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/JETSTREAM,JETSTREAM,stable,Jet stream,Jet stream,http://codes.wmo.int/bufr4/codeflag/0-08-011/10,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/THUNDERSTORM,THUNDERSTORM,stable,Thunderstorm,Thunderstorm,http://codes.wmo.int/bufr4/codeflag/0-08-011/21,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/ATMOSPHERICS,ATMOSPHERICS,stable,Atmospherics,Atmospherics,http://codes.wmo.int/bufr4/codeflag/0-08-011/18,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANO,VOLCANO,stable,Volcano,Volcano,http://codes.wmo.int/bufr4/codeflag/0-08-011/17,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/TROPICAL_CYCLONE,TROPICAL_CYCLONE,stable,Tropical cyclone,Tropical cyclone,http://codes.wmo.int/bufr4/codeflag/0-08-011/22,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/INSTABILITY_LINE,INSTABILITY_LINE,stable,Instability line,Instability line,http://codes.wmo.int/bufr4/codeflag/0-08-011/7,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/SPECIAL_CLOUDS,SPECIAL_CLOUDS,stable,Special clouds,Special clouds,http://codes.wmo.int/bufr4/codeflag/0-08-011/20,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_ABOVE_THE_SURFACE,COLD_FRONT_ABOVE_THE_SURFACE,stable,Cold front above the surface,Cold front above the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/5,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/OCCLUSION,OCCLUSION,stable,Occlusion,Occlusion,http://codes.wmo.int/bufr4/codeflag/0-08-011/6,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/AIRFRAME_ICING,AIRFRAME_ICING,stable,Airframe icing,Airframe icing,http://codes.wmo.int/bufr4/codeflag/0-08-011/15,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/INTERTROPICAL_FRONT,INTERTROPICAL_FRONT,stable,Intertropical front,Intertropical front,http://codes.wmo.int/bufr4/codeflag/0-08-011/8,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/TURBULENCE,TURBULENCE,stable,Turbulence,Turbulence,http://codes.wmo.int/bufr4/codeflag/0-08-011/13,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/PHENOMENON,PHENOMENON,stable,Phenomenon,Phenomenon,http://codes.wmo.int/bufr4/codeflag/0-08-011/16,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_ABOVE_THE_SURFACE,WARM_FRONT_ABOVE_THE_SURFACE,stable,Warm front above the surface,Warm front above the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/3,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE,QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE,stable,Quasi-stationary front above the surface,Quasi-stationary front above the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/1,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/MOUNTAIN_WAVE,MOUNTAIN_WAVE,stable,Mountain wave,Mountain wave,http://codes.wmo.int/bufr4/codeflag/0-08-011/23,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_AT_THE_SURFACE,WARM_FRONT_AT_THE_SURFACE,stable,Warm front at the surface,Warm front at the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/2,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD_CLEAR,CLOUD_CLEAR,stable,Cloud clear,Cloud clear,http://codes.wmo.int/bufr4/codeflag/0-08-011/11,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_AT_THE_SURFACE,COLD_FRONT_AT_THE_SURFACE,stable,Cold front at the surface,Cold front at the surface,http://codes.wmo.int/bufr4/codeflag/0-08-011/4,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/STORM,STORM,stable,Storm,Storm,http://codes.wmo.int/bufr4/codeflag/0-08-011/14,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/SANDSTORM,SANDSTORM,stable,Sandstorm,Sandstorm,http://codes.wmo.int/bufr4/codeflag/0-08-011/25,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD,CLOUD,stable,Cloud,Cloud,http://codes.wmo.int/bufr4/codeflag/0-08-011/12,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/TROPOPAUSE,TROPOPAUSE,stable,Tropopause,Tropopause,,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/RADIATION,RADIATION,stable,Radiation,Radiation,,2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANIC_ASH,VOLCANIC_ASH,experimental,Volcanic Ash,Volcanic Ash,,2025-2
+id,notation,status,description,label,altLabel,source,seeAlso,related,note,iwxxmVersionInfo
+http://codes.wmo.int/49-2/MeteorologicalFeature/DUSTSTORM,DUSTSTORM,stable,Duststorm,Duststorm,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/24,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/CONVERGENCE_LINE,CONVERGENCE_LINE,stable,Convergence line,Convergence line,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/9,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_AT_THE_SURFACE,QUASI-STATIONARY_FRONT_AT_THE_SURFACE,stable,Quasi-stationary front at the surface,Quasi-stationary front at the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/0,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/JETSTREAM,JETSTREAM,stable,Jet stream,Jet stream,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/10,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/THUNDERSTORM,THUNDERSTORM,stable,Thunderstorm,Thunderstorm,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/21,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/ATMOSPHERICS,ATMOSPHERICS,stable,Atmospherics,Atmospherics,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/18,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANO,VOLCANO,stable,Volcano,Volcano,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/17,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/TROPICAL_CYCLONE,TROPICAL_CYCLONE,stable,Tropical cyclone,Tropical cyclone,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/22,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/INSTABILITY_LINE,INSTABILITY_LINE,stable,Instability line,Instability line,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/7,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/SPECIAL_CLOUDS,SPECIAL_CLOUDS,stable,Special clouds,Special clouds,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/20,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_ABOVE_THE_SURFACE,COLD_FRONT_ABOVE_THE_SURFACE,stable,Cold front above the surface,Cold front above the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/5,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/OCCLUSION,OCCLUSION,stable,Occlusion,Occlusion,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/6,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/AIRFRAME_ICING,AIRFRAME_ICING,stable,Airframe icing,Airframe icing,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/15,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/INTERTROPICAL_FRONT,INTERTROPICAL_FRONT,stable,Intertropical front,Intertropical front,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/8,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/TURBULENCE,TURBULENCE,stable,Turbulence,Turbulence,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/13,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/PHENOMENON,PHENOMENON,stable,Phenomenon,Phenomenon,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/16,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_ABOVE_THE_SURFACE,WARM_FRONT_ABOVE_THE_SURFACE,stable,Warm front above the surface,Warm front above the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/3,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE,QUASI-STATIONARY_FRONT_ABOVE_THE_SURFACE,stable,Quasi-stationary front above the surface,Quasi-stationary front above the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/1,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/MOUNTAIN_WAVE,MOUNTAIN_WAVE,stable,Mountain wave,Mountain wave,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/23,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/WARM_FRONT_AT_THE_SURFACE,WARM_FRONT_AT_THE_SURFACE,stable,Warm front at the surface,Warm front at the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/2,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD_CLEAR,CLOUD_CLEAR,stable,Cloud clear,Cloud clear,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/11,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/COLD_FRONT_AT_THE_SURFACE,COLD_FRONT_AT_THE_SURFACE,stable,Cold front at the surface,Cold front at the surface,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/4,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/STORM,STORM,stable,Storm,Storm,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/14,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/SANDSTORM,SANDSTORM,stable,Sandstorm,Sandstorm,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/25,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/CLOUD,CLOUD,stable,Cloud,Cloud,,,,http://codes.wmo.int/bufr4/codeflag/0-08-011/12,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/TROPOPAUSE,TROPOPAUSE,stable,Tropopause,Tropopause,,,,,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/RADIATION,RADIATION,stable,Radiation,Radiation,,,,,,2021-2;2023-1;2025-2
+http://codes.wmo.int/49-2/MeteorologicalFeature/VOLCANIC_ASH,VOLCANIC_ASH,experimental,Volcanic Ash,Volcanic Ash,,,,,,2025-2

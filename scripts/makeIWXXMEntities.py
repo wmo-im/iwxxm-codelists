@@ -84,6 +84,11 @@ def main():
             record = pandas.read_csv(os.path.join(root_csv, '{}_container.csv'.format(os.path.basename(root_csv))), encoding = 'utf-8')
             for i in range(record.shape[0]):
                 if record.iloc[i]['notation'] != '' and not pandas.isna(record.iloc[i]['notation']):
+
+                    # Skip obsoleted tables 'observable-property' and 'observation-type'
+                    if record.iloc[i]['notation'] == 'observable-property' or record.iloc[i]['notation'] == 'observation-type':
+                        continue
+
                     with open(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as ttlf:
                         print('Creating {}'.format(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation']))))
                         g = Graph()
@@ -96,7 +101,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'manager' and j != 'owner' and j != 'note' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'source' and j != 'seeAlso' and j != 'publisher' and j != 'manager' and j != 'owner' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -143,7 +148,7 @@ def main():
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'note' and j != 'iwxxmVersionInfo':
+                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'id':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
