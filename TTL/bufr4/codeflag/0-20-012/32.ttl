@@ -1,14 +1,11 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://codes.wmo.int/bufr4/codeflag/0-20-012/32> a reg:Register,
-        skos:Collection,
-        ldp:Container ;
+<http://codes.wmo.int/bufr4/codeflag/0-20-012/32> a skos:Concept ;
     rdfs:label 32 ;
     dct:description "Cumulus mediocris or congestus, Towering cumulus (TCU), with or without Cumulus of species fractus or humilis or Stratocumulus, all having their bases at the same level"@en ;
     reg:status "stable" ;

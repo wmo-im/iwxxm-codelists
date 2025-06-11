@@ -143,9 +143,7 @@ def main():
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         ref = URIRef(record.iloc[i]['id'])
-                        g.add((ref, RDF.type, SKOS.Collection))
-                        g.add((ref, RDF.type, REG.Register))
-                        g.add((ref, RDF.type, LDP.Container))
+                        g.add((ref, RDF.type, SKOS.Concept))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
                             if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
