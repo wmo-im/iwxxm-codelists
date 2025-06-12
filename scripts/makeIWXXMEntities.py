@@ -187,7 +187,7 @@ def main():
                         continue
 
                     record_entity = pandas.read_csv(os.path.join(root_csv, '{0}/{1}_entity.csv'.format(record.iloc[i]['notation'], record.iloc[i]['notation'])), encoding = 'utf-8')
-                    with open(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.basename(root_csv), record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as rdff:
+                    with open(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.relpath(root_csv, os.path.join(root_path, 'CSV')).replace(os.path.sep, '-'), record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as rdff:
                         print('Creating {}'.format(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.basename(root_csv), record.iloc[i]['notation']))))
                         g = Graph()
                         g.bind("dct", DCT)
