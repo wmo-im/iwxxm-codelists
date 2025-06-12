@@ -4,10 +4,10 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/VERY_HIGH> a skos:Concept ;
-    rdfs:label "Greater than or equal to 10 mg/m3 - Very High"@en ;
-    dct:description "Greater than or equal to 10 mg/m3 - Very High"@en ;
+<http://codes.wmo.int/iwxxm/VolcanicAshConcentrations/2> a skos:Concept ;
+    rdfs:label "Greater than or equal to 2 mg/m3"@en ;
+    dct:description "Greater than or equal to 2 mg/m3"@en ;
     reg:status "experimental" ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
-    skos:notation "VERY_HIGH" .
+    skos:notation "2" .
 
