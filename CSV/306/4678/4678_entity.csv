@@ -1,403 +1,403 @@
-id,notation,status,description,label,altLabel,source,seeAlso,related,note,iwxxmVersionInfo
-http://codes.wmo.int/306/4678/+DS,+DS,stable,Heavy duststorm,Heavy duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZ,+DZ,stable,Heavy precipitation of drizzle,Heavy precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZPL,+DZPL,stable,Heavy precipitation of drizzle and ice pellets,Heavy precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZPLRA,+DZPLRA,stable,"Heavy precipitation of drizzle, ice pellets and rain","Heavy precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZRA,+DZRA,stable,Heavy precipitation of drizzle and rain,Heavy precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZRAPL,+DZRAPL,stable,"Heavy precipitation of drizzle, rain and ice pellets","Heavy precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZRASG,+DZRASG,stable,"Heavy precipitation of drizzle, rain and snow grains","Heavy precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZRASN,+DZRASN,stable,"Heavy precipitation of drizzle, rain and snow","Heavy precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZSG,+DZSG,stable,Heavy precipitation of drizzle and snow grains,Heavy precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZSGRA,+DZSGRA,stable,"Heavy precipitation of drizzle, snow grains and rain","Heavy precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZSN,+DZSN,stable,Heavy precipitation of drizzle and snow,Heavy precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+DZSNRA,+DZSNRA,stable,"Heavy precipitation of drizzle, snow and rain","Heavy precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FC,+FC,stable,Well-developed funnel cloud(s) (tornado or waterspout),Well-developed funnel cloud(s) (tornado or waterspout),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FZDZ,+FZDZ,stable,Heavy precipitation of freezing drizzle,Heavy precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FZDZRA,+FZDZRA,stable,Heavy precipitation of freezing drizzle and rain,Heavy precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FZRA,+FZRA,stable,Heavy precipitation of freezng rain,Heavy precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FZRADZ,+FZRADZ,stable,Heavy precipitation of freezing rain and drizzle,Heavy precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+FZUP,+FZUP,stable,Heavy unidentified freezing precipitation,Heavy unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PL,+PL,stable,Heavy precipitation of ice pellets,Heavy precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLDZ,+PLDZ,stable,Heavy precipitation of ice pellets and drizzle,Heavy precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLDZRA,+PLDZRA,stable,"Heavy precipitation of ice pellets, drizzle and rain","Heavy precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLRA,+PLRA,stable,Heavy precipitation of ice pellets and rain,Heavy precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLRADZ,+PLRADZ,stable,"Heavy precipitation of ice pellets, rain and drizzle","Heavy precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLRASN,+PLRASN,stable,"Heavy precipitation of ice pellets, rain and snow","Heavy precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLSG,+PLSG,stable,Heavy precipitation of ice pellets and snow grains,Heavy precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLSGSN,+PLSGSN,stable,"Heavy precipitation of ice pellets, snow grains and snow","Heavy precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLSN,+PLSN,stable,Heavy precipitation of ice pellets and snow,Heavy precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLSNRA,+PLSNRA,stable,"Heavy precipitation of ice pellets, snow and rain","Heavy precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+PLSNSG,+PLSNSG,stable,"Heavy precipitation of ice pellets, snow and snow grains","Heavy precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RA,+RA,stable,Heavy precipitation of rain,Heavy precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RADZ,+RADZ,stable,Heavy precipitation of rain and drizzle,Heavy precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RADZPL,+RADZPL,stable,"Heavy precipitation of rain, drizzle and ice pellets","Heavy precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RADZSG,+RADZSG,stable,"Heavy precipitation of rain, drizzle and snow grains","Heavy precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RADZSN,+RADZSN,stable,"Heavy precipitation of rain, drizzle and snow","Heavy precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RAPL,+RAPL,stable,Heavy precipitation of rain and ice pellets,Heavy precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RAPLDZ,+RAPLDZ,stable,"Heavy precipitation of rain, ice pellets and drizzle","Heavy precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RAPLSN,+RAPLSN,stable,"Heavy precipitation of rain, ice pellets and snow","Heavy precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASG,+RASG,stable,Heavy precipitation of rain and snow grains,Heavy precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASGDZ,+RASGDZ,stable,"Heavy precipitation of rain, snow grains and drizzle","Heavy precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASGSN,+RASGSN,stable,"Heavy precipitation of rain, snow grains and snow","Heavy precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASN,+RASN,stable,Heavy precipitation of rain and snow,Heavy precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASNDZ,+RASNDZ,stable,"Heavy precipitation of rain, snow and drizzle","Heavy precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASNPL,+RASNPL,stable,"Heavy precipitation of rain, snow and ice pellets","Heavy precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+RASNSG,+RASNSG,stable,"Heavy precipitation of rain, snow and snow grains","Heavy precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SG,+SG,stable,Heavy precipitation of snow grains,Heavy precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGDZ,+SGDZ,stable,Heavy precipitation of snow grains and drizzle,Heavy precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGDZRA,+SGDZRA,stable,"Heavy precipitation of snow grains, drizzle and rain","Heavy precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGPL,+SGPL,stable,Heavy precipitation of snow grains and ice pellets,Heavy precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGPLSN,+SGPLSN,stable,"Heavy precipitation of snow grains, ice pellets and snow","Heavy precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGRA,+SGRA,stable,Heavy precipitation of snow grains and rain,Heavy precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGRADZ,+SGRADZ,stable,"Heavy precipitation of snow grains, rain and drizzle","Heavy precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGRASN,+SGRASN,stable,"Heavy precipitation of snow grains, rain and snow","Heavy precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGSN,+SGSN,stable,Heavy precipitation of snow grains and snow,Heavy precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGSNPL,+SGSNPL,stable,"Heavy precipitation of snow grains, snow and ice pellets","Heavy precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SGSNRA,+SGSNRA,stable,"Heavy precipitation of snow grains, snow and rain","Heavy precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGR,+SHGR,stable,Heavy showery precipitation of hail,Heavy showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGRRA,+SHGRRA,stable,Heavy showery precipitation of hail and rain,Heavy showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGRRASN,+SHGRRASN,stable,"Heavy showery precipitation of hail, rain and snow","Heavy showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGRSN,+SHGRSN,stable,Heavy showery precipitation of hail and snow,Heavy showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGRSNRA,+SHGRSNRA,stable,"Heavy showery precipitation of hail, snow and rain","Heavy showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGS,+SHGS,stable,Heavy showery precipitation of snow pellets/small hail,Heavy showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGSRA,+SHGSRA,stable,Heavy showery precipitation of snow pellets/small hail and rain,Heavy showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGSRASN,+SHGSRASN,stable,"Heavy showery precipitation of snow pellets/small hail, rain and snow","Heavy showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGSSN,+SHGSSN,stable,Heavy showery precipitation of snow pellets/small hail and snow,Heavy showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHGSSNRA,+SHGSSNRA,stable,"Heavy showery precipitation of snow pellets/small hail, snow and rain","Heavy showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRA,+SHRA,stable,Heavy showery precipitation of rain,Heavy showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRAGR,+SHRAGR,stable,Heavy showery precipitation of rain and hail,Heavy showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRAGRSN,+SHRAGRSN,stable,"Heavy showery precipitation of rain, hail and snow","Heavy showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRAGS,+SHRAGS,stable,Heavy showery precipitation of rain and snow pellets/small hail,Heavy showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRAGSSN,+SHRAGSSN,stable,"Heavy showery precipitation of rain, snow pellets/small hail and snow","Heavy showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRASN,+SHRASN,stable,Heavy showery precipitation of rain and snow,Heavy showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRASNGR,+SHRASNGR,stable,"Heavy showery precipitation of rain, snow and hail","Heavy showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHRASNGS,+SHRASNGS,stable,"Heavy showery precipitation of rain, snow and snow pellets/small hail","Heavy showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSN,+SHSN,stable,Heavy showery precipitation of snow,Heavy showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNGR,+SHSNGR,stable,Heavy showery precipitation of snow and hail,Heavy showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNGRRA,+SHSNGRRA,stable,"Heavy showery precipitation of snow, hail and rain","Heavy showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNGS,+SHSNGS,stable,Heavy showery precipitation of snow and snow pellets/small hail,Heavy showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNGSRA,+SHSNGSRA,stable,"Heavy showery precipitation of snow, snow pellets/small hail and rain","Heavy showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNRA,+SHSNRA,stable,Heavy showery precipitation of snow and rain,Heavy showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNRAGR,+SHSNRAGR,stable,"Heavy showery precipitation of snow, rain and hail","Heavy showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHSNRAGS,+SHSNRAGS,stable,"Heavy showery precipitation of snow, rain and snow pellets/small hail","Heavy showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SHUP,+SHUP,stable,Heavy unidentified showery precipitation,Heavy unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SN,+SN,stable,Heavy precipitation of snow,Heavy precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNDZ,+SNDZ,stable,Heavy precipitation of snow and drizzle,Heavy precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNDZRA,+SNDZRA,stable,"Heavy precipitation of snow, drizzle and rain","Heavy precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNPL,+SNPL,stable,Heavy precipitation of snow and ice pellets,Heavy precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNPLRA,+SNPLRA,stable,"Heavy precipitation of snow, ice pellets and rain","Heavy precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNPLSG,+SNPLSG,stable,"Heavy precipitation of snow, ice pellets and snow grains","Heavy precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNRA,+SNRA,stable,Heavy precipitation of snow and rain,Heavy precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNRADZ,+SNRADZ,stable,"Heavy precipitation of snow, rain and drizzle","Heavy precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNRAPL,+SNRAPL,stable,"Heavy precipitation of snow, rain and ice pellets","Heavy precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNRASG,+SNRASG,stable,"Heavy precipitation of snow, rain and snow grains","Heavy precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNSG,+SNSG,stable,Heavy precipitation of snow and snow grains,Heavy precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNSGPL,+SNSGPL,stable,"Heavy precipitation of snow, snow grains and ice pellets","Heavy precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SNSGRA,+SNSGRA,stable,"Heavy precipitation of snow, snow grains and rain","Heavy precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+SS,+SS,stable,Heavy sandstorm,Heavy sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGR,+TSGR,stable,Thunderstorm with heavy precipitation of hail,Thunderstorm with heavy precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGRRA,+TSGRRA,stable,Thunderstorm with heavy precipitation of hail and rain,Thunderstorm with heavy precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGRRASN,+TSGRRASN,stable,"Thunderstorm with heavy precipitation of hail, rain and snow","Thunderstorm with heavy precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGRSN,+TSGRSN,stable,Thunderstorm with heavy precipitation of hail and snow,Thunderstorm with heavy precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGRSNRA,+TSGRSNRA,stable,"Thunderstorm with heavy precipitation of hail, snow and rain","Thunderstorm with heavy precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGS,+TSGS,stable,Thunderstorm with heavy precipitation of snow pellets/small hail,Thunderstorm with heavy precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGSRA,+TSGSRA,stable,Thunderstorm with heavy precipitation of snow pellets/small hail and rain,Thunderstorm with heavy precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGSRASN,+TSGSRASN,stable,"Thunderstorm with heavy precipitation of snow pellets/small hail, rain and snow","Thunderstorm with heavy precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGSSN,+TSGSSN,stable,Thunderstorm with heavy precipitation of snow pellets/small hail and snow,Thunderstorm with heavy precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSGSSNRA,+TSGSSNRA,stable,"Thunderstorm with heavy precipitation of snow pellets/small hail, snow and rain","Thunderstorm with heavy precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRA,+TSRA,stable,Thunderstorm with heavy precipitation of rain,Thunderstorm with heavy precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRAGR,+TSRAGR,stable,Thunderstorm with heavy precipitation of rain and hail,Thunderstorm with heavy precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRAGRSN,+TSRAGRSN,stable,"Thunderstorm with heavy precipitation of rain, hail and snow","Thunderstorm with heavy precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRAGS,+TSRAGS,stable,Thunderstorm with heavy precipitation of rain and snow pellets/small hail,Thunderstorm with heavy precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRAGSSN,+TSRAGSSN,stable,"Thunderstorm with heavy precipitation of rain, snow pellets/small hail and snow","Thunderstorm with heavy precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRASN,+TSRASN,stable,Thunderstorm with heavy precipitation of rain and snow,Thunderstorm with heavy precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRASNGR,+TSRASNGR,stable,"Thunderstorm with heavy precipitation of rain, snow and hail","Thunderstorm with heavy precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSRASNGS,+TSRASNGS,stable,"Thunderstorm with heavy precipitation of rain, snow and snow pellets/small hail","Thunderstorm with heavy precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSN,+TSSN,stable,Thunderstorm with heavy precipitation of snow,Thunderstorm with heavy precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNGR,+TSSNGR,stable,Thunderstorm with heavy precipitation of snow and hail,Thunderstorm with heavy precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNGRRA,+TSSNGRRA,stable,"Thunderstorm with heavy precipitation of snow, hail and rain","Thunderstorm with heavy precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNGS,+TSSNGS,stable,Thunderstorm with heavy precipitation of snow and snow pellets/small hail,Thunderstorm with heavy precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNGSRA,+TSSNGSRA,stable,"Thunderstorm with heavy precipitation of snow, snow pellets/small hail and rain","Thunderstorm with heavy precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNRA,+TSSNRA,stable,Thunderstorm with heavy precipitation of snow and rain,Thunderstorm with heavy precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNRAGR,+TSSNRAGR,stable,"Thunderstorm with heavy precipitation of snow, rain and hail","Thunderstorm with heavy precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSSNRAGS,+TSSNRAGS,stable,"Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail","Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+TSUP,+TSUP,stable,Thunderstorm with heavy precipitation of unidentified precipitation,Thunderstorm with heavy precipitation of unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/+UP,+UP,stable,Heavy unidentified precipitation,Heavy unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DS,-DS,stable,Light duststorm,Light duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZ,-DZ,stable,Light precipitation of drizzle,Light precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZPL,-DZPL,stable,Light precipitation of drizzle and ice pellets,Light precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZPLRA,-DZPLRA,stable,"Light precipitation of drizzle, ice pellets and rain","Light precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZRA,-DZRA,stable,Light precipitation of drizzle and rain,Light precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZRAPL,-DZRAPL,stable,"Light precipitation of drizzle, rain and ice pellets","Light precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZRASG,-DZRASG,stable,"Light precipitation of drizzle, rain and snow grains","Light precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZRASN,-DZRASN,stable,"Light precipitation of drizzle, rain and snow","Light precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZSG,-DZSG,stable,Light precipitation of drizzle and snow grains,Light precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZSGRA,-DZSGRA,stable,"Light precipitation of drizzle, snow grains and rain","Light precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZSN,-DZSN,stable,Light precipitation of drizzle and snow,Light precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-DZSNRA,-DZSNRA,stable,"Light precipitation of drizzle, snow and rain","Light precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-FZDZ,-FZDZ,stable,Light precipitation of freezing drizzle,Light precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-FZDZRA,-FZDZRA,stable,Light precipitation of freezing drizzle and rain,Light precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-FZRA,-FZRA,stable,Light precipitation of freezng rain,Light precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-FZRADZ,-FZRADZ,stable,Light precipitation of freezing rain and drizzle,Light precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-FZUP,-FZUP,stable,Light unidentified freezing precipitation,Light unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PL,-PL,stable,Light precipitation of ice pellets,Light precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLDZ,-PLDZ,stable,Light precipitation of ice pellets and drizzle,Light precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLDZRA,-PLDZRA,stable,"Light precipitation of ice pellets, drizzle and rain","Light precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLRA,-PLRA,stable,Light precipitation of ice pellets and rain,Light precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLRADZ,-PLRADZ,stable,"Light precipitation of ice pellets, rain and drizzle","Light precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLRASN,-PLRASN,stable,"Light precipitation of ice pellets, rain and snow","Light precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLSG,-PLSG,stable,Light precipitation of ice pellets and snow grains,Light precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLSGSN,-PLSGSN,stable,"Light precipitation of ice pellets, snow grains and snow","Light precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLSN,-PLSN,stable,Light precipitation of ice pellets and snow,Light precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLSNRA,-PLSNRA,stable,"Light precipitation of ice pellets, snow and rain","Light precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-PLSNSG,-PLSNSG,stable,"Light precipitation of ice pellets, snow and snow grains","Light precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RA,-RA,stable,Light precipitation of rain,Light precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RADZ,-RADZ,stable,Light precipitation of rain and drizzle,Light precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RADZPL,-RADZPL,stable,"Light precipitation of rain, drizzle and ice pellets","Light precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RADZSG,-RADZSG,stable,"Light precipitation of rain, drizzle and snow grains","Light precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RADZSN,-RADZSN,stable,"Light precipitation of rain, drizzle and snow","Light precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RAPL,-RAPL,stable,Light precipitation of rain and ice pellets,Light precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RAPLDZ,-RAPLDZ,stable,"Light precipitation of rain, ice pellets and drizzle","Light precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RAPLSN,-RAPLSN,stable,"Light precipitation of rain, ice pellets and snow","Light precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASG,-RASG,stable,Light precipitation of rain and snow grains,Light precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASGDZ,-RASGDZ,stable,"Light precipitation of rain, snow grains and drizzle","Light precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASGSN,-RASGSN,stable,"Light precipitation of rain, snow grains and snow","Light precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASN,-RASN,stable,Light precipitation of rain and snow,Light precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASNDZ,-RASNDZ,stable,"Light precipitation of rain, snow and drizzle","Light precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASNPL,-RASNPL,stable,"Light precipitation of rain, snow and ice pellets","Light precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-RASNSG,-RASNSG,stable,"Light precipitation of rain, snow and snow grains","Light precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SG,-SG,stable,Light precipitation of snow grains,Light precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGDZ,-SGDZ,stable,Light precipitation of snow grains and drizzle,Light precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGDZRA,-SGDZRA,stable,"Light precipitation of snow grains, drizzle and rain","Light precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGPL,-SGPL,stable,Light precipitation of snow grains and ice pellets,Light precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGPLSN,-SGPLSN,stable,"Light precipitation of snow grains, ice pellets and snow","Light precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGRA,-SGRA,stable,Light precipitation of snow grains and rain,Light precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGRADZ,-SGRADZ,stable,"Light precipitation of snow grains, rain and drizzle","Light precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGRASN,-SGRASN,stable,"Light precipitation of snow grains, rain and snow","Light precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGSN,-SGSN,stable,Light precipitation of snow grains and snow,Light precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGSNPL,-SGSNPL,stable,"Light precipitation of snow grains, snow and ice pellets","Light precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SGSNRA,-SGSNRA,stable,"Light precipitation of snow grains, snow and rain","Light precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGR,-SHGR,stable,Light showery precipitation of hail,Light showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGRRA,-SHGRRA,stable,Light showery precipitation of hail and rain,Light showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGRRASN,-SHGRRASN,stable,"Light showery precipitation of hail, rain and snow","Light showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGRSN,-SHGRSN,stable,Light showery precipitation of hail and snow,Light showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGRSNRA,-SHGRSNRA,stable,"Light showery precipitation of hail, snow and rain","Light showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGS,-SHGS,stable,Light showery precipitation of snow pellets/small hail,Light showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGSRA,-SHGSRA,stable,Light showery precipitation of snow pellets/small hail and rain,Light showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGSRASN,-SHGSRASN,stable,"Light showery precipitation of snow pellets/small hail, rain and snow","Light showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGSSN,-SHGSSN,stable,Light showery precipitation of snow pellets/small hail and snow,Light showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHGSSNRA,-SHGSSNRA,stable,"Light showery precipitation of snow pellets/small hail, snow and rain","Light showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRA,-SHRA,stable,Light showery precipitation of rain,Light showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRAGR,-SHRAGR,stable,Light showery precipitation of rain and hail,Light showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRAGRSN,-SHRAGRSN,stable,"Light showery precipitation of rain, hail and snow","Light showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRAGS,-SHRAGS,stable,Light showery precipitation of rain and snow pellets/small hail,Light showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRAGSSN,-SHRAGSSN,stable,"Light showery precipitation of rain, snow pellets/small hail and snow","Light showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRASN,-SHRASN,stable,Light showery precipitation of rain and snow,Light showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRASNGR,-SHRASNGR,stable,"Light showery precipitation of rain, snow and hail","Light showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHRASNGS,-SHRASNGS,stable,"Light showery precipitation of rain, snow and snow pellets/small hail","Light showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSN,-SHSN,stable,Light showery precipitation of snow,Light showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNGR,-SHSNGR,stable,Light showery precipitation of snow and hail,Light showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNGRRA,-SHSNGRRA,stable,"Light showery precipitation of snow, hail and rain","Light showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNGS,-SHSNGS,stable,Light showery precipitation of snow and snow pellets/small hail,Light showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNGSRA,-SHSNGSRA,stable,"Light showery precipitation of snow, snow pellets/small hail and rain","Light showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNRA,-SHSNRA,stable,Light showery precipitation of snow and rain,Light showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNRAGR,-SHSNRAGR,stable,"Light showery precipitation of snow, rain and hail","Light showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHSNRAGS,-SHSNRAGS,stable,"Light showery precipitation of snow, rain and snow pellets/small hail","Light showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SHUP,-SHUP,stable,Light unidentified showery precipitation,Light unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SN,-SN,stable,Light precipitation of snow,Light precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNDZ,-SNDZ,stable,Light precipitation of snow and drizzle,Light precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNDZRA,-SNDZRA,stable,"Light precipitation of snow, drizzle and rain","Light precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNPL,-SNPL,stable,Light precipitation of snow and ice pellets,Light precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNPLRA,-SNPLRA,stable,"Light precipitation of snow, ice pellets and rain","Light precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNPLSG,-SNPLSG,stable,"Light precipitation of snow, ice pellets and snow grains","Light precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNRA,-SNRA,stable,Light precipitation of snow and rain,Light precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNRADZ,-SNRADZ,stable,"Light precipitation of snow, rain and drizzle","Light precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNRAPL,-SNRAPL,stable,"Light precipitation of snow, rain and ice pellets","Light precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNRASG,-SNRASG,stable,"Light precipitation of snow, rain and snow grains","Light precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNSG,-SNSG,stable,Light precipitation of snow and snow grains,Light precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNSGPL,-SNSGPL,stable,"Light precipitation of snow, snow grains and ice pellets","Light precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SNSGRA,-SNSGRA,stable,"Light precipitation of snow, snow grains and rain","Light precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-SS,-SS,stable,Light sandstorm,Light sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGR,-TSGR,stable,Thunderstorm with light precipitation of hail,Thunderstorm with light precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGRRA,-TSGRRA,stable,Thunderstorm with light precipitation of hail and rain,Thunderstorm with light precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGRRASN,-TSGRRASN,stable,"Thunderstorm with light precipitation of hail, rain and snow","Thunderstorm with light precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGRSN,-TSGRSN,stable,Thunderstorm with light precipitation of hail and snow,Thunderstorm with light precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGRSNRA,-TSGRSNRA,stable,"Thunderstorm with light precipitation of hail, snow and rain","Thunderstorm with light precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGS,-TSGS,stable,Thunderstorm with light precipitation of snow pellets/small hail,Thunderstorm with light precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGSRA,-TSGSRA,stable,Thunderstorm with light precipitation of snow pellets/small hail and rain,Thunderstorm with light precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGSRASN,-TSGSRASN,stable,"Thunderstorm with light precipitation of snow pellets/small hail, rain and snow","Thunderstorm with light precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGSSN,-TSGSSN,stable,Thunderstorm with light precipitation of snow pellets/small hail and snow,Thunderstorm with light precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSGSSNRA,-TSGSSNRA,stable,"Thunderstorm with light precipitation of snow pellets/small hail, snow and rain","Thunderstorm with light precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRA,-TSRA,stable,Thunderstorm with light precipitation of rain,Thunderstorm with light precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRAGR,-TSRAGR,stable,Thunderstorm with light precipitation of rain and hail,Thunderstorm with light precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRAGRSN,-TSRAGRSN,stable,"Thunderstorm with light precipitation of rain, hail and snow","Thunderstorm with light precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRAGS,-TSRAGS,stable,Thunderstorm with light precipitation of rain and snow pellets/small hail,Thunderstorm with light precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRAGSSN,-TSRAGSSN,stable,"Thunderstorm with light precipitation of rain, snow pellets/small hail and snow","Thunderstorm with light precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRASN,-TSRASN,stable,Thunderstorm with light precipitation of rain and snow,Thunderstorm with light precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRASNGR,-TSRASNGR,stable,"Thunderstorm with light precipitation of rain, snow and hail","Thunderstorm with light precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSRASNGS,-TSRASNGS,stable,"Thunderstorm with light precipitation of rain, snow and snow pellets/small hail","Thunderstorm with light precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSN,-TSSN,stable,Thunderstorm with light precipitation of snow,Thunderstorm with light precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNGR,-TSSNGR,stable,Thunderstorm with light precipitation of snow and hail,Thunderstorm with light precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNGRRA,-TSSNGRRA,stable,"Thunderstorm with light precipitation of snow, hail and rain","Thunderstorm with light precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNGS,-TSSNGS,stable,Thunderstorm with light precipitation of snow and snow pellets/small hail,Thunderstorm with light precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNGSRA,-TSSNGSRA,stable,"Thunderstorm with light precipitation of snow, snow pellets/small hail and rain","Thunderstorm with light precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNRA,-TSSNRA,stable,Thunderstorm with light precipitation of snow and rain,Thunderstorm with light precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNRAGR,-TSSNRAGR,stable,"Thunderstorm with light precipitation of snow, rain and hail","Thunderstorm with light precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSSNRAGS,-TSSNRAGS,stable,"Thunderstorm with light precipitation of snow, rain and snow pellets/small hail","Thunderstorm with light precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-TSUP,-TSUP,stable,Thunderstorm with light unidentified precipitation,Thunderstorm with light unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/-UP,-UP,stable,Light unidentified precipitation,Light unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/BCFG,BCFG,stable,Patches of fog,Patches of fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/BLDU,BLDU,stable,Blowing dust,Blowing dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/BLSA,BLSA,stable,Blowing sand,Blowing sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/BLSN,BLSN,stable,Blowing snow,Blowing snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/BR,BR,stable,Mist,Mist,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DRDU,DRDU,stable,Low drifting dust,Low drifting dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DRSA,DRSA,stable,Low drifting sand,Low drifting sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DRSN,DRSN,stable,Low drifting snow,Low drifting snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DS,DS,stable,Duststorm,Duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DU,DU,stable,Dust,Dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZ,DZ,stable,Precipitation of drizzle,Precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZPL,DZPL,stable,Precipitation of drizzle and ice pellets,Precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZPLRA,DZPLRA,stable,"Precipitation of drizzle, ice pellets and rain","Precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZRA,DZRA,stable,Precipitation of drizzle and rain,Precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZRAPL,DZRAPL,stable,"Precipitation of drizzle, rain and ice pellets","Precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZRASG,DZRASG,stable,"Precipitation of drizzle, rain and snow grains","Precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZRASN,DZRASN,stable,"Precipitation of drizzle, rain and snow","Precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZSG,DZSG,stable,Precipitation of drizzle and snow grains,Precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZSGRA,DZSGRA,stable,"Precipitation of drizzle, snow grains and rain","Precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZSN,DZSN,stable,Precipitation of drizzle and snow,Precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/DZSNRA,DZSNRA,stable,"Precipitation of drizzle, snow and rain","Precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FC,FC,stable,Funnel cloud(s) (tornado or water-spout),Funnel cloud(s) (tornado or water-spout),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FG,FG,stable,Fog,Fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FU,FU,stable,Smoke,Smoke,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZDZ,FZDZ,stable,Precipitation of freezing drizzle,Precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZDZRA,FZDZRA,stable,Precipitation of freezing drizzle and rain,Precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZFG,FZFG,stable,Freezing fog,Freezing fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZRA,FZRA,stable,Precipitation of freezng rain,Precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZRADZ,FZRADZ,stable,Precipitation of freezing rain and drizzle,Precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/FZUP,FZUP,stable,Unidentified freezing precipitation,Unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/HZ,HZ,stable,Haze,Haze,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/MIFG,MIFG,stable,Shallow fog,Shallow fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PL,PL,stable,Precipitation of ice pellets,Precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLDZ,PLDZ,stable,Precipitation of ice pellets and drizzle,Precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLDZRA,PLDZRA,stable,"Precipitation of ice pellets, drizzle and rain","Precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLRA,PLRA,stable,Precipitation of ice pellets and rain,Precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLRADZ,PLRADZ,stable,"Precipitation of ice pellets, rain and drizzle","Precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLRASN,PLRASN,stable,"Precipitation of ice pellets, rain and snow","Precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLSG,PLSG,stable,Precipitation of ice pellets and snow grains,Precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLSGSN,PLSGSN,stable,"Precipitation of ice pellets, snow grains and snow","Precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLSN,PLSN,stable,Precipitation of ice pellets and snow,Precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLSNRA,PLSNRA,stable,"Precipitation of ice pellets, snow and rain","Precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PLSNSG,PLSNSG,stable,"Precipitation of ice pellets, snow and snow grains","Precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PO,PO,stable,Dust/sand whirls (dust devils),Dust/sand whirls (dust devils),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/PRFG,PRFG,stable,Partial fog (covering part of the aerodrome),Partial fog (covering part of the aerodrome),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RA,RA,stable,Precipitation of rain,Precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RADZ,RADZ,stable,Precipitation of rain and drizzle,Precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RADZPL,RADZPL,stable,"Precipitation of rain, drizzle and ice pellets","Precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RADZSG,RADZSG,stable,"Precipitation of rain, drizzle and snow grains","Precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RADZSN,RADZSN,stable,"Precipitation of rain, drizzle and snow","Precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RAPL,RAPL,stable,Precipitation of rain and ice pellets,Precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RAPLDZ,RAPLDZ,stable,"Precipitation of rain, ice pellets and drizzle","Precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RAPLSN,RAPLSN,stable,"Precipitation of rain, ice pellets and snow","Precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASG,RASG,stable,Precipitation of rain and snow grains,Precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASGDZ,RASGDZ,stable,"Precipitation of rain, snow grains and drizzle","Precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASGSN,RASGSN,stable,"Precipitation of rain, snow grains and snow","Precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASN,RASN,stable,Precipitation of rain and snow,Precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASNDZ,RASNDZ,stable,"Precipitation of rain, snow and drizzle","Precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASNPL,RASNPL,stable,"Precipitation of rain, snow and ice pellets","Precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/RASNSG,RASNSG,stable,"Precipitation of rain, snow and snow grains","Precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SA,SA,stable,Sand,Sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SG,SG,stable,Precipitation of snow grains,Precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGDZ,SGDZ,stable,Precipitation of snow grains and drizzle,Precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGDZRA,SGDZRA,stable,"Precipitation of snow grains, drizzle and rain","Precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGPL,SGPL,stable,Precipitation of snow grains and ice pellets,Precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGPLSN,SGPLSN,stable,"Precipitation of snow grains, ice pellets and snow","Precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGRA,SGRA,stable,Precipitation of snow grains and rain,Precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGRADZ,SGRADZ,stable,"Precipitation of snow grains, rain and drizzle","Precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGRASN,SGRASN,stable,"Precipitation of snow grains, rain and snow","Precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGSN,SGSN,stable,Precipitation of snow grains and snow,Precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGSNPL,SGSNPL,stable,"Precipitation of snow grains, snow and ice pellets","Precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SGSNRA,SGSNRA,stable,"Precipitation of snow grains, snow and rain","Precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGR,SHGR,stable,Showery precipitation of hail,Showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGRRA,SHGRRA,stable,Showery precipitation of hail and rain,Showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGRRASN,SHGRRASN,stable,"Showery precipitation of hail, rain and snow","Showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGRSN,SHGRSN,stable,Showery precipitation of hail and snow,Showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGRSNRA,SHGRSNRA,stable,"Showery precipitation of hail, snow and rain","Showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGS,SHGS,stable,Showery precipitation of snow pellets/small hail,Showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGSRA,SHGSRA,stable,Showery precipitation of snow pellets/small hail and rain,Showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGSRASN,SHGSRASN,stable,"Showery precipitation of snow pellets/small hail, rain and snow","Showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGSSN,SHGSSN,stable,Showery precipitation of snow pellets/small hail and snow,Showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHGSSNRA,SHGSSNRA,stable,"Showery precipitation of snow pellets/small hail, snow and rain","Showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRA,SHRA,stable,Showery precipitation of rain,Showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRAGR,SHRAGR,stable,Showery precipitation of rain and hail,Showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRAGRSN,SHRAGRSN,stable,"Showery precipitation of rain, hail and snow","Showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRAGS,SHRAGS,stable,Showery precipitation of rain and snow pellets/small hail,Showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRAGSSN,SHRAGSSN,stable,"Showery precipitation of rain, snow pellets/small hail and snow","Showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRASN,SHRASN,stable,Showery precipitation of rain and snow,Showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRASNGR,SHRASNGR,stable,"Showery precipitation of rain, snow and hail","Showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHRASNGS,SHRASNGS,stable,"Showery precipitation of rain, snow and snow pellets/small hail","Showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSN,SHSN,stable,Showery precipitation of snow,Showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNGR,SHSNGR,stable,Showery precipitation of snow and hail,Showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNGRRA,SHSNGRRA,stable,"Showery precipitation of snow, hail and rain","Showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNGS,SHSNGS,stable,Showery precipitation of snow and snow pellets/small hail,Showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNGSRA,SHSNGSRA,stable,"Showery precipitation of snow, snow pellets/small hail and rain","Showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNRA,SHSNRA,stable,Showery precipitation of snow and rain,Showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNRAGR,SHSNRAGR,stable,"Showery precipitation of snow, rain and hail","Showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHSNRAGS,SHSNRAGS,stable,"Showery precipitation of snow, rain and snow pellets/small hail","Showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SHUP,SHUP,stable,Unidentified showery precipitation,Unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SN,SN,stable,Precipitation of snow,Precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNDZ,SNDZ,stable,Precipitation of snow and drizzle,Precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNDZRA,SNDZRA,stable,"Precipitation of snow, drizzle and rain","Precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNPL,SNPL,stable,Precipitation of snow and ice pellets,Precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNPLRA,SNPLRA,stable,"Precipitation of snow, ice pellets and rain","Precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNPLSG,SNPLSG,stable,"Precipitation of snow, ice pellets and snow grains","Precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNRA,SNRA,stable,Precipitation of snow and rain,Precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNRADZ,SNRADZ,stable,"Precipitation of snow, rain and drizzle","Precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNRAPL,SNRAPL,stable,"Precipitation of snow, rain and ice pellets","Precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNRASG,SNRASG,stable,"Precipitation of snow, rain and snow grains","Precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNSG,SNSG,stable,Precipitation of snow and snow grains,Precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNSGPL,SNSGPL,stable,"Precipitation of snow, snow grains and ice pellets","Precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SNSGRA,SNSGRA,stable,"Precipitation of snow, snow grains and rain","Precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SQ,SQ,stable,Squalls,Squalls,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/SS,SS,stable,Sandstorm,Sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TS,TS,stable,Thunderstorm,Thunderstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGR,TSGR,stable,Thunderstorm with precipitation of hail,Thunderstorm with precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGRRA,TSGRRA,stable,Thunderstorm with precipitation of hail and rain,Thunderstorm with precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGRRASN,TSGRRASN,stable,"Thunderstorm with precipitation of hail, rain and snow","Thunderstorm with precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGRSN,TSGRSN,stable,Thunderstorm with precipitation of hail and snow,Thunderstorm with precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGRSNRA,TSGRSNRA,stable,"Thunderstorm with precipitation of hail, snow and rain","Thunderstorm with precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGS,TSGS,stable,Thunderstorm with precipitation of snow pellets/small hail,Thunderstorm with precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGSRA,TSGSRA,stable,Thunderstorm with precipitation of snow pellets/small hail and rain,Thunderstorm with precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGSRASN,TSGSRASN,stable,"Thunderstorm with precipitation of snow pellets/small hail, rain and snow","Thunderstorm with precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGSSN,TSGSSN,stable,Thunderstorm with precipitation of snow pellets/small hail and snow,Thunderstorm with precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSGSSNRA,TSGSSNRA,stable,"Thunderstorm with precipitation of snow pellets/small hail, snow and rain","Thunderstorm with precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRA,TSRA,stable,Thunderstorm with precipitation of rain,Thunderstorm with precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRAGR,TSRAGR,stable,Thunderstorm with precipitation of rain and hail,Thunderstorm with precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRAGRSN,TSRAGRSN,stable,"Thunderstorm with precipitation of rain, hail and snow","Thunderstorm with precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRAGS,TSRAGS,stable,Thunderstorm with precipitation of rain and snow pellets/small hail,Thunderstorm with precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRAGSSN,TSRAGSSN,stable,"Thunderstorm with precipitation of rain, snow pellets/small hail and snow","Thunderstorm with precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRASN,TSRASN,stable,Thunderstorm with precipitation of rain and snow,Thunderstorm with precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRASNGR,TSRASNGR,stable,"Thunderstorm with precipitation of rain, snow and hail","Thunderstorm with precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSRASNGS,TSRASNGS,stable,"Thunderstorm with precipitation of rain, snow and snow pellets/small hail","Thunderstorm with precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSN,TSSN,stable,Thunderstorm with precipitation of snow,Thunderstorm with precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNGR,TSSNGR,stable,Thunderstorm with precipitation of snow and hail,Thunderstorm with precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNGRRA,TSSNGRRA,stable,"Thunderstorm with precipitation of snow, hail and rain","Thunderstorm with precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNGS,TSSNGS,stable,Thunderstorm with precipitation of snow and snow pellets/small hail,Thunderstorm with precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNGSRA,TSSNGSRA,stable,"Thunderstorm with precipitation of snow, snow pellets/small hail and rain","Thunderstorm with precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNRA,TSSNRA,stable,Thunderstorm with precipitation of snow and rain,Thunderstorm with precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNRAGR,TSSNRAGR,stable,"Thunderstorm with precipitation of snow, rain and hail","Thunderstorm with precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSSNRAGS,TSSNRAGS,stable,"Thunderstorm with precipitation of snow, rain and snow pellets/small hail","Thunderstorm with precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/TSUP,TSUP,stable,Thunderstorm with unidentified precipitation,Thunderstorm with unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/UP,UP,stable,Unidentified precipitation,Unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VA,VA,stable,Volcanic ash,Volcanic ash,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCBLDU,VCBLDU,stable,Blowing dust in the vicinity,Blowing dust in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCBLSA,VCBLSA,stable,Blowing sand in the vicinity,Blowing sand in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCBLSN,VCBLSN,stable,Blowing snow in the vicinity,Blowing snow in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCDS,VCDS,stable,Duststorm in the vicinity,Duststorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCFC,VCFC,stable,Funnel cloud(s) (tornado or water-spout) in the vicinity,Funnel cloud(s) (tornado or water-spout) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCFG,VCFG,stable,Fog in the vicinity,Fog in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCPO,VCPO,stable,Dust/sand whirls (dust devils) in the vicinity,Dust/sand whirls (dust devils) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCSH,VCSH,stable,Shower(s) in the vicinity,Shower(s) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCSS,VCSS,stable,Sandstorm in the vicinity,Sandstorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCTS,VCTS,stable,Thunderstorm in the vicinity,Thunderstorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/306/4678/VCVA,VCVA,stable,Volcanic ash in the vicinity,Volcanic ash in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
++DS,Heavy duststorm,Heavy duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DS,stable
++DZ,Heavy precipitation of drizzle,Heavy precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZ,stable
++DZPL,Heavy precipitation of drizzle and ice pellets,Heavy precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZPL,stable
++DZPLRA,"Heavy precipitation of drizzle, ice pellets and rain","Heavy precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZPLRA,stable
++DZRA,Heavy precipitation of drizzle and rain,Heavy precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZRA,stable
++DZRAPL,"Heavy precipitation of drizzle, rain and ice pellets","Heavy precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZRAPL,stable
++DZRASG,"Heavy precipitation of drizzle, rain and snow grains","Heavy precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZRASG,stable
++DZRASN,"Heavy precipitation of drizzle, rain and snow","Heavy precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZRASN,stable
++DZSG,Heavy precipitation of drizzle and snow grains,Heavy precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZSG,stable
++DZSGRA,"Heavy precipitation of drizzle, snow grains and rain","Heavy precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZSGRA,stable
++DZSN,Heavy precipitation of drizzle and snow,Heavy precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZSN,stable
++DZSNRA,"Heavy precipitation of drizzle, snow and rain","Heavy precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+DZSNRA,stable
++FC,Well-developed funnel cloud(s) (tornado or waterspout),Well-developed funnel cloud(s) (tornado or waterspout),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FC,stable
++FZDZ,Heavy precipitation of freezing drizzle,Heavy precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZDZ,stable
++FZDZRA,Heavy precipitation of freezing drizzle and rain,Heavy precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZDZRA,stable
++FZRA,Heavy precipitation of freezng rain,Heavy precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZRA,stable
++FZRADZ,Heavy precipitation of freezing rain and drizzle,Heavy precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZRADZ,stable
++FZUP,Heavy unidentified freezing precipitation,Heavy unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZUP,stable
++PL,Heavy precipitation of ice pellets,Heavy precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PL,stable
++PLDZ,Heavy precipitation of ice pellets and drizzle,Heavy precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLDZ,stable
++PLDZRA,"Heavy precipitation of ice pellets, drizzle and rain","Heavy precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLDZRA,stable
++PLRA,Heavy precipitation of ice pellets and rain,Heavy precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLRA,stable
++PLRADZ,"Heavy precipitation of ice pellets, rain and drizzle","Heavy precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLRADZ,stable
++PLRASN,"Heavy precipitation of ice pellets, rain and snow","Heavy precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLRASN,stable
++PLSG,Heavy precipitation of ice pellets and snow grains,Heavy precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLSG,stable
++PLSGSN,"Heavy precipitation of ice pellets, snow grains and snow","Heavy precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLSGSN,stable
++PLSN,Heavy precipitation of ice pellets and snow,Heavy precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLSN,stable
++PLSNRA,"Heavy precipitation of ice pellets, snow and rain","Heavy precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLSNRA,stable
++PLSNSG,"Heavy precipitation of ice pellets, snow and snow grains","Heavy precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PLSNSG,stable
++RA,Heavy precipitation of rain,Heavy precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RA,stable
++RADZ,Heavy precipitation of rain and drizzle,Heavy precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RADZ,stable
++RADZPL,"Heavy precipitation of rain, drizzle and ice pellets","Heavy precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RADZPL,stable
++RADZSG,"Heavy precipitation of rain, drizzle and snow grains","Heavy precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RADZSG,stable
++RADZSN,"Heavy precipitation of rain, drizzle and snow","Heavy precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RADZSN,stable
++RAPL,Heavy precipitation of rain and ice pellets,Heavy precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RAPL,stable
++RAPLDZ,"Heavy precipitation of rain, ice pellets and drizzle","Heavy precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RAPLDZ,stable
++RAPLSN,"Heavy precipitation of rain, ice pellets and snow","Heavy precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RAPLSN,stable
++RASG,Heavy precipitation of rain and snow grains,Heavy precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASG,stable
++RASGDZ,"Heavy precipitation of rain, snow grains and drizzle","Heavy precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASGDZ,stable
++RASGSN,"Heavy precipitation of rain, snow grains and snow","Heavy precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASGSN,stable
++RASN,Heavy precipitation of rain and snow,Heavy precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASN,stable
++RASNDZ,"Heavy precipitation of rain, snow and drizzle","Heavy precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASNDZ,stable
++RASNPL,"Heavy precipitation of rain, snow and ice pellets","Heavy precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASNPL,stable
++RASNSG,"Heavy precipitation of rain, snow and snow grains","Heavy precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+RASNSG,stable
++SG,Heavy precipitation of snow grains,Heavy precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SG,stable
++SGDZ,Heavy precipitation of snow grains and drizzle,Heavy precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGDZ,stable
++SGDZRA,"Heavy precipitation of snow grains, drizzle and rain","Heavy precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGDZRA,stable
++SGPL,Heavy precipitation of snow grains and ice pellets,Heavy precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGPL,stable
++SGPLSN,"Heavy precipitation of snow grains, ice pellets and snow","Heavy precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGPLSN,stable
++SGRA,Heavy precipitation of snow grains and rain,Heavy precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGRA,stable
++SGRADZ,"Heavy precipitation of snow grains, rain and drizzle","Heavy precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGRADZ,stable
++SGRASN,"Heavy precipitation of snow grains, rain and snow","Heavy precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGRASN,stable
++SGSN,Heavy precipitation of snow grains and snow,Heavy precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGSN,stable
++SGSNPL,"Heavy precipitation of snow grains, snow and ice pellets","Heavy precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGSNPL,stable
++SGSNRA,"Heavy precipitation of snow grains, snow and rain","Heavy precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SGSNRA,stable
++SHGR,Heavy showery precipitation of hail,Heavy showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGR,stable
++SHGRRA,Heavy showery precipitation of hail and rain,Heavy showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGRRA,stable
++SHGRRASN,"Heavy showery precipitation of hail, rain and snow","Heavy showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGRRASN,stable
++SHGRSN,Heavy showery precipitation of hail and snow,Heavy showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGRSN,stable
++SHGRSNRA,"Heavy showery precipitation of hail, snow and rain","Heavy showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGRSNRA,stable
++SHGS,Heavy showery precipitation of snow pellets/small hail,Heavy showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGS,stable
++SHGSRA,Heavy showery precipitation of snow pellets/small hail and rain,Heavy showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGSRA,stable
++SHGSRASN,"Heavy showery precipitation of snow pellets/small hail, rain and snow","Heavy showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGSRASN,stable
++SHGSSN,Heavy showery precipitation of snow pellets/small hail and snow,Heavy showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGSSN,stable
++SHGSSNRA,"Heavy showery precipitation of snow pellets/small hail, snow and rain","Heavy showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHGSSNRA,stable
++SHRA,Heavy showery precipitation of rain,Heavy showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRA,stable
++SHRAGR,Heavy showery precipitation of rain and hail,Heavy showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRAGR,stable
++SHRAGRSN,"Heavy showery precipitation of rain, hail and snow","Heavy showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRAGRSN,stable
++SHRAGS,Heavy showery precipitation of rain and snow pellets/small hail,Heavy showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRAGS,stable
++SHRAGSSN,"Heavy showery precipitation of rain, snow pellets/small hail and snow","Heavy showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRAGSSN,stable
++SHRASN,Heavy showery precipitation of rain and snow,Heavy showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRASN,stable
++SHRASNGR,"Heavy showery precipitation of rain, snow and hail","Heavy showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRASNGR,stable
++SHRASNGS,"Heavy showery precipitation of rain, snow and snow pellets/small hail","Heavy showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHRASNGS,stable
++SHSN,Heavy showery precipitation of snow,Heavy showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSN,stable
++SHSNGR,Heavy showery precipitation of snow and hail,Heavy showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNGR,stable
++SHSNGRRA,"Heavy showery precipitation of snow, hail and rain","Heavy showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNGRRA,stable
++SHSNGS,Heavy showery precipitation of snow and snow pellets/small hail,Heavy showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNGS,stable
++SHSNGSRA,"Heavy showery precipitation of snow, snow pellets/small hail and rain","Heavy showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNGSRA,stable
++SHSNRA,Heavy showery precipitation of snow and rain,Heavy showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNRA,stable
++SHSNRAGR,"Heavy showery precipitation of snow, rain and hail","Heavy showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNRAGR,stable
++SHSNRAGS,"Heavy showery precipitation of snow, rain and snow pellets/small hail","Heavy showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHSNRAGS,stable
++SHUP,Heavy unidentified showery precipitation,Heavy unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SHUP,stable
++SN,Heavy precipitation of snow,Heavy precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SN,stable
++SNDZ,Heavy precipitation of snow and drizzle,Heavy precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNDZ,stable
++SNDZRA,"Heavy precipitation of snow, drizzle and rain","Heavy precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNDZRA,stable
++SNPL,Heavy precipitation of snow and ice pellets,Heavy precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNPL,stable
++SNPLRA,"Heavy precipitation of snow, ice pellets and rain","Heavy precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNPLRA,stable
++SNPLSG,"Heavy precipitation of snow, ice pellets and snow grains","Heavy precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNPLSG,stable
++SNRA,Heavy precipitation of snow and rain,Heavy precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNRA,stable
++SNRADZ,"Heavy precipitation of snow, rain and drizzle","Heavy precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNRADZ,stable
++SNRAPL,"Heavy precipitation of snow, rain and ice pellets","Heavy precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNRAPL,stable
++SNRASG,"Heavy precipitation of snow, rain and snow grains","Heavy precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNRASG,stable
++SNSG,Heavy precipitation of snow and snow grains,Heavy precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNSG,stable
++SNSGPL,"Heavy precipitation of snow, snow grains and ice pellets","Heavy precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNSGPL,stable
++SNSGRA,"Heavy precipitation of snow, snow grains and rain","Heavy precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SNSGRA,stable
++SS,Heavy sandstorm,Heavy sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+SS,stable
++TSGR,Thunderstorm with heavy precipitation of hail,Thunderstorm with heavy precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGR,stable
++TSGRRA,Thunderstorm with heavy precipitation of hail and rain,Thunderstorm with heavy precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGRRA,stable
++TSGRRASN,"Thunderstorm with heavy precipitation of hail, rain and snow","Thunderstorm with heavy precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGRRASN,stable
++TSGRSN,Thunderstorm with heavy precipitation of hail and snow,Thunderstorm with heavy precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGRSN,stable
++TSGRSNRA,"Thunderstorm with heavy precipitation of hail, snow and rain","Thunderstorm with heavy precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGRSNRA,stable
++TSGS,Thunderstorm with heavy precipitation of snow pellets/small hail,Thunderstorm with heavy precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGS,stable
++TSGSRA,Thunderstorm with heavy precipitation of snow pellets/small hail and rain,Thunderstorm with heavy precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGSRA,stable
++TSGSRASN,"Thunderstorm with heavy precipitation of snow pellets/small hail, rain and snow","Thunderstorm with heavy precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGSRASN,stable
++TSGSSN,Thunderstorm with heavy precipitation of snow pellets/small hail and snow,Thunderstorm with heavy precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGSSN,stable
++TSGSSNRA,"Thunderstorm with heavy precipitation of snow pellets/small hail, snow and rain","Thunderstorm with heavy precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSGSSNRA,stable
++TSRA,Thunderstorm with heavy precipitation of rain,Thunderstorm with heavy precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRA,stable
++TSRAGR,Thunderstorm with heavy precipitation of rain and hail,Thunderstorm with heavy precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRAGR,stable
++TSRAGRSN,"Thunderstorm with heavy precipitation of rain, hail and snow","Thunderstorm with heavy precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRAGRSN,stable
++TSRAGS,Thunderstorm with heavy precipitation of rain and snow pellets/small hail,Thunderstorm with heavy precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRAGS,stable
++TSRAGSSN,"Thunderstorm with heavy precipitation of rain, snow pellets/small hail and snow","Thunderstorm with heavy precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRAGSSN,stable
++TSRASN,Thunderstorm with heavy precipitation of rain and snow,Thunderstorm with heavy precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRASN,stable
++TSRASNGR,"Thunderstorm with heavy precipitation of rain, snow and hail","Thunderstorm with heavy precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRASNGR,stable
++TSRASNGS,"Thunderstorm with heavy precipitation of rain, snow and snow pellets/small hail","Thunderstorm with heavy precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSRASNGS,stable
++TSSN,Thunderstorm with heavy precipitation of snow,Thunderstorm with heavy precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSN,stable
++TSSNGR,Thunderstorm with heavy precipitation of snow and hail,Thunderstorm with heavy precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNGR,stable
++TSSNGRRA,"Thunderstorm with heavy precipitation of snow, hail and rain","Thunderstorm with heavy precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNGRRA,stable
++TSSNGS,Thunderstorm with heavy precipitation of snow and snow pellets/small hail,Thunderstorm with heavy precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNGS,stable
++TSSNGSRA,"Thunderstorm with heavy precipitation of snow, snow pellets/small hail and rain","Thunderstorm with heavy precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNGSRA,stable
++TSSNRA,Thunderstorm with heavy precipitation of snow and rain,Thunderstorm with heavy precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNRA,stable
++TSSNRAGR,"Thunderstorm with heavy precipitation of snow, rain and hail","Thunderstorm with heavy precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNRAGR,stable
++TSSNRAGS,"Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail","Thunderstorm with heavy precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSSNRAGS,stable
++TSUP,Thunderstorm with heavy precipitation of unidentified precipitation,Thunderstorm with heavy precipitation of unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+TSUP,stable
++UP,Heavy unidentified precipitation,Heavy unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+UP,stable
+-DS,Light duststorm,Light duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DS,stable
+-DZ,Light precipitation of drizzle,Light precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZ,stable
+-DZPL,Light precipitation of drizzle and ice pellets,Light precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZPL,stable
+-DZPLRA,"Light precipitation of drizzle, ice pellets and rain","Light precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZPLRA,stable
+-DZRA,Light precipitation of drizzle and rain,Light precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZRA,stable
+-DZRAPL,"Light precipitation of drizzle, rain and ice pellets","Light precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZRAPL,stable
+-DZRASG,"Light precipitation of drizzle, rain and snow grains","Light precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZRASG,stable
+-DZRASN,"Light precipitation of drizzle, rain and snow","Light precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZRASN,stable
+-DZSG,Light precipitation of drizzle and snow grains,Light precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZSG,stable
+-DZSGRA,"Light precipitation of drizzle, snow grains and rain","Light precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZSGRA,stable
+-DZSN,Light precipitation of drizzle and snow,Light precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZSN,stable
+-DZSNRA,"Light precipitation of drizzle, snow and rain","Light precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-DZSNRA,stable
+-FZDZ,Light precipitation of freezing drizzle,Light precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-FZDZ,stable
+-FZDZRA,Light precipitation of freezing drizzle and rain,Light precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-FZDZRA,stable
+-FZRA,Light precipitation of freezng rain,Light precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-FZRA,stable
+-FZRADZ,Light precipitation of freezing rain and drizzle,Light precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-FZRADZ,stable
+-FZUP,Light unidentified freezing precipitation,Light unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-FZUP,stable
+-PL,Light precipitation of ice pellets,Light precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PL,stable
+-PLDZ,Light precipitation of ice pellets and drizzle,Light precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLDZ,stable
+-PLDZRA,"Light precipitation of ice pellets, drizzle and rain","Light precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLDZRA,stable
+-PLRA,Light precipitation of ice pellets and rain,Light precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLRA,stable
+-PLRADZ,"Light precipitation of ice pellets, rain and drizzle","Light precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLRADZ,stable
+-PLRASN,"Light precipitation of ice pellets, rain and snow","Light precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLRASN,stable
+-PLSG,Light precipitation of ice pellets and snow grains,Light precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLSG,stable
+-PLSGSN,"Light precipitation of ice pellets, snow grains and snow","Light precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLSGSN,stable
+-PLSN,Light precipitation of ice pellets and snow,Light precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLSN,stable
+-PLSNRA,"Light precipitation of ice pellets, snow and rain","Light precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLSNRA,stable
+-PLSNSG,"Light precipitation of ice pellets, snow and snow grains","Light precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-PLSNSG,stable
+-RA,Light precipitation of rain,Light precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RA,stable
+-RADZ,Light precipitation of rain and drizzle,Light precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RADZ,stable
+-RADZPL,"Light precipitation of rain, drizzle and ice pellets","Light precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RADZPL,stable
+-RADZSG,"Light precipitation of rain, drizzle and snow grains","Light precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RADZSG,stable
+-RADZSN,"Light precipitation of rain, drizzle and snow","Light precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RADZSN,stable
+-RAPL,Light precipitation of rain and ice pellets,Light precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RAPL,stable
+-RAPLDZ,"Light precipitation of rain, ice pellets and drizzle","Light precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RAPLDZ,stable
+-RAPLSN,"Light precipitation of rain, ice pellets and snow","Light precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RAPLSN,stable
+-RASG,Light precipitation of rain and snow grains,Light precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASG,stable
+-RASGDZ,"Light precipitation of rain, snow grains and drizzle","Light precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASGDZ,stable
+-RASGSN,"Light precipitation of rain, snow grains and snow","Light precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASGSN,stable
+-RASN,Light precipitation of rain and snow,Light precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASN,stable
+-RASNDZ,"Light precipitation of rain, snow and drizzle","Light precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASNDZ,stable
+-RASNPL,"Light precipitation of rain, snow and ice pellets","Light precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASNPL,stable
+-RASNSG,"Light precipitation of rain, snow and snow grains","Light precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-RASNSG,stable
+-SG,Light precipitation of snow grains,Light precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SG,stable
+-SGDZ,Light precipitation of snow grains and drizzle,Light precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGDZ,stable
+-SGDZRA,"Light precipitation of snow grains, drizzle and rain","Light precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGDZRA,stable
+-SGPL,Light precipitation of snow grains and ice pellets,Light precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGPL,stable
+-SGPLSN,"Light precipitation of snow grains, ice pellets and snow","Light precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGPLSN,stable
+-SGRA,Light precipitation of snow grains and rain,Light precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGRA,stable
+-SGRADZ,"Light precipitation of snow grains, rain and drizzle","Light precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGRADZ,stable
+-SGRASN,"Light precipitation of snow grains, rain and snow","Light precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGRASN,stable
+-SGSN,Light precipitation of snow grains and snow,Light precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGSN,stable
+-SGSNPL,"Light precipitation of snow grains, snow and ice pellets","Light precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGSNPL,stable
+-SGSNRA,"Light precipitation of snow grains, snow and rain","Light precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SGSNRA,stable
+-SHGR,Light showery precipitation of hail,Light showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGR,stable
+-SHGRRA,Light showery precipitation of hail and rain,Light showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGRRA,stable
+-SHGRRASN,"Light showery precipitation of hail, rain and snow","Light showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGRRASN,stable
+-SHGRSN,Light showery precipitation of hail and snow,Light showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGRSN,stable
+-SHGRSNRA,"Light showery precipitation of hail, snow and rain","Light showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGRSNRA,stable
+-SHGS,Light showery precipitation of snow pellets/small hail,Light showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGS,stable
+-SHGSRA,Light showery precipitation of snow pellets/small hail and rain,Light showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGSRA,stable
+-SHGSRASN,"Light showery precipitation of snow pellets/small hail, rain and snow","Light showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGSRASN,stable
+-SHGSSN,Light showery precipitation of snow pellets/small hail and snow,Light showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGSSN,stable
+-SHGSSNRA,"Light showery precipitation of snow pellets/small hail, snow and rain","Light showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHGSSNRA,stable
+-SHRA,Light showery precipitation of rain,Light showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRA,stable
+-SHRAGR,Light showery precipitation of rain and hail,Light showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRAGR,stable
+-SHRAGRSN,"Light showery precipitation of rain, hail and snow","Light showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRAGRSN,stable
+-SHRAGS,Light showery precipitation of rain and snow pellets/small hail,Light showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRAGS,stable
+-SHRAGSSN,"Light showery precipitation of rain, snow pellets/small hail and snow","Light showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRAGSSN,stable
+-SHRASN,Light showery precipitation of rain and snow,Light showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRASN,stable
+-SHRASNGR,"Light showery precipitation of rain, snow and hail","Light showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRASNGR,stable
+-SHRASNGS,"Light showery precipitation of rain, snow and snow pellets/small hail","Light showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHRASNGS,stable
+-SHSN,Light showery precipitation of snow,Light showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSN,stable
+-SHSNGR,Light showery precipitation of snow and hail,Light showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNGR,stable
+-SHSNGRRA,"Light showery precipitation of snow, hail and rain","Light showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNGRRA,stable
+-SHSNGS,Light showery precipitation of snow and snow pellets/small hail,Light showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNGS,stable
+-SHSNGSRA,"Light showery precipitation of snow, snow pellets/small hail and rain","Light showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNGSRA,stable
+-SHSNRA,Light showery precipitation of snow and rain,Light showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNRA,stable
+-SHSNRAGR,"Light showery precipitation of snow, rain and hail","Light showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNRAGR,stable
+-SHSNRAGS,"Light showery precipitation of snow, rain and snow pellets/small hail","Light showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHSNRAGS,stable
+-SHUP,Light unidentified showery precipitation,Light unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SHUP,stable
+-SN,Light precipitation of snow,Light precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SN,stable
+-SNDZ,Light precipitation of snow and drizzle,Light precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNDZ,stable
+-SNDZRA,"Light precipitation of snow, drizzle and rain","Light precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNDZRA,stable
+-SNPL,Light precipitation of snow and ice pellets,Light precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNPL,stable
+-SNPLRA,"Light precipitation of snow, ice pellets and rain","Light precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNPLRA,stable
+-SNPLSG,"Light precipitation of snow, ice pellets and snow grains","Light precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNPLSG,stable
+-SNRA,Light precipitation of snow and rain,Light precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNRA,stable
+-SNRADZ,"Light precipitation of snow, rain and drizzle","Light precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNRADZ,stable
+-SNRAPL,"Light precipitation of snow, rain and ice pellets","Light precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNRAPL,stable
+-SNRASG,"Light precipitation of snow, rain and snow grains","Light precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNRASG,stable
+-SNSG,Light precipitation of snow and snow grains,Light precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNSG,stable
+-SNSGPL,"Light precipitation of snow, snow grains and ice pellets","Light precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNSGPL,stable
+-SNSGRA,"Light precipitation of snow, snow grains and rain","Light precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SNSGRA,stable
+-SS,Light sandstorm,Light sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-SS,stable
+-TSGR,Thunderstorm with light precipitation of hail,Thunderstorm with light precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGR,stable
+-TSGRRA,Thunderstorm with light precipitation of hail and rain,Thunderstorm with light precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGRRA,stable
+-TSGRRASN,"Thunderstorm with light precipitation of hail, rain and snow","Thunderstorm with light precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGRRASN,stable
+-TSGRSN,Thunderstorm with light precipitation of hail and snow,Thunderstorm with light precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGRSN,stable
+-TSGRSNRA,"Thunderstorm with light precipitation of hail, snow and rain","Thunderstorm with light precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGRSNRA,stable
+-TSGS,Thunderstorm with light precipitation of snow pellets/small hail,Thunderstorm with light precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGS,stable
+-TSGSRA,Thunderstorm with light precipitation of snow pellets/small hail and rain,Thunderstorm with light precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGSRA,stable
+-TSGSRASN,"Thunderstorm with light precipitation of snow pellets/small hail, rain and snow","Thunderstorm with light precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGSRASN,stable
+-TSGSSN,Thunderstorm with light precipitation of snow pellets/small hail and snow,Thunderstorm with light precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGSSN,stable
+-TSGSSNRA,"Thunderstorm with light precipitation of snow pellets/small hail, snow and rain","Thunderstorm with light precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSGSSNRA,stable
+-TSRA,Thunderstorm with light precipitation of rain,Thunderstorm with light precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRA,stable
+-TSRAGR,Thunderstorm with light precipitation of rain and hail,Thunderstorm with light precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRAGR,stable
+-TSRAGRSN,"Thunderstorm with light precipitation of rain, hail and snow","Thunderstorm with light precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRAGRSN,stable
+-TSRAGS,Thunderstorm with light precipitation of rain and snow pellets/small hail,Thunderstorm with light precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRAGS,stable
+-TSRAGSSN,"Thunderstorm with light precipitation of rain, snow pellets/small hail and snow","Thunderstorm with light precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRAGSSN,stable
+-TSRASN,Thunderstorm with light precipitation of rain and snow,Thunderstorm with light precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRASN,stable
+-TSRASNGR,"Thunderstorm with light precipitation of rain, snow and hail","Thunderstorm with light precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRASNGR,stable
+-TSRASNGS,"Thunderstorm with light precipitation of rain, snow and snow pellets/small hail","Thunderstorm with light precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSRASNGS,stable
+-TSSN,Thunderstorm with light precipitation of snow,Thunderstorm with light precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSN,stable
+-TSSNGR,Thunderstorm with light precipitation of snow and hail,Thunderstorm with light precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNGR,stable
+-TSSNGRRA,"Thunderstorm with light precipitation of snow, hail and rain","Thunderstorm with light precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNGRRA,stable
+-TSSNGS,Thunderstorm with light precipitation of snow and snow pellets/small hail,Thunderstorm with light precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNGS,stable
+-TSSNGSRA,"Thunderstorm with light precipitation of snow, snow pellets/small hail and rain","Thunderstorm with light precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNGSRA,stable
+-TSSNRA,Thunderstorm with light precipitation of snow and rain,Thunderstorm with light precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNRA,stable
+-TSSNRAGR,"Thunderstorm with light precipitation of snow, rain and hail","Thunderstorm with light precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNRAGR,stable
+-TSSNRAGS,"Thunderstorm with light precipitation of snow, rain and snow pellets/small hail","Thunderstorm with light precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSSNRAGS,stable
+-TSUP,Thunderstorm with light unidentified precipitation,Thunderstorm with light unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-TSUP,stable
+-UP,Light unidentified precipitation,Light unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/-UP,stable
+BCFG,Patches of fog,Patches of fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/BCFG,stable
+BLDU,Blowing dust,Blowing dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/BLDU,stable
+BLSA,Blowing sand,Blowing sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/BLSA,stable
+BLSN,Blowing snow,Blowing snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/BLSN,stable
+BR,Mist,Mist,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/BR,stable
+DRDU,Low drifting dust,Low drifting dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DRDU,stable
+DRSA,Low drifting sand,Low drifting sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DRSA,stable
+DRSN,Low drifting snow,Low drifting snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DRSN,stable
+DS,Duststorm,Duststorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DS,stable
+DU,Dust,Dust,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DU,stable
+DZ,Precipitation of drizzle,Precipitation of drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZ,stable
+DZPL,Precipitation of drizzle and ice pellets,Precipitation of drizzle and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZPL,stable
+DZPLRA,"Precipitation of drizzle, ice pellets and rain","Precipitation of drizzle, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZPLRA,stable
+DZRA,Precipitation of drizzle and rain,Precipitation of drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZRA,stable
+DZRAPL,"Precipitation of drizzle, rain and ice pellets","Precipitation of drizzle, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZRAPL,stable
+DZRASG,"Precipitation of drizzle, rain and snow grains","Precipitation of drizzle, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZRASG,stable
+DZRASN,"Precipitation of drizzle, rain and snow","Precipitation of drizzle, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZRASN,stable
+DZSG,Precipitation of drizzle and snow grains,Precipitation of drizzle and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZSG,stable
+DZSGRA,"Precipitation of drizzle, snow grains and rain","Precipitation of drizzle, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZSGRA,stable
+DZSN,Precipitation of drizzle and snow,Precipitation of drizzle and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZSN,stable
+DZSNRA,"Precipitation of drizzle, snow and rain","Precipitation of drizzle, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/DZSNRA,stable
+FC,Funnel cloud(s) (tornado or water-spout),Funnel cloud(s) (tornado or water-spout),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FC,stable
+FG,Fog,Fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FG,stable
+FU,Smoke,Smoke,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FU,stable
+FZDZ,Precipitation of freezing drizzle,Precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZDZ,stable
+FZDZRA,Precipitation of freezing drizzle and rain,Precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZDZRA,stable
+FZFG,Freezing fog,Freezing fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZFG,stable
+FZRA,Precipitation of freezng rain,Precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZRA,stable
+FZRADZ,Precipitation of freezing rain and drizzle,Precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZRADZ,stable
+FZUP,Unidentified freezing precipitation,Unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/FZUP,stable
+HZ,Haze,Haze,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/HZ,stable
+MIFG,Shallow fog,Shallow fog,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/MIFG,stable
+PL,Precipitation of ice pellets,Precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PL,stable
+PLDZ,Precipitation of ice pellets and drizzle,Precipitation of ice pellets and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLDZ,stable
+PLDZRA,"Precipitation of ice pellets, drizzle and rain","Precipitation of ice pellets, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLDZRA,stable
+PLRA,Precipitation of ice pellets and rain,Precipitation of ice pellets and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLRA,stable
+PLRADZ,"Precipitation of ice pellets, rain and drizzle","Precipitation of ice pellets, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLRADZ,stable
+PLRASN,"Precipitation of ice pellets, rain and snow","Precipitation of ice pellets, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLRASN,stable
+PLSG,Precipitation of ice pellets and snow grains,Precipitation of ice pellets and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLSG,stable
+PLSGSN,"Precipitation of ice pellets, snow grains and snow","Precipitation of ice pellets, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLSGSN,stable
+PLSN,Precipitation of ice pellets and snow,Precipitation of ice pellets and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLSN,stable
+PLSNRA,"Precipitation of ice pellets, snow and rain","Precipitation of ice pellets, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLSNRA,stable
+PLSNSG,"Precipitation of ice pellets, snow and snow grains","Precipitation of ice pellets, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PLSNSG,stable
+PO,Dust/sand whirls (dust devils),Dust/sand whirls (dust devils),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PO,stable
+PRFG,Partial fog (covering part of the aerodrome),Partial fog (covering part of the aerodrome),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/PRFG,stable
+RA,Precipitation of rain,Precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RA,stable
+RADZ,Precipitation of rain and drizzle,Precipitation of rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RADZ,stable
+RADZPL,"Precipitation of rain, drizzle and ice pellets","Precipitation of rain, drizzle and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RADZPL,stable
+RADZSG,"Precipitation of rain, drizzle and snow grains","Precipitation of rain, drizzle and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RADZSG,stable
+RADZSN,"Precipitation of rain, drizzle and snow","Precipitation of rain, drizzle and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RADZSN,stable
+RAPL,Precipitation of rain and ice pellets,Precipitation of rain and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RAPL,stable
+RAPLDZ,"Precipitation of rain, ice pellets and drizzle","Precipitation of rain, ice pellets and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RAPLDZ,stable
+RAPLSN,"Precipitation of rain, ice pellets and snow","Precipitation of rain, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RAPLSN,stable
+RASG,Precipitation of rain and snow grains,Precipitation of rain and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASG,stable
+RASGDZ,"Precipitation of rain, snow grains and drizzle","Precipitation of rain, snow grains and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASGDZ,stable
+RASGSN,"Precipitation of rain, snow grains and snow","Precipitation of rain, snow grains and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASGSN,stable
+RASN,Precipitation of rain and snow,Precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASN,stable
+RASNDZ,"Precipitation of rain, snow and drizzle","Precipitation of rain, snow and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASNDZ,stable
+RASNPL,"Precipitation of rain, snow and ice pellets","Precipitation of rain, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASNPL,stable
+RASNSG,"Precipitation of rain, snow and snow grains","Precipitation of rain, snow and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/RASNSG,stable
+SA,Sand,Sand,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SA,stable
+SG,Precipitation of snow grains,Precipitation of snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SG,stable
+SGDZ,Precipitation of snow grains and drizzle,Precipitation of snow grains and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGDZ,stable
+SGDZRA,"Precipitation of snow grains, drizzle and rain","Precipitation of snow grains, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGDZRA,stable
+SGPL,Precipitation of snow grains and ice pellets,Precipitation of snow grains and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGPL,stable
+SGPLSN,"Precipitation of snow grains, ice pellets and snow","Precipitation of snow grains, ice pellets and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGPLSN,stable
+SGRA,Precipitation of snow grains and rain,Precipitation of snow grains and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGRA,stable
+SGRADZ,"Precipitation of snow grains, rain and drizzle","Precipitation of snow grains, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGRADZ,stable
+SGRASN,"Precipitation of snow grains, rain and snow","Precipitation of snow grains, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGRASN,stable
+SGSN,Precipitation of snow grains and snow,Precipitation of snow grains and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGSN,stable
+SGSNPL,"Precipitation of snow grains, snow and ice pellets","Precipitation of snow grains, snow and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGSNPL,stable
+SGSNRA,"Precipitation of snow grains, snow and rain","Precipitation of snow grains, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SGSNRA,stable
+SHGR,Showery precipitation of hail,Showery precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGR,stable
+SHGRRA,Showery precipitation of hail and rain,Showery precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGRRA,stable
+SHGRRASN,"Showery precipitation of hail, rain and snow","Showery precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGRRASN,stable
+SHGRSN,Showery precipitation of hail and snow,Showery precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGRSN,stable
+SHGRSNRA,"Showery precipitation of hail, snow and rain","Showery precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGRSNRA,stable
+SHGS,Showery precipitation of snow pellets/small hail,Showery precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGS,stable
+SHGSRA,Showery precipitation of snow pellets/small hail and rain,Showery precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGSRA,stable
+SHGSRASN,"Showery precipitation of snow pellets/small hail, rain and snow","Showery precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGSRASN,stable
+SHGSSN,Showery precipitation of snow pellets/small hail and snow,Showery precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGSSN,stable
+SHGSSNRA,"Showery precipitation of snow pellets/small hail, snow and rain","Showery precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHGSSNRA,stable
+SHRA,Showery precipitation of rain,Showery precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRA,stable
+SHRAGR,Showery precipitation of rain and hail,Showery precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRAGR,stable
+SHRAGRSN,"Showery precipitation of rain, hail and snow","Showery precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRAGRSN,stable
+SHRAGS,Showery precipitation of rain and snow pellets/small hail,Showery precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRAGS,stable
+SHRAGSSN,"Showery precipitation of rain, snow pellets/small hail and snow","Showery precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRAGSSN,stable
+SHRASN,Showery precipitation of rain and snow,Showery precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRASN,stable
+SHRASNGR,"Showery precipitation of rain, snow and hail","Showery precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRASNGR,stable
+SHRASNGS,"Showery precipitation of rain, snow and snow pellets/small hail","Showery precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHRASNGS,stable
+SHSN,Showery precipitation of snow,Showery precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSN,stable
+SHSNGR,Showery precipitation of snow and hail,Showery precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNGR,stable
+SHSNGRRA,"Showery precipitation of snow, hail and rain","Showery precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNGRRA,stable
+SHSNGS,Showery precipitation of snow and snow pellets/small hail,Showery precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNGS,stable
+SHSNGSRA,"Showery precipitation of snow, snow pellets/small hail and rain","Showery precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNGSRA,stable
+SHSNRA,Showery precipitation of snow and rain,Showery precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNRA,stable
+SHSNRAGR,"Showery precipitation of snow, rain and hail","Showery precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNRAGR,stable
+SHSNRAGS,"Showery precipitation of snow, rain and snow pellets/small hail","Showery precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHSNRAGS,stable
+SHUP,Unidentified showery precipitation,Unidentified showery precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SHUP,stable
+SN,Precipitation of snow,Precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SN,stable
+SNDZ,Precipitation of snow and drizzle,Precipitation of snow and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNDZ,stable
+SNDZRA,"Precipitation of snow, drizzle and rain","Precipitation of snow, drizzle and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNDZRA,stable
+SNPL,Precipitation of snow and ice pellets,Precipitation of snow and ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNPL,stable
+SNPLRA,"Precipitation of snow, ice pellets and rain","Precipitation of snow, ice pellets and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNPLRA,stable
+SNPLSG,"Precipitation of snow, ice pellets and snow grains","Precipitation of snow, ice pellets and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNPLSG,stable
+SNRA,Precipitation of snow and rain,Precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNRA,stable
+SNRADZ,"Precipitation of snow, rain and drizzle","Precipitation of snow, rain and drizzle",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNRADZ,stable
+SNRAPL,"Precipitation of snow, rain and ice pellets","Precipitation of snow, rain and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNRAPL,stable
+SNRASG,"Precipitation of snow, rain and snow grains","Precipitation of snow, rain and snow grains",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNRASG,stable
+SNSG,Precipitation of snow and snow grains,Precipitation of snow and snow grains,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNSG,stable
+SNSGPL,"Precipitation of snow, snow grains and ice pellets","Precipitation of snow, snow grains and ice pellets",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNSGPL,stable
+SNSGRA,"Precipitation of snow, snow grains and rain","Precipitation of snow, snow grains and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SNSGRA,stable
+SQ,Squalls,Squalls,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SQ,stable
+SS,Sandstorm,Sandstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/SS,stable
+TS,Thunderstorm,Thunderstorm,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TS,stable
+TSGR,Thunderstorm with precipitation of hail,Thunderstorm with precipitation of hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGR,stable
+TSGRRA,Thunderstorm with precipitation of hail and rain,Thunderstorm with precipitation of hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGRRA,stable
+TSGRRASN,"Thunderstorm with precipitation of hail, rain and snow","Thunderstorm with precipitation of hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGRRASN,stable
+TSGRSN,Thunderstorm with precipitation of hail and snow,Thunderstorm with precipitation of hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGRSN,stable
+TSGRSNRA,"Thunderstorm with precipitation of hail, snow and rain","Thunderstorm with precipitation of hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGRSNRA,stable
+TSGS,Thunderstorm with precipitation of snow pellets/small hail,Thunderstorm with precipitation of snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGS,stable
+TSGSRA,Thunderstorm with precipitation of snow pellets/small hail and rain,Thunderstorm with precipitation of snow pellets/small hail and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGSRA,stable
+TSGSRASN,"Thunderstorm with precipitation of snow pellets/small hail, rain and snow","Thunderstorm with precipitation of snow pellets/small hail, rain and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGSRASN,stable
+TSGSSN,Thunderstorm with precipitation of snow pellets/small hail and snow,Thunderstorm with precipitation of snow pellets/small hail and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGSSN,stable
+TSGSSNRA,"Thunderstorm with precipitation of snow pellets/small hail, snow and rain","Thunderstorm with precipitation of snow pellets/small hail, snow and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSGSSNRA,stable
+TSRA,Thunderstorm with precipitation of rain,Thunderstorm with precipitation of rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRA,stable
+TSRAGR,Thunderstorm with precipitation of rain and hail,Thunderstorm with precipitation of rain and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRAGR,stable
+TSRAGRSN,"Thunderstorm with precipitation of rain, hail and snow","Thunderstorm with precipitation of rain, hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRAGRSN,stable
+TSRAGS,Thunderstorm with precipitation of rain and snow pellets/small hail,Thunderstorm with precipitation of rain and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRAGS,stable
+TSRAGSSN,"Thunderstorm with precipitation of rain, snow pellets/small hail and snow","Thunderstorm with precipitation of rain, snow pellets/small hail and snow",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRAGSSN,stable
+TSRASN,Thunderstorm with precipitation of rain and snow,Thunderstorm with precipitation of rain and snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRASN,stable
+TSRASNGR,"Thunderstorm with precipitation of rain, snow and hail","Thunderstorm with precipitation of rain, snow and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRASNGR,stable
+TSRASNGS,"Thunderstorm with precipitation of rain, snow and snow pellets/small hail","Thunderstorm with precipitation of rain, snow and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSRASNGS,stable
+TSSN,Thunderstorm with precipitation of snow,Thunderstorm with precipitation of snow,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSN,stable
+TSSNGR,Thunderstorm with precipitation of snow and hail,Thunderstorm with precipitation of snow and hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNGR,stable
+TSSNGRRA,"Thunderstorm with precipitation of snow, hail and rain","Thunderstorm with precipitation of snow, hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNGRRA,stable
+TSSNGS,Thunderstorm with precipitation of snow and snow pellets/small hail,Thunderstorm with precipitation of snow and snow pellets/small hail,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNGS,stable
+TSSNGSRA,"Thunderstorm with precipitation of snow, snow pellets/small hail and rain","Thunderstorm with precipitation of snow, snow pellets/small hail and rain",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNGSRA,stable
+TSSNRA,Thunderstorm with precipitation of snow and rain,Thunderstorm with precipitation of snow and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNRA,stable
+TSSNRAGR,"Thunderstorm with precipitation of snow, rain and hail","Thunderstorm with precipitation of snow, rain and hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNRAGR,stable
+TSSNRAGS,"Thunderstorm with precipitation of snow, rain and snow pellets/small hail","Thunderstorm with precipitation of snow, rain and snow pellets/small hail",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSSNRAGS,stable
+TSUP,Thunderstorm with unidentified precipitation,Thunderstorm with unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/TSUP,stable
+UP,Unidentified precipitation,Unidentified precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/UP,stable
+VA,Volcanic ash,Volcanic ash,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VA,stable
+VCBLDU,Blowing dust in the vicinity,Blowing dust in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCBLDU,stable
+VCBLSA,Blowing sand in the vicinity,Blowing sand in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCBLSA,stable
+VCBLSN,Blowing snow in the vicinity,Blowing snow in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCBLSN,stable
+VCDS,Duststorm in the vicinity,Duststorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCDS,stable
+VCFC,Funnel cloud(s) (tornado or water-spout) in the vicinity,Funnel cloud(s) (tornado or water-spout) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCFC,stable
+VCFG,Fog in the vicinity,Fog in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCFG,stable
+VCPO,Dust/sand whirls (dust devils) in the vicinity,Dust/sand whirls (dust devils) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCPO,stable
+VCSH,Shower(s) in the vicinity,Shower(s) in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCSH,stable
+VCSS,Sandstorm in the vicinity,Sandstorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCSS,stable
+VCTS,Thunderstorm in the vicinity,Thunderstorm in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCTS,stable
+VCVA,Volcanic ash in the vicinity,Volcanic ash in the vicinity,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/VCVA,stable

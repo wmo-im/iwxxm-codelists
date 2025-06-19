@@ -2,6 +2,8 @@
 
 IWXXM (the ICAO Meteorological Information Exchange Model) is a data format for reporting aviation weather information in XML/GML and is specified in both XML Schema and Schematron.  Its associated code lists are authoritative vocabularies of meteorological phenomena as well as messages to be conveyed by IWXXM instances.
 
+![build](https://github.com/wmo-im/iwxxm-codelists/workflows/build/badge.svg)
+
 This repository contains resources for maintaining the IWXXM code lists which are published on-line on the WMO Codes Registry (https://codes.wmo.int). 
 
 # Want to provide feedback or raise a question?

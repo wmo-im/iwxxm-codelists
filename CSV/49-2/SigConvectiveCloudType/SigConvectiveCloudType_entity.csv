@@ -1,3 +1,3 @@
-id,notation,status,description,label,altLabel,source,seeAlso,related,note,iwxxmVersionInfo
-http://codes.wmo.int/49-2/SigConvectiveCloudType/CB,CB,stable,Cumulonimbus,Cumulonimbus,,,,http://codes.wmo.int/bufr4/codeflag/0-20-012/9,,1.1;2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/SigConvectiveCloudType/TCU,TCU,stable,Towering cumulus,Towering cumulus,,,,http://codes.wmo.int/bufr4/codeflag/0-20-012/32,,1.1;2.1;3.0;2021-2;2023-1;2025-2
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
+CB,Cumulonimbus,Cumulonimbus,,,,http://codes.wmo.int/bufr4/codeflag/0-20-012/9,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/SigConvectiveCloudType/CB,stable
+TCU,Towering cumulus,Towering cumulus,,,,http://codes.wmo.int/bufr4/codeflag/0-20-012/32,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/SigConvectiveCloudType/TCU,stable

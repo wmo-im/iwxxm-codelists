@@ -11,33 +11,26 @@ from rdflib.namespace import OWL, SKOS, RDFS, RDF, DC, XSD
 # Define namespaces and attributes to be used
 DCT = Namespace("http://purl.org/dc/terms/")
 DCT.description
-DCT.modified
-DCT.publisher
+DCT.issued
+DCT.relation
 REG = Namespace("http://purl.org/linked-data/registry#")
-REG.manager
-REG.owner
 REG.Register
 REG.status
-REG.subregister
 LDP = Namespace("http://www.w3.org/ns/ldp#")
 LDP.Container
 LDP.hasMemberRelation
 
-dictionary = {'description':DCT.description,
+dictionary = {'notation':SKOS.notation,
               'label':RDFS.label,
-              'notation':SKOS.notation,
-              'status':REG.status,
+              'description':DCT.description,
               'altLabel':SKOS.altLabel,
-              'modified':DCT.modified,
-              'versionInfo':OWL.versionInfo,
-              'seeAlso':RDFS.seeAlso,
-              'manager':REG.manager,
-              'owner':REG.owner,
               'source':DC.source,
+              'publishDate':DCT.issued,
+              'seeAlso':RDFS.seeAlso,
               'note':SKOS.note,
-              'publisher':DCT.publisher,
-              'subregister':REG.subregister,
-              'iwxxmVersionInfo':OWL.versionInfo}
+              'related':DCT.relation,
+              'iwxxmVersionInfo':OWL.versionInfo,
+              'status':REG.status}
 
 IWXXMNameSpace= 'http://icao.int/iwxxm/'
 
@@ -60,18 +53,14 @@ def main():
 
     for (root_csv, dummy1, dummy2) in os.walk(os.path.join(root_path, 'CSV')):
 
-        # Skip obsoleted tables 'observable-property' and 'observation-type'
-        if os.path.basename(root_csv) == 'observable-property' or os.path.basename(root_csv) == 'observation-type':
-            continue
-        
         root_ttl = os.path.join(root_path, 'TTL', root_csv[len(os.path.join(root_path, 'CSV')) + 1:])
-        #root_rdf = os.path.join(root_path, 'RDF', root_csv[len(os.path.join(root_path, 'CSV')) + 1:])
         root_rdf = os.path.join(root_path, 'RDF')
         
         # Create container TTL
 
-        # If {root_path}/CSV/{table}/{table}_container.csv exist
-        if os.path.exists(os.path.join(root_csv, '{}_container.csv'.format(os.path.basename(root_csv)))):
+        # If {root_path}/CSV/{table}/{table}_container.csv exist and under purview of TT-AvData
+        relative_path=os.path.relpath(root_csv, os.path.join(root_path, 'CSV'))
+        if os.path.exists(os.path.join(root_csv, '{}_container.csv'.format(os.path.basename(root_csv)))) and (relative_path != 'common' and relative_path != 'bufr4/codeflag'):
 
             # Create {root_path}/TTL/{table}
             if not os.path.exists(root_ttl):
@@ -84,26 +73,21 @@ def main():
             record = pandas.read_csv(os.path.join(root_csv, '{}_container.csv'.format(os.path.basename(root_csv))), encoding = 'utf-8')
             for i in range(record.shape[0]):
                 if record.iloc[i]['notation'] != '' and not pandas.isna(record.iloc[i]['notation']):
-
-                    # Skip obsoleted tables 'observable-property' and 'observation-type'
-                    if record.iloc[i]['notation'] == 'observable-property' or record.iloc[i]['notation'] == 'observation-type':
-                        continue
-
                     with open(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as ttlf:
                         print('Creating {}'.format(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation']))))
                         g = Graph()
                         g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
-                        ref = URIRef(record.iloc[i]['id'])
+                        ref = URIRef(record.iloc[i]['URI'])
                         g.add((ref, RDF.type, SKOS.Collection))
                         g.add((ref, RDF.type, REG.Register))
                         g.add((ref, RDF.type, LDP.Container))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'source' and j != 'seeAlso' and j != 'publisher' and j != 'manager' and j != 'owner' and j != 'note' and j != 'iwxxmVersionInfo':
+                            if j != 'URI' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
-                            if j != 'id':
+                            if j != 'URI':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                     if j == 'notation' or j == 'status':
                                         g.add((ref, dictionary[j], Literal(record.iloc[i][j])))
@@ -121,10 +105,11 @@ def main():
                         ttlf.write(g.serialize(format='ttl'))
                         ttlf.close()
 
-        # Create Entity TTL
+        # Create entity TTL
 
-        # if {root_path}/CSV/{table}/{table}_entity.csv exist
-        if os.path.exists(os.path.join(root_csv, '{}_entity.csv'.format(os.path.basename(root_csv)))):
+        # if {root_path}/CSV/{table}/{table}_entity.csv exist and under purview of TT-AvData
+        relative_path=os.path.relpath(root_csv, os.path.join(root_path, 'CSV'))
+        if os.path.exists(os.path.join(root_csv, '{}_entity.csv'.format(os.path.basename(root_csv)))) and (relative_path != 'common/nil' and relative_path != 'bufr4/codeflag/0-11-030' and relative_path != 'bufr4/codeflag/0-20-008' and relative_path != 'bufr4/codeflag/0-20-012' and relative_path != 'bufr4/codeflag/0-20-041' and relative_path != 'bufr4/codeflag/0-22-061'):
 
             # Create {root_path}/TTL/{table}
             if not os.path.exists(root_ttl):
@@ -142,13 +127,13 @@ def main():
                         g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
-                        ref = URIRef(record.iloc[i]['id'])
+                        ref = URIRef(record.iloc[i]['URI'])
                         g.add((ref, RDF.type, SKOS.Concept))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'id' and j != 'notation' and j != 'status' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
+                            if j != 'URI' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
-                            if j != 'id':
+                            if j != 'URI':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                     if j == 'notation' or j == 'status':
                                         g.add((ref, dictionary[j], Literal(record.iloc[i][j])))
@@ -181,11 +166,6 @@ def main():
             record = pandas.read_csv(os.path.join(root_csv, '{}_container.csv'.format(os.path.basename(root_csv))), encoding = 'utf-8')
             for i in range(record.shape[0]):
                 if record.iloc[i]['notation'] != '' and not pandas.isna(record.iloc[i]['notation']):
-
-                    # Skip obsoleted tables 'observable-property' and 'observation-type'
-                    if record.iloc[i]['notation'] == 'observable-property' or record.iloc[i]['notation'] == 'observation-type':
-                        continue
-
                     record_entity = pandas.read_csv(os.path.join(root_csv, '{0}/{1}_entity.csv'.format(record.iloc[i]['notation'], record.iloc[i]['notation'])), encoding = 'utf-8')
                     with open(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.relpath(root_csv, os.path.join(root_path, 'CSV')).replace(os.path.sep, '-'), record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as rdff:
                         print('Creating {}'.format(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.basename(root_csv), record.iloc[i]['notation']))))
@@ -196,13 +176,13 @@ def main():
                         for k in range(record_entity.shape[0]):
                             #print(os.path.join(root_csv, '{0}/{1}_entity.csv'.format(record.iloc[i]['notation'], record.iloc[i]['notation'])))
                             if record_entity.iloc[k]['notation'] != '' and not pandas.isna(record_entity.iloc[k]['notation']):
-                                n_concept = URIRef(record_entity.iloc[k]['id'])
+                                n_concept = URIRef(record_entity.iloc[k]['URI'])
                                 g.add((n_concept, RDF.type, SKOS.Concept))
                                 for l in list(record_entity):
                                     # Skipping some columns in the CSV file to make a minimal RDF file
-                                    if l != 'id' and l != 'notation' and l != 'description' and l != 'label' and l != 'altLabel' and l != 'note' and l != 'iwxxmVersionInfo':
+                                    if l != 'URI' and l != 'notation' and l != 'description' and l != 'label' and l != 'altLabel' and l != 'note' and l != 'iwxxmVersionInfo':
                                         continue
-                                    if l != 'id':
+                                    if l != 'URI':
                                         if record_entity.iloc[k][l] != '' and not pandas.isna(record_entity.iloc[k][l]):
                                             if l == 'notation' or l == 'status':
                                                 g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l])))
@@ -217,14 +197,14 @@ def main():
                                                 g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l], datatype=XSD.dateTime)))
                                             else:
                                                 g.add((n_concept, dictionary[l], Literal(record_entity.iloc[k][l], lang="en")))
-                                    n_register = URIRef(os.path.dirname(record_entity.iloc[k]['id']))
+                                    n_register = URIRef(os.path.dirname(record_entity.iloc[k]['URI']))
                                     g.add((n_register, SKOS.member, n_concept))
                                     g.add((n_register, RDF.type, REG.Register))
                                     for j in list(record):
                                         # Skipping some columns in the CSV file to make a minimal RDF file
-                                        if j != 'id' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'modified' and j != 'note' and j != 'iwxxmVersionInfo':
+                                        if j != 'URI' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'note' and j != 'iwxxmVersionInfo':
                                             continue
-                                        if j != 'id':
+                                        if j != 'URI':
                                             if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
                                                 if j == 'notation' or j == 'status':
                                                     g.add((n_register, dictionary[j], Literal(record.iloc[i][j])))
