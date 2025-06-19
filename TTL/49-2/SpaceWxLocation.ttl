@@ -4,18 +4,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://codes.wmo.int/49-2/SpaceWxLocation> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Space Wx Location"@en ;
     dct:description "The items within this code table are the locations of space weather phenomena of significance to aeronautical operations"@en ;
-    dct:modified "2019-03-20T16:57:02.324000+00:00"^^xsd:dateTime ;
-    dct:publisher <http://codes.wmo.int/system/organization/wmo> ;
-    reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
-    reg:owner <http://codes.wmo.int/system/organization/wmo> ;
-    reg:status "stable" ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,

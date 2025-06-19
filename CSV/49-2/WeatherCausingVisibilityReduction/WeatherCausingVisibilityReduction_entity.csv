@@ -1,20 +1,20 @@
-id,notation,status,description,label,altLabel,source,seeAlso,related,note,iwxxmVersionInfo
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/BR,BR,stable,Mist,Mist,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DS,DS,stable,Duststorm,Duststorm,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DU,DU,stable,Dust,Dust,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DZ,DZ,stable,Drizzle,Drizzle,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FC,FC,stable,Funnel Cloud,Funnel Cloud,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FG,FG,stable,Fog,Fog,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FU,FU,stable,Smoke,Smoke,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GR,GR,stable,Hail,Hail,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GS,GS,stable,Small Hail,Small Hail,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/HZ,HZ,stable,Haze,Haze,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PL,PL,stable,Ice pellets,Ice pellets,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO,PO,stable,Dust/stand whirls,Dust/stand whirls,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/RA,RA,stable,Rain,Rain,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SA,SA,stable,Sand,Sand,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SG,SG,stable,Snow grams,Snow grams,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SN,SN,stable,Snow,Snow,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SQ,SQ,stable,Squall,Squall,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SS,SS,stable,Sandstorm,Sandstorm,,,,,,2.1;3.0;2021-2;2023-1;2025-2
-http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/VA,VA,stable,Volcanic Ash,Volcanic Ash,,,,,,2.1;3.0;2021-2;2023-1;2025-2
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
+BR,Mist,Mist,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/BR,stable
+DS,Duststorm,Duststorm,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DS,stable
+DU,Dust,Dust,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DU,stable
+DZ,Drizzle,Drizzle,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/DZ,stable
+FC,Funnel Cloud,Funnel Cloud,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FC,stable
+FG,Fog,Fog,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FG,stable
+FU,Smoke,Smoke,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/FU,stable
+GR,Hail,Hail,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GR,stable
+GS,Small Hail,Small Hail,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/GS,stable
+HZ,Haze,Haze,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/HZ,stable
+PL,Ice pellets,Ice pellets,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PL,stable
+PO,Dust/stand whirls,Dust/stand whirls,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO,stable
+RA,Rain,Rain,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/RA,stable
+SA,Sand,Sand,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SA,stable
+SG,Snow grams,Snow grams,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SG,stable
+SN,Snow,Snow,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SN,stable
+SQ,Squall,Squall,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SQ,stable
+SS,Sandstorm,Sandstorm,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/SS,stable
+VA,Volcanic Ash,Volcanic Ash,,,,,,2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/VA,stable

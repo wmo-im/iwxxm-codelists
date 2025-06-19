@@ -4,18 +4,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table D-8: Cloud amount reported at aerodrome"@en ;
-    dct:description "The items within this code table are the cloud amount categories of operational significance for aviation as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. This code table contains a subset of the cloud amount categories defined in Part B FM 94 BUFR Code Table 0 20 008."@en ;
-    dct:modified "2019-10-24T10:48:29.014000+00:00"^^xsd:dateTime ;
-    dct:publisher <http://codes.wmo.int/system/organization/wmo> ;
-    reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
-    reg:owner <http://codes.wmo.int/system/organization/wmo> ;
-    reg:status "stable" ;
+    dct:description "The items within this code table are the cloud amount categories of operational significance for aviation as specified in ICAO Annex 3 and PANS-MET. This code table contains a subset of the cloud amount categories defined in Part B FM 94 BUFR Code Table 0 20 008."@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,
         <http://icao.int/iwxxm/2.1>,
         <http://icao.int/iwxxm/2021-2>,
