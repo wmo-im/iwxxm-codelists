@@ -9,7 +9,7 @@
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table D-9: Significant convective cloud type"@en ;
-    dct:description "The items within this code table are the cloud types of operational significance for aviation as specified in ICAO Annex 3 and PANS-MET. This code table contains a subset of the cloud types defined in Part B FM 94 BUFR Code Table 0 20 012."@en ;
+    dct:description "The items within this code table are the cloud types of operational significance for aviation as specified in ICAO Annex 3 and PANS-MET. This code table contains a subset of the cloud types defined in the Manual on Codes (WMO No.306), Vol. I.2 Part B FM 94 BUFR Code table 0 20 012."@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,
         <http://icao.int/iwxxm/2.1>,
         <http://icao.int/iwxxm/2021-2>,
