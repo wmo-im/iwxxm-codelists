@@ -3,9 +3,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/iwxxm/AviationColourCode/UNKNOWN> a skos:Concept ;
-    rdfs:label "Unknown"@en ;
-    dct:description "Unknown"@en ;
+<http://codes.wmo.int/iwxxm/AviationColourCode/UNASSIGNED> a skos:Concept ;
+    rdfs:label "Unassigned"@en ;
+    dct:description "Not assigned"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
-    skos:notation "UNKNOWN" .
+    skos:notation "UNASSIGNED" .
 

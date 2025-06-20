@@ -5,8 +5,8 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dct="http://purl.org/dc/terms/"
   xmlns:reg="http://purl.org/linked-data/registry#"
+  xmlns:dct="http://purl.org/dc/terms/"
 >
   <reg:Register rdf:about="http://codes.wmo.int/bufr4/codeflag/0-11-030">
     <skos:member>

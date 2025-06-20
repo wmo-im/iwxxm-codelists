@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:ldp="http://www.w3.org/ns/ldp#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:reg="http://purl.org/linked-data/registry#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:reg="http://purl.org/linked-data/registry#"
+  xmlns:dct="http://purl.org/dc/terms/"
 >
   <reg:Register rdf:about="http://codes.wmo.int/iwxxm/AviationColourCode">
     <skos:member>
@@ -42,18 +42,10 @@
       </skos:Concept>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://codes.wmo.int/iwxxm/AviationColourCode/NOT_GIVEN">
-        <skos:notation>NOT_GIVEN</skos:notation>
-        <rdfs:label xml:lang="en">Not Given</rdfs:label>
-        <dct:description xml:lang="en">Not Given</dct:description>
-        <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
-      </skos:Concept>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://codes.wmo.int/iwxxm/AviationColourCode/UNKNOWN">
-        <skos:notation>UNKNOWN</skos:notation>
-        <rdfs:label xml:lang="en">Unknown</rdfs:label>
-        <dct:description xml:lang="en">Unknown</dct:description>
+      <skos:Concept rdf:about="http://codes.wmo.int/iwxxm/AviationColourCode/UNASSIGNED">
+        <skos:notation>UNASSIGNED</skos:notation>
+        <rdfs:label xml:lang="en">Unassigned</rdfs:label>
+        <dct:description xml:lang="en">Not assigned</dct:description>
         <owl:versionInfo rdf:resource="http://icao.int/iwxxm/2025-2"/>
       </skos:Concept>
     </skos:member>
