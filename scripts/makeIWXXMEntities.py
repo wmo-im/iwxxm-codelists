@@ -127,7 +127,8 @@ def main():
                         g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
-                        ref = URIRef(record.iloc[i]['URI'])
+                        #ref = URIRef(record.iloc[i]['URI'])
+                        ref = URIRef(record.iloc[i]['notation'])
                         g.add((ref, RDF.type, SKOS.Concept))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
@@ -174,7 +175,6 @@ def main():
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         for k in range(record_entity.shape[0]):
-                            #print(os.path.join(root_csv, '{0}/{1}_entity.csv'.format(record.iloc[i]['notation'], record.iloc[i]['notation'])))
                             if record_entity.iloc[k]['notation'] != '' and not pandas.isna(record_entity.iloc[k]['notation']):
                                 n_concept = URIRef(record_entity.iloc[k]['URI'])
                                 g.add((n_concept, RDF.type, SKOS.Concept))
