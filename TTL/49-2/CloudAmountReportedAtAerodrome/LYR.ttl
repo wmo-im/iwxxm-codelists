@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/LYR> a skos:Concept ;
+<LYR> a skos:Concept ;
     rdfs:label "Layers"@en ;
     dct:description "Layers. Applicable only to cumulonimbus (CB)."@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,

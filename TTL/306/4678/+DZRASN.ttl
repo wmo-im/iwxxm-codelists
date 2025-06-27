@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/306/4678/+DZRASN> a skos:Concept ;
+<+DZRASN> a skos:Concept ;
     rdfs:label "Heavy precipitation of drizzle, rain and snow"@en ;
     dct:description "Heavy precipitation of drizzle, rain and snow"@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,

@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/WeatherCausingVisibilityReduction/PO> a skos:Concept ;
+<PO> a skos:Concept ;
     rdfs:label "Dust/stand whirls"@en ;
     dct:description "Dust/stand whirls"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2.1>,

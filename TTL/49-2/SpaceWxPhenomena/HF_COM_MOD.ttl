@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/SpaceWxPhenomena/HF_COM_MOD> a skos:Concept ;
+<HF_COM_MOD> a skos:Concept ;
     rdfs:label "HF communications (propagation, absorption) - moderate"@en ;
     dct:description "HF communications (propagation, absorption) - moderate"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,

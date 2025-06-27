@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/306/4678/+TSSNGS> a skos:Concept ;
+<+TSSNGS> a skos:Concept ;
     rdfs:label "Thunderstorm with heavy precipitation of snow and snow pellets/small hail"@en ;
     dct:description "Thunderstorm with heavy precipitation of snow and snow pellets/small hail"@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,

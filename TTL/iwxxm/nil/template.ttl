@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/iwxxm/nil/template> a skos:Concept ;
+<template> a skos:Concept ;
     rdfs:label "Template"@en ;
     dc:source "ISO 19136:2007 Geographic information - Geography Markup Language sub-clause 8.2.3.1"@en ;
     dct:description "The value will be available later."@en ;
