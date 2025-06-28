@@ -7,7 +7,6 @@
     rdfs:label "Turbulence"@en ;
     dct:description "Turbulence"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
-        <http://icao.int/iwxxm/2023-1>,
-        <http://icao.int/iwxxm/2025-2> ;
+        <http://icao.int/iwxxm/2023-1> ;
     skos:notation "TURBULENCE" .
 

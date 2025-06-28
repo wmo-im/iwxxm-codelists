@@ -7,7 +7,6 @@
     rdfs:label "Quasi-stationary front at the surface"@en ;
     dct:description "Quasi-stationary front at the surface"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
-        <http://icao.int/iwxxm/2023-1>,
-        <http://icao.int/iwxxm/2025-2> ;
+        <http://icao.int/iwxxm/2023-1> ;
     skos:notation "QUASI-STATIONARY_FRONT_AT_THE_SURFACE" .
 
