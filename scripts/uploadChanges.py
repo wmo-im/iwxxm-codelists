@@ -60,7 +60,7 @@ def put(session, url, payload):
 
 def post_uploads(session, rootURL, uploads):
     for postfile in uploads:
-        with open('.{}'.format(postfile), 'r', encoding="utf-8") as pf:
+        with open('{}{}'.format('TTL', postfile), 'r', encoding="utf-8") as pf:
             pdata = pf.read()
         # post, so remove last part of identity, this is in the payload
         relID = postfile.replace('.ttl', '')
@@ -71,7 +71,7 @@ def post_uploads(session, rootURL, uploads):
 
 def put_uploads(session, rootURL, uploads):
     for putfile in uploads:
-        with open('.{}'.format(putfile), 'r', encoding="utf-8") as pf:
+        with open('{}{}'.format('TTL', putfile), 'r', encoding="utf-8") as pf:
             pdata = pf.read()
         relID = putfile.replace('.ttl', '')
         url = '{}{}'.format(rootURL, relID)

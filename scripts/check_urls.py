@@ -70,7 +70,7 @@ class TestContentsConsistency(unittest.TestCase):
         try:
             assert(rdflib.compare.isomorphic(result, expected))
         except AssertionError:
-            ufile = 'TTL{}.ttl'.format(identityURI.split(rooturl)[1])
+            ufile = '{}.ttl'.format(identityURI.split(rooturl)[1])
             if (list(inres.triples((None, rdflib.namespace.SKOS.member, None))) or
                 list(inexp.triples((None, rdflib.namespace.SKOS.member, None)))):
                 lbb = ('\n####### Containment Error, '
@@ -108,7 +108,7 @@ for f in glob.glob('**/*.ttl', recursive=True):
             try:
                 assert(regr.status_code == 200)
             except AssertionError:
-                ufile = 'TTL{}.ttl'.format(identityURI.split(rooturl)[1])
+                ufile = '{}.ttl'.format(identityURI.split(rooturl)[1])
                 uploads['POST'].append(ufile)
             msg = ('{} expected to return 200 but returned {}'
                    ''.format(resourceURI, regr.status_code))
