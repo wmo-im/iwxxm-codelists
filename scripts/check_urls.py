@@ -159,13 +159,12 @@ for f in glob.glob('**/*.ttl', recursive=True):
 
             # do not check version info or date modified (owned by registry)
             expected_rdfgraph.remove((None, rdflib.namespace.DCTERMS.modified, None))
-            expected_rdfgraph.remove((None, rdflib.namespace.OWL.versionInfo, None))
+            #expected_rdfgraph.remove((None, rdflib.namespace.OWL.versionInfo, None))
             self.check_result(result_rdfgraph, expected_rdfgraph, uploads, identityURI, resourceURI)
         return entity_consistent
 
-    # Temporarily disabled until the elements within each entity on Codes Registry has been aligned with the generated TTLs
-    #tname = 'test_consistent_{}'.format(relf.replace('/', '_'))
-    #setattr(TestContentsConsistency, tname, make_another_test(f))
+    tname = 'test_consistent_{}'.format(relf.replace('/', '_'))
+    setattr(TestContentsConsistency, tname, make_another_test(f))
 
 if __name__ == '__main__':
     try:
