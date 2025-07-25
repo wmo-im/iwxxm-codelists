@@ -5,7 +5,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/SpaceWxLocation> a reg:Register,
+<SpaceWxLocation> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Space Wx Location"@en ;
@@ -14,5 +14,6 @@
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
-    skos:notation "SpaceWxLocation" .
+    skos:notation "SpaceWxLocation" ;
+    ldp:hasMemberRelation skos:member .
 

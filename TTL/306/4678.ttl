@@ -5,7 +5,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/306/4678> a reg:Register,
+<4678> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table 4678: Significant weather phenomena"@en ;
@@ -18,5 +18,6 @@
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
     skos:altLabel "w'w'"@en ;
-    skos:notation "4678" .
+    skos:notation "4678" ;
+    ldp:hasMemberRelation skos:member .
 

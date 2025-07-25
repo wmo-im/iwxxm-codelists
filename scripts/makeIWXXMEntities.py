@@ -79,10 +79,12 @@ def main():
                         g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
-                        ref = URIRef(record.iloc[i]['URI'])
+                        #ref = URIRef(record.iloc[i]['URI'])
+                        ref = URIRef('{}'.format(record.iloc[i]['notation']))
                         g.add((ref, RDF.type, SKOS.Collection))
                         g.add((ref, RDF.type, REG.Register))
                         g.add((ref, RDF.type, LDP.Container))
+                        g.add((ref, LDP.hasMemberRelation, SKOS.member))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
                             if j != 'URI' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
@@ -128,7 +130,7 @@ def main():
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         #ref = URIRef(record.iloc[i]['URI'])
-                        ref = URIRef(record.iloc[i]['notation'])
+                        ref = URIRef('{}'.format(record.iloc[i]['notation']))
                         g.add((ref, RDF.type, SKOS.Concept))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
