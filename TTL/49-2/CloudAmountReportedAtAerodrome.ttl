@@ -5,7 +5,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome> a reg:Register,
+<CloudAmountReportedAtAerodrome> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table D-8: Cloud amount reported at aerodrome"@en ;
@@ -16,5 +16,6 @@
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
-    skos:notation "CloudAmountReportedAtAerodrome" .
+    skos:notation "CloudAmountReportedAtAerodrome" ;
+    ldp:hasMemberRelation skos:member .
 

@@ -5,7 +5,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/SpaceWxPhenomena> a reg:Register,
+<SpaceWxPhenomena> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Space Wx Phenomena"@en ;
@@ -13,5 +13,6 @@
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/3.0> ;
-    skos:notation "SpaceWxPhenomena" .
+    skos:notation "SpaceWxPhenomena" ;
+    ldp:hasMemberRelation skos:member .
 

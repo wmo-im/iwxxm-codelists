@@ -5,7 +5,7 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/49-2/SigWxPhenomena> a reg:Register,
+<SigWxPhenomena> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table D-10: Significant Weather Phenomena"@en ;
@@ -16,5 +16,6 @@
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
-    skos:notation "SigWxPhenomena" .
+    skos:notation "SigWxPhenomena" ;
+    ldp:hasMemberRelation skos:member .
 

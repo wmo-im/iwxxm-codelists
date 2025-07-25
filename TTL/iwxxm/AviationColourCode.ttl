@@ -5,11 +5,12 @@
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://codes.wmo.int/iwxxm/AviationColourCode> a reg:Register,
+<AviationColourCode> a reg:Register,
         skos:Collection,
         ldp:Container ;
     rdfs:label "Volcanic Aviation Colour Code"@en ;
     dct:description "The items within this code table are the volcano level of alert colour codes for aviation defined in ICAO Doc 9766"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
-    skos:notation "AviationColourCode" .
+    skos:notation "AviationColourCode" ;
+    ldp:hasMemberRelation skos:member .
 
