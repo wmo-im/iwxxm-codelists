@@ -1,4 +1,4 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,11 +9,9 @@
         skos:Collection,
         ldp:Container ;
     rdfs:label "Volcanic Aviation Colour Code"@en ;
-    dct:description "The items within this code table are the volcano level of alert colour codes for aviation defined in ICAO Doc 9766"@en ;
+    dcterms:description "The items within this code table are the volcano level of alert colour codes for aviation defined in ICAO Doc 9766"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2.1>,
         <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1>,
-        <http://icao.int/iwxxm/3.0> ;
-    skos:notation "AviationColourCode" ;
-    ldp:hasMemberRelation skos:member .
+        <http://icao.int/iwxxm/3.0> .
 

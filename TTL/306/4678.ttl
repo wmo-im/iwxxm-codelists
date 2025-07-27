@@ -1,4 +1,4 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,7 +9,7 @@
         skos:Collection,
         ldp:Container ;
     rdfs:label "Code Table 4678: Significant weather phenomena"@en ;
-    dct:description "This register provides terms that may be used to describe significant [recent], present and forecast weather - enumerating the set of meteorologically valid options defined in WMO No. 306 Vol I.1, Part A, Code Table 4678. Each term comprises one or more of the elements from code-table 4678: 'intensity or proximity', 'descriptor', 'precipitation', 'obscuration' and 'other'."@en ;
+    dcterms:description "This register provides terms that may be used to describe significant [recent], present and forecast weather - enumerating the set of meteorologically valid options defined in WMO No. 306 Vol I.1, Part A, Code Table 4678. Each term comprises one or more of the elements from code-table 4678: 'intensity or proximity', 'descriptor', 'precipitation', 'obscuration' and 'other'."@en ;
     rdfs:seeAlso "https://library.wmo.int/idurl/4/35713"@en ;
     owl:versionInfo <http://icao.int/iwxxm/1.1>,
         <http://icao.int/iwxxm/2.1>,
@@ -17,7 +17,5 @@
         <http://icao.int/iwxxm/2023-1>,
         <http://icao.int/iwxxm/2025-2>,
         <http://icao.int/iwxxm/3.0> ;
-    skos:altLabel "w'w'"@en ;
-    skos:notation "4678" ;
-    ldp:hasMemberRelation skos:member .
+    skos:altLabel "w'w'"@en .
 

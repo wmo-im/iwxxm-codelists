@@ -1,11 +1,11 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <BelowDetectionRange> a skos:Concept ;
     rdfs:label "Below detection range"@en ;
-    dct:description "The value was below the detection range of the instrument used to estimate it."@en ;
+    dcterms:description "The value was below the detection range of the instrument used to estimate it."@en ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
     skos:notation "BelowDetectionRange" .
 

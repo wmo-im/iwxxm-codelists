@@ -1,11 +1,11 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <CLOUD_CLEAR> a skos:Concept ;
     rdfs:label "Cloud clear"@en ;
-    dct:description "Cloud clear"@en ;
+    dcterms:description "Cloud clear"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1> ;
     skos:notation "CLOUD_CLEAR" .
