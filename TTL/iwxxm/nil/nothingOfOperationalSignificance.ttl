@@ -1,11 +1,11 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <nothingOfOperationalSignificance> a skos:Concept ;
     rdfs:label "Nothing of operational signficance"@en ;
-    dct:description "Nothing was observed or forecast of operational significance (e.g. nil significant cloud NSC, nil significant weather NSW)."@en ;
+    dcterms:description "Nothing was observed or forecast of operational significance (e.g. nil significant cloud NSC, nil significant weather NSW)."@en ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
     skos:notation "nothingOfOperationalSignificance" .
 

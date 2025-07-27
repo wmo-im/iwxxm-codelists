@@ -1,5 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,8 +11,6 @@
         ldp:Container ;
     rdfs:label "Nil reasons"@en ;
     dc:source "Code Table D-1: Nil reasons"@en ;
-    dct:description "Nil-reason terms are used to provide an explanation for recording a missing (or void) value within a data product. Terms are drawn from authorities in addition to WMO including ISO/TC 211 (from ISO 19136:2007 Geography markup language clause 8.2.3.1; published on their behalf by the Open Geospatial Consortium)."@en ;
-    owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
-    skos:notation "nil" ;
-    ldp:hasMemberRelation skos:member .
+    dcterms:description "Nil-reason terms are used to provide an explanation for recording a missing (or void) value within a data product. Terms are drawn from authorities in addition to WMO including ISO/TC 211 (from ISO 19136:2007 Geography markup language clause 8.2.3.1; published on their behalf by the Open Geospatial Consortium)."@en ;
+    owl:versionInfo <http://icao.int/iwxxm/2025-2> .
 

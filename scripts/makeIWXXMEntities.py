@@ -6,29 +6,24 @@ import shutil
 import pandas
 import urllib.parse
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
-from rdflib.namespace import OWL, SKOS, RDFS, RDF, DC, XSD
+from rdflib.namespace import DC, DCTERMS, OWL, RDF, RDFS, SKOS, XSD
 
 # Define namespaces and attributes to be used
-DCT = Namespace("http://purl.org/dc/terms/")
-DCT.description
-DCT.issued
-DCT.relation
 REG = Namespace("http://purl.org/linked-data/registry#")
 REG.Register
 REG.status
 LDP = Namespace("http://www.w3.org/ns/ldp#")
 LDP.Container
-LDP.hasMemberRelation
 
 dictionary = {'notation':SKOS.notation,
               'label':RDFS.label,
-              'description':DCT.description,
+              'description':DCTERMS.description,
               'altLabel':SKOS.altLabel,
               'source':DC.source,
-              'publishDate':DCT.issued,
+              'publishDate':DCTERMS.issued,
               'seeAlso':RDFS.seeAlso,
               'note':SKOS.note,
-              'related':DCT.relation,
+              'related':DCTERMS.relation,
               'iwxxmVersionInfo':OWL.versionInfo,
               'status':REG.status}
 
@@ -76,7 +71,6 @@ def main():
                     with open(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as ttlf:
                         print('Creating {}'.format(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation']))))
                         g = Graph()
-                        g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         #ref = URIRef(record.iloc[i]['URI'])
@@ -84,10 +78,9 @@ def main():
                         g.add((ref, RDF.type, SKOS.Collection))
                         g.add((ref, RDF.type, REG.Register))
                         g.add((ref, RDF.type, LDP.Container))
-                        g.add((ref, LDP.hasMemberRelation, SKOS.member))
                         for j in list(record):
                             # Skipping some columns in the CSV file to make a minimal TTL file
-                            if j != 'URI' and j != 'notation' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
+                            if j != 'URI' and j != 'description' and j != 'label' and j != 'altLabel' and j != 'source' and j != 'seeAlso' and j != 'note' and j != 'iwxxmVersionInfo':
                                 continue
                             if j != 'URI':
                                 if record.iloc[i][j] != '' and not pandas.isna(record.iloc[i][j]):
@@ -126,7 +119,6 @@ def main():
                     with open(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as ttlf:
                         print('Creating {}'.format(os.path.join(root_ttl, '{}.ttl'.format(record.iloc[i]['notation']))))
                         g = Graph()
-                        g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         #ref = URIRef(record.iloc[i]['URI'])
@@ -173,7 +165,6 @@ def main():
                     with open(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.relpath(root_csv, os.path.join(root_path, 'CSV')).replace(os.path.sep, '-'), record.iloc[i]['notation'])), 'w', encoding = 'utf-8') as rdff:
                         print('Creating {}'.format(os.path.join(root_rdf, 'codes.wmo.int-{0}-{1}.rdf'.format(os.path.basename(root_csv), record.iloc[i]['notation']))))
                         g = Graph()
-                        g.bind("dct", DCT)
                         g.bind("reg", REG)
                         g.bind("ldp", LDP)
                         for k in range(record_entity.shape[0]):
@@ -223,7 +214,6 @@ def main():
                                                     g.add((n_register, dictionary[j], Literal(record.iloc[i][j], lang="en")))
                                     g.add((n_register, RDF.type, LDP.Container))
                                     g.add((n_register, RDF.type, SKOS.Collection))
-                                    g.add((n_register, LDP.hasMemberRelation, SKOS.member))
                         rdff.write(g.serialize(format='pretty-xml'))
                         rdff.close()
 

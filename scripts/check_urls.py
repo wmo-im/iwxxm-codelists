@@ -11,6 +11,10 @@ import rdflib
 import rdflib.compare
 import requests
 
+# Define namespaces and attributes to be used
+from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
+REG = Namespace("http://purl.org/linked-data/registry#")
+REG.Register
 
 """
 This test script evaluates all folder which contain a file of name 'regurl'
@@ -129,9 +133,8 @@ for f in glob.glob('**/*.ttl', recursive=True):
             assert(expected.status_code == 200)
             expected_rdfgraph = rdflib.Graph()
             expected_rdfgraph.parse(data=expected.text, format='n3')
-            # print(expected)
+            #print(expected)
             result_rdfgraph = rdflib.Graph()
-
             result_rdfgraph.parse(ufile, publicID=identityURI, format='n3')
             splitID = identityURI.split('/')[-1]
             if splitID.startswith('_'):
@@ -141,24 +144,24 @@ for f in glob.glob('**/*.ttl', recursive=True):
                 expected_rdfgraph.remove((None, rdflib.namespace.FOAF.accountName, None))
                 expected_rdfgraph.remove((None, rdflib.namespace.FOAF.name, None))
             # if ldp:container with contained entities
-            if os.path.exists(identityURI.split(rooturl)[1].lstrip('/')):
+            if os.path.exists('TTL/{}'.format(identityURI.split(rooturl)[1].lstrip('/'))):
                 # add in member relations from tree
                 col_id, = result_rdfgraph.subjects(rdflib.RDF.type, rdflib.namespace.SKOS.Collection)
-                for fname in glob.glob('{}/*.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))):
+                for fname in glob.glob('TTL/{}/*.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))):
                     split_fname = fname.split('/')[-1].split('.ttl')[0]
                     if split_fname.startswith('_'):
                         split_fname = split_fname[1:]
                     member_id = rdflib.term.URIRef(u'{}/{}'.format(identityURI, split_fname))
-                    result_rdfgraph.add((col_id, rdflib.namespace.SKOS.member, member_id))
+                    result_rdfgraph.add((col_id, rdflib.namespace.RDFS.member, member_id))
                     expected_rdfgraph.remove((member_id, None, None))
             # special case for these two indirection registers 
             elif ufile in ['TTL/49-2/AerodromeRecentWeather.ttl','TTL/49-2/AerodromePresentOrForecastWeather.ttl']:
                 members = expected_rdfgraph.objects(predicate=rdflib.namespace.SKOS.member)
                 for member_id in members:
                     expected_rdfgraph.remove((member_id, None, None))
-
-            # do not check version info or date modified (owned by registry)
+            # do not check entities owned by registry (date modified and notation)
             expected_rdfgraph.remove((None, rdflib.namespace.DCTERMS.modified, None))
+            expected_rdfgraph.remove((None, REG.notation, None))
             #expected_rdfgraph.remove((None, rdflib.namespace.OWL.versionInfo, None))
             self.check_result(result_rdfgraph, expected_rdfgraph, uploads, identityURI, resourceURI)
         return entity_consistent

@@ -1,11 +1,11 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <CONVERGENCE_LINE> a skos:Concept ;
     rdfs:label "Convergence line"@en ;
-    dct:description "Convergence line"@en ;
+    dcterms:description "Convergence line"@en ;
     owl:versionInfo <http://icao.int/iwxxm/2021-2>,
         <http://icao.int/iwxxm/2023-1> ;
     skos:notation "CONVERGENCE_LINE" .

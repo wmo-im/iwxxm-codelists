@@ -1,5 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -7,7 +7,7 @@
 <unknown> a skos:Concept ;
     rdfs:label "Unknown"@en ;
     dc:source "ISO 19136:2007 Geographic information - Geography Markup Language sub-clause 8.2.3.1"@en ;
-    dct:description "The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists."@en ;
+    dcterms:description "The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists."@en ;
     rdfs:seeAlso <http://www.opengis.net/doc/gml#clause-8.2.3.1> ;
     owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
     skos:notation "unknown" .
