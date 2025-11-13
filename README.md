@@ -1,13 +1,9 @@
 # Code lists used within the IWXXM XML standard
 
-Code lists are organised are presented in WMO Manual on Codes I.3
-https://community.wmo.int/activity-areas/wmo-codes/manual-codes
+The IWXXM Code Tables and Concepts are represented here as individual files in CSV format.
 
-Content is in individual files, once table entry per file, in RDF TTL turtle format.
+These code lists are also published in the [WMO Manual on Codes](https://community.wmo.int/activity-areas/wis/wis-manuals).
 
-Content is published at
-http://codes.wmo.int/
+The CSV files are converted to TTL format and incorporated into the [WMO Code Registry](https://codes.wmo.int/).
 
-Content is published from the Manual on Codes with best effort to deliver consistency.  If doubt arises, the Manual on Codes is the authoritative source.
-
-Pull requests are welcome from WMO expert teams.
+If there is any discrepancy, the WMO Manual on Codes is the authoritative source.

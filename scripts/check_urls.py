@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import copy
 import glob
 import json
@@ -88,7 +90,7 @@ class TestContentsConsistency(unittest.TestCase):
 # Build test cases based on the TTL files within the repository,
 # one test case per file.
 for f in glob.glob('**/*.ttl', recursive=True):
-    relf = f.replace('.ttl', '')
+    relf = f.replace('.ttl', '')[len('TTL/'):]
     identity = '{}/{}'.format(rooturl, relf)
     resource = '{}/{}'.format(downloadurl, relf)
 
