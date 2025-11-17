@@ -14,7 +14,7 @@ notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo
 +FC,Well-developed funnel cloud(s) (tornado or waterspout),Well-developed funnel cloud(s) (tornado or waterspout),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FC,stable
 +FZDZ,Heavy precipitation of freezing drizzle,Heavy precipitation of freezing drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZDZ,stable
 +FZDZRA,Heavy precipitation of freezing drizzle and rain,Heavy precipitation of freezing drizzle and rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZDZRA,stable
-+FZRA,Heavy precipitation of freezng rain,Heavy precipitation of freezng rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZRA,stable
++FZRA,Heavy precipitation of freezng rain,Heavy precipitation of freezing rain,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZRA,stable
 +FZRADZ,Heavy precipitation of freezing rain and drizzle,Heavy precipitation of freezing rain and drizzle,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZRADZ,stable
 +FZUP,Heavy unidentified freezing precipitation,Heavy unidentified freezing precipitation,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+FZUP,stable
 +PL,Heavy precipitation of ice pellets,Heavy precipitation of ice pellets,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/306/4678/+PL,stable
