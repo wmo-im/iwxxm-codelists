@@ -1,0 +1,19 @@
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
+0,0,Sky clear,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/0,stable
+1,1,Few,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/1,stable
+2,2,Scattered,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/2,stable
+3,3,Broken,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/3,stable
+4,4,Overcast,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/4,stable
+6,6,Scattered/broken,,,,,(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s)),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/6,stable
+7,7,Broken/overcast,,,,,(Many forecasts use scattered/broken or broken/overcast followed by cloud type(s)),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/7,stable
+8,8,Isolated,,,,,(Used on aviation charts to describe the cloud type Cb),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/8,stable
+9,9,Isolated embedded,,,,,(Used on aviation charts to describe the cloud type Cb),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/9,stable
+10,10,Occasional,,,,,(Used on aviation charts to describe the cloud type Cb),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/10,stable
+11,11,Occasional embedded,,,,,(Used on aviation charts to describe the cloud type Cb),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/11,stable
+12,12,Frequent,,,,,(Used on aviation charts to describe the cloud type Cb),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/12,stable
+13,13,Dense,,,,,(Used on aviation charts to describe cloud that would cause sudden changes in visibility (less than 1 000 m)),1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/13,stable
+14,14,Layers,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/14,stable
+15,15,Obscured (OBSC),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/15,stable
+16,16,Embedded (EMBD),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/16,stable
+17,17,Frequent embedded,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/17,stable
+31,31,Missing value,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-008/31,stable

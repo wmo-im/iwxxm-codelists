@@ -22,6 +22,10 @@ based on the relative path of the .ttl file.
 """
 
 def authenticate(session, base, userid, pss):
+    # Prefer HTTPS for registry session interactions
+    # Essential for authenticate due to 405 response
+    if base.startswith('http://'):
+        base = base.replace('http://', 'https://')
     auth = session.post('{}/system/security/apilogin'.format(base),
                         data={'userid':userid,
                                 'password':pss})
@@ -39,6 +43,10 @@ def parse_uploads(uploads):
     return result
 
 def post(session, url, payload):
+    # Prefer HTTPS for registry session interactions
+    if url.startswith('http://'):
+        url = url.replace('http://', 'https://')
+    # POST new content to the intended parent register
     headers={'Content-type':'text/turtle; charset=UTF-8'}
     response = session.get(url, headers=headers)
     #if response.status_code != 200:
@@ -50,6 +58,10 @@ def post(session, url, payload):
         print('POST failed with {}\n{}'.format(res.status_code, res.reason))
 
 def put(session, url, payload):
+    # Prefer HTTPS for registry session interactions
+    if url.startswith('http://'):
+        url = url.replace('http://', 'https://')
+    # PUT updated content to the entity already registered
     headers={'Content-type':'text/turtle; charset=UTF-8'}
     response = session.get(url, headers=headers)
     if response.status_code != 200:
@@ -60,7 +72,7 @@ def put(session, url, payload):
 
 def post_uploads(session, rootURL, uploads):
     for postfile in uploads:
-        with open('.{}'.format(postfile), 'r', encoding="utf-8") as pf:
+        with open('{}{}'.format('TTL', postfile), 'r', encoding="utf-8") as pf:
             pdata = pf.read()
         # post, so remove last part of identity, this is in the payload
         relID = postfile.replace('.ttl', '')
@@ -71,7 +83,7 @@ def post_uploads(session, rootURL, uploads):
 
 def put_uploads(session, rootURL, uploads):
     for putfile in uploads:
-        with open('.{}'.format(putfile), 'r', encoding="utf-8") as pf:
+        with open('{}{}'.format('TTL', putfile), 'r', encoding="utf-8") as pf:
             pdata = pf.read()
         relID = putfile.replace('.ttl', '')
         url = '{}{}'.format(rootURL, relID)

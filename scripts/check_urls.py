@@ -11,16 +11,21 @@ import rdflib
 import rdflib.compare
 import requests
 
-
+# Define namespaces and attributes to be used
+from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
+REG = Namespace("http://purl.org/linked-data/registry#")
+REG.Register
 
 """
-This test script evaluates all folder which contain a file of name
-'regurl'
+This test script evaluates all folder which contain a file of name 'regurl'
 that contains a single URL for a registry.
+
 Test will succeed if the registry exists, and all contents is the same as
 in the repository commit.
+
 All entities must exist, evaluate to the same content, and no entities may be
 remote that are not in the source tree.
+
 Environment variables control behaviour:
 'tmode=<test|prod>'  - required - check with respect to test or production register
 'outfile=</path/to/writeable/file>' to return the upload syntax to a file 
@@ -46,17 +51,16 @@ print('Running test with respect to {}'.format(downloadurl))
 outfile = os.environ.get('outfile', None)
 if outfile is not None:
     if not os.path.exists(os.path.dirname(outfile)):
-        raise ValueError('outfile directory does not exist: {}'.format(outfile))
+        raise ValueError('outfile directory does not exist: {}'.format(dirname(outfile)))
     elif not os.access(os.path.dirname(outfile), os.W_OK):
-        raise ValueError('outfile directory is not writeable: {}'.format(outfile))
+        raise ValueError('outfile directory is not writeable: {}'.format(dirname(outfile)))
     elif os.path.exists and not os.access(outfile, os.W_OK):
-        raise ValueError('outfile is not writeable: {}'.format(outfile))
-    
+        raise ValueError('outfile is not writeable: {}'.format(dirname(outfile)))
 
 class TestContentsExistance(unittest.TestCase):
     def test_register(self):
         headers={'Accept':'text/turtle'}
-        pr = requests.get(downloadurl, headers=headers)
+        pr = requests.get(requests.utils.requote_uri(downloadurl), headers=headers)
         self.assertEqual(pr.status_code, 200)
 
 class TestContentsConsistency(unittest.TestCase):
@@ -76,20 +80,25 @@ class TestContentsConsistency(unittest.TestCase):
                 lbb = ('\n####### Containment Error, '
                        'check validity of list of contained entities '
                        '#######\n{}').format(lbb)
-            
             else:
                 uploads['PUT'].append(ufile)
 
         self.assertTrue(rdflib.compare.isomorphic(result, expected),
                         (resourceURL + '\n' +
-                         lbb + inboth.serialize(format='n3').decode("utf-8") +
-                         lbr + inres.serialize(format='n3').decode("utf-8") +
-                         lbe + inexp.serialize(format='n3').decode("utf-8")))
-
+                         lbb + inboth.serialize(format='n3') +
+                         lbr + inres.serialize(format='n3') +
+                         lbe + inexp.serialize(format='n3')))
 
 # Build test cases based on the TTL files within the repository,
 # one test case per file.
 for f in glob.glob('**/*.ttl', recursive=True):
+
+    # Skip AerodromePresentOrForecastWeather and AerodromeRecentWeather as they are pointers to http://codes.wmo.int/306/4678
+    ftest = os.path.basename(os.path.dirname(f))
+    if ftest == 'AerodromePresentOrForecastWeather' or ftest == 'AerodromeRecentWeather':
+
+        continue
+
     relf = f.replace('.ttl', '')[len('TTL/'):]
     identity = '{}/{}'.format(rooturl, relf)
     resource = '{}/{}'.format(downloadurl, relf)
@@ -100,7 +109,7 @@ for f in glob.glob('**/*.ttl', recursive=True):
         identityURI = copy.copy(identity)
         def entity_exists(self):
             headers={'Accept':'text/turtle', 'Cache-Control': 'private, no-store, max-age=0'}
-            regr = requests.get(resourceURI, headers=headers)
+            regr = requests.get(requests.utils.requote_uri(resourceURI), headers=headers)
             try:
                 assert(regr.status_code == 200)
             except AssertionError:
@@ -110,6 +119,7 @@ for f in glob.glob('**/*.ttl', recursive=True):
                    ''.format(resourceURI, regr.status_code))
             self.assertEqual(regr.status_code, 200, msg)
         return entity_exists
+
     tname = 'test_exists_{}'.format(relf.replace('/', '_'))
     setattr(TestContentsExistance, tname, make_a_test(f))
 
@@ -119,14 +129,13 @@ for f in glob.glob('**/*.ttl', recursive=True):
         identityURI = copy.copy(identity)
         def entity_consistent(self):
             headers={'Accept':'text/turtle', 'Cache-Control': 'private, no-store, max-age=0'}
-            ufile = '{}.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))
-            expected = requests.get(resourceURI, headers=headers)
+            ufile = 'TTL/{}.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))
+            expected = requests.get(requests.utils.requote_uri(resourceURI), headers=headers)
             assert(expected.status_code == 200)
             expected_rdfgraph = rdflib.Graph()
             expected_rdfgraph.parse(data=expected.text, format='n3')
-            # print(expected)
+            #print(expected)
             result_rdfgraph = rdflib.Graph()
-
             result_rdfgraph.parse(ufile, publicID=identityURI, format='n3')
             splitID = identityURI.split('/')[-1]
             if splitID.startswith('_'):
@@ -136,25 +145,25 @@ for f in glob.glob('**/*.ttl', recursive=True):
                 expected_rdfgraph.remove((None, rdflib.namespace.FOAF.accountName, None))
                 expected_rdfgraph.remove((None, rdflib.namespace.FOAF.name, None))
             # if ldp:container with contained entities
-            if os.path.exists(identityURI.split(rooturl)[1].lstrip('/')):
+            if os.path.exists('TTL/{}'.format(identityURI.split(rooturl)[1].lstrip('/'))):
                 # add in member relations from tree
                 col_id, = result_rdfgraph.subjects(rdflib.RDF.type, rdflib.namespace.SKOS.Collection)
-                for fname in glob.glob('{}/*.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))):
+                for fname in glob.glob('TTL/{}/*.ttl'.format(identityURI.split(rooturl)[1].lstrip('/'))):
                     split_fname = fname.split('/')[-1].split('.ttl')[0]
                     if split_fname.startswith('_'):
                         split_fname = split_fname[1:]
                     member_id = rdflib.term.URIRef(u'{}/{}'.format(identityURI, split_fname))
-                    result_rdfgraph.add((col_id, rdflib.namespace.SKOS.member, member_id))
+                    result_rdfgraph.add((col_id, rdflib.namespace.RDFS.member, member_id))
                     expected_rdfgraph.remove((member_id, None, None))
             # special case for these two indirection registers 
-            elif ufile in ['49-2/AerodromeRecentWeather.ttl','49-2/AerodromePresentOrForecastWeather.ttl']:
+            elif ufile in ['TTL/49-2/AerodromeRecentWeather.ttl','TTL/49-2/AerodromePresentOrForecastWeather.ttl']:
                 members = expected_rdfgraph.objects(predicate=rdflib.namespace.SKOS.member)
                 for member_id in members:
                     expected_rdfgraph.remove((member_id, None, None))
-
-                # do not check version info or date modified (owned by registry)
+            # do not check entities owned by registry (date modified and notation)
             expected_rdfgraph.remove((None, rdflib.namespace.DCTERMS.modified, None))
-            expected_rdfgraph.remove((None, rdflib.namespace.OWL.versionInfo, None))
+            expected_rdfgraph.remove((None, REG.notation, None))
+            #expected_rdfgraph.remove((None, rdflib.namespace.OWL.versionInfo, None))
             self.check_result(result_rdfgraph, expected_rdfgraph, uploads, identityURI, resourceURI)
         return entity_consistent
 

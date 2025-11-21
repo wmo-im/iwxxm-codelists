@@ -1,0 +1,14 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<missing> a skos:Concept ;
+    rdfs:label "Missing"@en ;
+    dc:source "ISO 19136:2007 Geographic information - Geography Markup Language sub-clause 8.2.3.1"@en ;
+    dcterms:description "The correct value is not readily available to the sender of this data. Furthermore, a correct value may not exist."@en ;
+    rdfs:seeAlso <http://www.opengis.net/doc/gml#clause-8.2.3.1> ;
+    owl:versionInfo <http://icao.int/iwxxm/2025-2> ;
+    skos:notation "missing" .
+

@@ -1,0 +1,49 @@
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
+0,0,Cirrus (Ci),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/0,stable
+1,1,Cirrocumulus (Cc),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/1,stable
+2,2,Cirrostratus (Cs),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/2,stable
+3,3,Altocumulus (Ac),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/3,stable
+4,4,Altostratus (As),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/4,stable
+5,5,Nimbostratus (Ns),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/5,stable
+6,6,Stratocumulus (Sc),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/6,stable
+7,7,Stratus (St),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/7,stable
+8,8,Cumulus (Cu),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/8,stable
+9,9,Cumulonimbus (Cb),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/9,stable
+10,10,No CH clouds,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/10,stable
+11,11,"Cirrus fibratus, sometimes uncinus, not progressively invading the sky",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/11,stable
+12,12,"Cirrus spissatus, in patches or entangled sheaves, which usually do not increase and sometimes seem to be the remains of the upper part of a Cumulonimbus; or Cirrus castellanus or floccus",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/12,stable
+13,13,Cirrus spissatus cumulonimbogenitus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/13,stable
+14,14,"Cirrus uncinus or fibratus, or both, progressively invading the sky; they generally thicken as a whole",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/14,stable
+15,15,"Cirrus (often in bands) and Cirrostratus, or Cirrostratus alone, progressively invading the sky; they generally thicken as a whole, but the continuous veil does not reach 45 degrees above the horizon",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/15,stable
+16,16,"Cirrus (often in bands) and Cirrostratus, or Cirrostratus alone, progressively Invading the sky; they generally thicken as a whole; the continuous veil extends more than 45 degrees above the horizon, without the sky being totally covered",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/16,stable
+17,17,Cirrostratus covering the whole sky,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/17,stable
+18,18,Cirrostratus not progressively invading the sky and not entirely covering it,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/18,stable
+19,19,"Cirrocumulus alone, or Cirrocumulus predominant among the CH clouds",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/19,stable
+20,20,No CM clouds,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/20,stable
+21,21,Altostratus translucidus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/21,stable
+22,22,Altostratus opacus or Nimbostratus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/22,stable
+23,23,Altocumulus translucidus at a single level,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/23,stable
+24,24,"Patches (often lenticular) of Altocumulus translucidus, continually changing and occurring at one or more levels",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/24,stable
+25,25,"Altocumulus translucidus in bands, or one or more layers of Altocumulus translucidus or opacus, progressively invading the sky; these Altocumulus clouds generally thicken as a whole",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/25,stable
+26,26,Altocumulus cumulogenitus (or cumulonimbogenitus),,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/26,stable
+27,27,"Altocumulus translucidus or opacus in two or more layers, or Altocumulus opacus in a single layer, not progressively invading the sky, or Altocumulus with Altostratus or Nimbostratus",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/27,stable
+28,28,Altocumulus castellanus or floccus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/28,stable
+29,29,"Altocumulus of a chaotic sky, generally at several levels",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/29,stable
+30,30,No CL clouds,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/30,stable
+31,31,"Cumulus humilis or Cumulus fractus other than of bad weather,* or both",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/31,stable
+32,32,"Cumulus mediocris or congestus, Towering cumulus (TCU), with or without Cumulus of species fractus or humilis or Stratocumulus, all having their bases at the same level",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/32,stable
+33,33,"Cumulonimbus calvus, with or without Cumulus, Stratocumulus or Stratus",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/33,stable
+34,34,Stratocumulus cumulogenitus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/34,stable
+35,35,Stratocumulus other than Stratocumulus cumulogenitus,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/35,stable
+36,36,"Stratus nebulosus or Stratus fractus other than of bad weather,* or both",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/36,stable
+37,37,"Stratus fractus or Cumulus fractus of bad weather,* or both (pannus), usually below Altostratus or Nimbostratus",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/37,stable
+38,38,"Cumulus and Stratocumulus other than Stratocumulus cumulogenitus, with bases at different levels",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/38,stable
+39,39,"Cumulonimbus capillatus (often with an anvil), with or without Cumulonimbus calvus, Cumulus, Stratocumulus, Stratus or pannus",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/39,stable
+40,40,CH,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/40,stable
+41,41,CM,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/41,stable
+42,42,CL,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/42,stable
+59,59,"Cloud not visible owing to darkness, fog, duststorm, sandstorm, or other analogous phenomena",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/59,stable
+60,60,"CH clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena, or because of a continuous layer of lower clouds",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/60,stable
+61,61,"CM clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena, or because of continuous layer of lower clouds",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/61,stable
+62,62,"CL clouds invisible owing to darkness, fog, blowing dust or sand, or other similar phenomena",,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/62,stable
+63,63,Missing value,,,,,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/bufr4/codeflag/0-20-012/63,stable

@@ -1,11 +1,11 @@
-id,notation,status,description,label,related
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/BKN,BKN,stable,Broken (5 - 7 oktas).,Broken,http://codes.wmo.int/bufr4/codeflag/0-20-008/3
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/EMBD,EMBD,stable,Embedded. Applicable only to cumulonimbus (CB).,Embedded,http://codes.wmo.int/bufr4/codeflag/0-20-008/16
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW,FEW,stable,Few (1 - 2 oktas).,Few,http://codes.wmo.int/bufr4/codeflag/0-20-008/1
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FRQ,FRQ,stable,Frequent. Applicable only to cumulonimbus (CB).,Frequent,http://codes.wmo.int/bufr4/codeflag/0-20-008/12
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/ISOL,ISOL,stable,Isolated. Applicable only to cumulonimbus (CB).,Isolated,http://codes.wmo.int/bufr4/codeflag/0-20-008/8
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/LYR,LYR,stable,Layers. Applicable only to cumulonimbus (CB).,Layers,http://codes.wmo.int/bufr4/codeflag/0-20-008/14
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OCNL,OCNL,stable,Occasional. Applicable only to cumulonimbus (CB).,Occasional,http://codes.wmo.int/bufr4/codeflag/0-20-008/10
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OVC,OVC,stable,Overcast (8 oktas).,Overcast,http://codes.wmo.int/bufr4/codeflag/0-20-008/4
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SCT,SCT,stable,Scattered (3 - 4 oktas).,Scattered,http://codes.wmo.int/bufr4/codeflag/0-20-008/2
-http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SKC,SKC,stable,Sky clear (0 oktas).,Sky clear,http://codes.wmo.int/bufr4/codeflag/0-20-008/0
+notation,label,description,altLabel,source,seeAlso,related,note,iwxxmVersionInfo,URI,status
+BKN,Broken,Broken (5 - 7 oktas).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/3,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/BKN,stable
+EMBD,Embedded,Embedded. Applicable only to cumulonimbus (CB).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/16,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/EMBD,stable
+FEW,Few,Few (1 - 2 oktas).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/1,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW,stable
+FRQ,Frequent,Frequent. Applicable only to cumulonimbus (CB).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/12,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FRQ,stable
+ISOL,Isolated,Isolated. Applicable only to cumulonimbus (CB).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/8,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/ISOL,stable
+LYR,Layers,Layers. Applicable only to cumulonimbus (CB).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/14,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/LYR,stable
+OCNL,Occasional,Occasional. Applicable only to cumulonimbus (CB).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/10,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OCNL,stable
+OVC,Overcast,Overcast (8 oktas).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/4,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/OVC,stable
+SCT,Scattered,Scattered (3 - 4 oktas).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/2,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SCT,stable
+SKC,Sky clear,Sky clear (0 oktas).,,,,http://codes.wmo.int/bufr4/codeflag/0-20-008/0,,1.1;2.1;3.0;2021-2;2023-1;2025-2,http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SKC,stable
