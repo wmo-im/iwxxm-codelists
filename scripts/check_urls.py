@@ -95,7 +95,7 @@ for f in glob.glob('**/*.ttl', recursive=True):
 
     # Skip AerodromePresentOrForecastWeather and AerodromeRecentWeather as they are pointers to http://codes.wmo.int/306/4678
     ftest = os.path.basename(os.path.dirname(f))
-    if ftest == 'AerodromePresentOrForecastWeather' or ftest == 'AerodromeRecentWeather' or ftest == 'observable-property' or ftest == 'observation-type':
+    if ftest == 'AerodromePresentOrForecastWeather' or ftest == 'AerodromeRecentWeather':
 
         continue
 
