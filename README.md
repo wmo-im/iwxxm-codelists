@@ -1,3 +1,6 @@
+[![IWXXM Codelists Repo](https://img.shields.io/badge/repo-iwxxm--codelists-blue)](https://github.com/wmo-im/iwxxm-codelists)
+[![IWXXM Codelists Branch](https://img.shields.io/badge/branch-master-green)](https://github.com/wmo-im/iwxxm-codelists/tree/master)
+
 # Code lists used within the IWXXM XML standard
 
 The IWXXM Code Tables and Concepts are represented here as individual files in CSV format.
